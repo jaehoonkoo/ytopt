@@ -1,3 +1,8 @@
+'''
+python Run_online_TL.py  --max_evals 10 --n_refit 10 --top 0.3 --nparam 10 --target sm -itarget 110 120 130 140 150 -imin 16 18 20 22 24 -imax 3200 3600 4000 4400 4800
+'''
+import warnings
+warnings.filterwarnings("ignore")
 import numpy as np
 from autotune import TuningProblem
 from autotune.space import *
@@ -11,7 +16,7 @@ from csv import reader
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(1, os.path.dirname(HERE)+ '/plopper')
-from plopper_xl import Plopper
+from plopper import Plopper
 import pandas as pd
 from sdv.tabular import GaussianCopula
 from sdv.tabular import CopulaGAN
@@ -48,7 +53,7 @@ Kernel_name = str(args.kernel_name)
 
 n_param     = args.nparam   ## 5
 param_start = args.param_start # 1 or 1 
-param_name  = [f'p{i+param_start}' for i in range(len(n_param))]
+param_name  = [f'p{i+param_start}' for i in range(n_param)]
 i_target    = args.itarget # [10, 20, 30, ...]
 i_min       = args.imin    # [1, 2, 0, ...]
 i_max       = args.imax    # [1000, 2000, 3000, ...]
@@ -86,35 +91,35 @@ input_sizes[(1600,1800,2000,2200,2400)] = [' -DEXTRALARGE_DATASET']
 ################################### 
 
 def myobj(point: dict):
+    def plopper_func(x):
+        x = np.asarray_chkfinite(x)  # ValueError if any NaN or Inf
+        value = [point[p_n] for p_n in param_name]
+        params = [f'P{i}' for i in range(len(param_name))]
+        d_size = input_sizes[tuple(i_target)][0]
+        print('......VALUES:',value)
+        print('......params:',params)
+        print('......d_size:',d_size)
+        result, cmd, counter = obj.findRuntime(value, params, d_size) #
+        return result, cmd, counter
 
-  def plopper_func(x):
-    x = np.asarray_chkfinite(x)  # ValueError if any NaN or Inf
-    value = [point[p_n] for p_n in param_name]
-    print('VALUES:',point[x1[0]])
-    params = [f'P{i}' for i in range(len(x1))]
-    d_size = str(input_sizes[TARGET_task])
-    result, cmd, counter = obj.findRuntime(value, params, ' -DSM_DATASET') # defined(MINI_DATASET) && !defined(SMALL_DATASET) && !defined(MEDIUM_DATASET) && !defined(LARGE_DATASET) && !defined(EXTRALARGE_DATASET) && !defined(HUGE_DATASET)
-    return result, cmd, counter
-
-  x = np.array([point[f'p{i}'] for i in range(len(point))])
-  results, cmd, counter = plopper_func(x)    
-  np.save(dir_path+'/tmp_results/exe_times_'+counter+'.npy',results) 
-  np.save(dir_path+'/tmp_results/cmd_times_'+counter+'.npy',cmd) 
-  print('OUTPUT:%f',results, float(np.mean(results[1:])))
-  return float(np.mean(results[1:]))
+    x = np.array([point[f'p{i}'] for i in range(len(point))])
+    results, cmd, counter = plopper_func(x)    
+    #   np.save(dir_path+'/tmp_results/exe_times_'+counter+'.npy',results) 
+    #   np.save(dir_path+'/tmp_results/cmd_times_'+counter+'.npy',cmd) 
+    print('OUTPUT:%f',results, float(np.mean(results[1:])))
+    return float(np.mean(results[1:]))
 
 #### selet by best top x%   
-X_opt = []
+X_opt    = []
 cutoff_p = TOP
-print ('----------------------------- how much data to use?', cutoff_p) 
+print (f"----------------------------- how much data to use?{cutoff_p}") 
 frames = []
 
 for i_size in ['s','m','l']:
-    dataframe = pd.read_csv(dir_path+f"/results_rf_{i_size}_{Kernel_name}.csv")  
-    ## 
-    param_name = []
+    dataframe = pd.read_csv(dir_path+f"/results_rf_{i_size}_{Kernel_name}.csv")
     dataframe['runtime'] = np.log(dataframe['objective']) # log(run time)
-    dataframe['input']   = pd.Series(input_sizes[i_size][0] for _ in range(len(dataframe.index)))
+    for i, v in enumerate(task_name):
+        dataframe[v] = pd.Series(task_s[i_size][0][i] for _ in range(len(dataframe.index)))
     q_10_s    = np.quantile(dataframe.runtime.values, cutoff_p)
     real_df   = dataframe.loc[dataframe['runtime'] <= q_10_s]
     real_data = real_df.drop(columns=['elapsed_sec'])
@@ -127,7 +132,7 @@ constraint_inputs = []
 field_transformers = {}
 conditions = {}
 for i, v in enumerate(task_name):
-    constraint_inputs.append(Between(column=[v],low=i_min[i],high=i_max[i]))
+    constraint_inputs.append(Between(column=v,low=i_min[i],high=i_max[i]))
     field_transformers[v] = 'integer'
     conditions[v] = i_target[i]
 for i, v in enumerate(param_name):
@@ -138,8 +143,8 @@ model = GaussianCopula(
             field_names = task_name+param_name+['runtime'],    
             field_transformers = field_transformers,
             constraints=constraint_inputs,
-            min_value =None,
-            max_value =None
+            min_value=None,
+            max_value=None
     )
 
 filename = "results_sdv.csv"
@@ -158,7 +163,7 @@ with open(filename, 'w') as csvfile:
     while eval_master < Max_evals:         
         # update model
         model.fit(real_data)
-        ss1 = model.sample(max(1000,Max_evals),conditions=conditions)
+        ss1 = model.sample(max(1000,Max_evals))#,conditions=conditions)
         ss  = ss1.sort_values(by='runtime')#, ascending=False)
         new_sdv = ss[:Max_evals]
         max_evals = N_REFIT
@@ -171,24 +176,23 @@ with open(filename, 'w') as csvfile:
                     break                   
                 if eval_update == max_evals:
                     stop = True
-                    break    
-                sample_point_val = row[1].values[1:]
+                    break  
+                sample_point_val = row[1].values[len(task_name):]
                 sample_point = {}
                 for i, v in enumerate(param_name):
                     sample_point[v]=sample_point_val[i]
                 res = myobj(sample_point)
-                print (sample_point, res)
                 evals_infer.append(res)
                 now = time.time()
                 elapsed = now - Time_start
-                ss = [sample_point[p_n] in p_n for param_name]+[res]+[elapsed]
+                ss = [sample_point[p_n] for p_n in param_name]+[res]+[elapsed]
                 csvwriter.writerow(ss)
                 csvfile.flush()
                 row_prev = row
                 evaluated = row[1].values[1:]
                 evaluated[-1] = float(np.log(res))
                 evaluated = np.append(evaluated,row[1].values[0])
-                real_data.loc[max(real_data.index)+1] = evaluated # real_data = [
+                real_data.loc[max(real_data.index)+1] = evaluated 
                 eval_update += 1
                 eval_master += 1 
         
