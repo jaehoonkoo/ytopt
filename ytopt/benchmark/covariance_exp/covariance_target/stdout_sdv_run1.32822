@@ -1,0 +1,790 @@
+/var/spool/slurmd/job32822/slurm_script: line 11: activate: No such file or directory
+max_evals 30 number of refit 30 how much to train 0.3 seed 1234 target task sm
+time...now 1652228253.199307
+----------------------------- how much data to use?0.3
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 5831.42it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 5771.59it/s]
+......VALUES: [' ', ' ', 16, 2048, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7221.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7221
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7221
+........................................ [0.000415, 0.000368, 0.000367]
+OUTPUT:%f [0.000415, 0.000368, 0.000367] 0.0003675
+......VALUES: [' ', ' ', 80, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1915.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1915
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1915
+........................................ [0.000429, 0.000414, 0.000379]
+OUTPUT:%f [0.000429, 0.000414, 0.000379] 0.0003965
+......VALUES: [' ', ' ', 20, 80, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/123.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/123
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/123
+........................................ [0.000436, 0.000446, 0.000371]
+OUTPUT:%f [0.000436, 0.000446, 0.000371] 0.0004085
+......VALUES: [' ', ' ', 20, 80, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1486.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1486
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1486
+........................................ [0.000415, 0.000403, 0.000372]
+OUTPUT:%f [0.000415, 0.000403, 0.000372] 0.0003875
+......VALUES: [' ', ' ', 64, 2048, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9540.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9540
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9540
+........................................ [0.000505, 0.000374, 0.000379]
+OUTPUT:%f [0.000505, 0.000374, 0.000379] 0.0003765
+......VALUES: [' ', ' ', 80, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/573.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/573
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/573
+........................................ [0.000435, 0.000414, 0.000384]
+OUTPUT:%f [0.000435, 0.000414, 0.000384] 0.000399
+......VALUES: [' ', ' ', 96, 2048, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1376.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1376
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1376
+........................................ [0.000429, 0.00041, 0.000374]
+OUTPUT:%f [0.000429, 0.00041, 0.000374] 0.000392
+......VALUES: [' ', ' ', 32, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1613.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1613
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1613
+........................................ [0.000422, 0.000411, 0.000376]
+OUTPUT:%f [0.000422, 0.000411, 0.000376] 0.00039349999999999997
+......VALUES: [' ', ' ', 20, 64, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/5811.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/5811
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/5811
+........................................ [0.000442, 0.000415, 0.00038]
+OUTPUT:%f [0.000442, 0.000415, 0.00038] 0.0003975
+......VALUES: [' ', ' ', 20, 80, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/3880.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/3880
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/3880
+........................................ [0.000605, 0.000406, 0.000373]
+OUTPUT:%f [0.000605, 0.000406, 0.000373] 0.0003895
+......VALUES: [' ', ' ', 20, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/286.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/286
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/286
+........................................ [0.000424, 0.000425, 0.000371]
+OUTPUT:%f [0.000424, 0.000425, 0.000371] 0.000398
+......VALUES: [' ', ' ', 100, 64, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/505.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/505
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/505
+........................................ [0.000429, 0.000445, 0.000384]
+OUTPUT:%f [0.000429, 0.000445, 0.000384] 0.0004145
+......VALUES: [' ', ' ', 64, 64, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/260.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/260
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/260
+........................................ [0.000481, 0.000413, 0.000381]
+OUTPUT:%f [0.000481, 0.000413, 0.000381] 0.000397
+......VALUES: [' ', ' ', 64, 64, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/5671.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/5671
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/5671
+........................................ [0.000511, 0.000415, 0.000382]
+OUTPUT:%f [0.000511, 0.000415, 0.000382] 0.0003985
+......VALUES: [' ', ' ', 8, 80, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7934.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7934
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7934
+........................................ [0.000476, 0.00041, 0.000377]
+OUTPUT:%f [0.000476, 0.00041, 0.000377] 0.00039349999999999997
+......VALUES: [' ', ' ', 64, 16, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7595.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7595
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7595
+........................................ [0.000433, 0.000439, 0.000386]
+OUTPUT:%f [0.000433, 0.000439, 0.000386] 0.0004125
+......VALUES: [' ', ' ', 16, 2048, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/2434.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/2434
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/2434
+........................................ [0.000563, 0.000392, 0.000374]
+OUTPUT:%f [0.000563, 0.000392, 0.000374] 0.000383
+......VALUES: [' ', ' ', 100, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1496.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1496
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1496
+........................................ [0.000518, 0.000412, 0.000408]
+OUTPUT:%f [0.000518, 0.000412, 0.000408] 0.00041
+......VALUES: [' ', ' ', 20, 64, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/3000.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/3000
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/3000
+........................................ [0.000459, 0.000409, 0.000375]
+OUTPUT:%f [0.000459, 0.000409, 0.000375] 0.000392
+......VALUES: [' ', ' ', 50, 128, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1875.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1875
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1875
+........................................ [0.000498, 0.000408, 0.000377]
+OUTPUT:%f [0.000498, 0.000408, 0.000377] 0.0003925
+......VALUES: [' ', ' ', 16, 80, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/240.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/240
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/240
+........................................ [0.000453, 0.000409, 0.000385]
+OUTPUT:%f [0.000453, 0.000409, 0.000385] 0.000397
+......VALUES: [' ', ' ', 64, 128, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/8243.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/8243
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/8243
+........................................ [0.000497, 0.000415, 0.000422]
+OUTPUT:%f [0.000497, 0.000415, 0.000422] 0.00041850000000000004
+......VALUES: [' ', ' ', 128, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7975.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7975
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7975
+........................................ [0.000497, 0.000428, 0.000387]
+OUTPUT:%f [0.000497, 0.000428, 0.000387] 0.0004075
+......VALUES: [' ', ' ', 80, 128, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/4094.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/4094
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/4094
+........................................ [0.0005, 0.000414, 0.00038]
+OUTPUT:%f [0.0005, 0.000414, 0.00038] 0.000397
+......VALUES: [' ', ' ', 32, 128, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1058.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1058
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1058
+........................................ [0.000496, 0.000407, 0.00038]
+OUTPUT:%f [0.000496, 0.000407, 0.00038] 0.0003935
+......VALUES: [' ', ' ', 50, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/8866.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/8866
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/8866
+........................................ [0.000527, 0.000468, 0.000398]
+OUTPUT:%f [0.000527, 0.000468, 0.000398] 0.000433
+......VALUES: [' ', ' ', 80, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7634.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7634
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7634
+........................................ [0.000494, 0.000418, 0.000379]
+OUTPUT:%f [0.000494, 0.000418, 0.000379] 0.0003985
+......VALUES: [' ', ' ', 20, 80, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1124.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1124
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1124
+........................................ [0.000472, 0.000401, 0.000371]
+OUTPUT:%f [0.000472, 0.000401, 0.000371] 0.000386
+......VALUES: [' ', ' ', 20, 64, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9855.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9855
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9855
+........................................ [0.000475, 0.000406, 0.000373]
+OUTPUT:%f [0.000475, 0.000406, 0.000373] 0.0003895
+......VALUES: [' ', ' ', 64, 80, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1458.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1458
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1458
+........................................ [0.000438, 0.000411, 0.000382]
+OUTPUT:%f [0.000438, 0.000411, 0.000382] 0.00039650000000000004
+max_evals 30 number of refit 30 how much to train 0.3 seed 1234 target task ml
+time...now 1652228475.6818662
+----------------------------- how much data to use?0.3
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 10998.19it/s]
+......VALUES: [' ', ' ', 128, 2048, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7221.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7221
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7221
+........................................ [0.166908, 0.166424, 0.166037]
+OUTPUT:%f [0.166908, 0.166424, 0.166037] 0.1662305
+......VALUES: [' ', ' ', 80, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1915.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1915
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1915
+........................................ [0.215377, 0.212208, 0.202824]
+OUTPUT:%f [0.215377, 0.212208, 0.202824] 0.207516
+......VALUES: [' ', ' ', 16, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/123.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/123
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/123
+........................................ [0.211213, 0.212456, 0.207214]
+OUTPUT:%f [0.211213, 0.212456, 0.207214] 0.209835
+......VALUES: [' ', ' ', 20, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1486.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1486
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1486
+........................................ [0.218379, 0.212648, 0.212514]
+OUTPUT:%f [0.218379, 0.212648, 0.212514] 0.21258100000000002
+......VALUES: [' ', ' ', 64, 2048, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9540.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9540
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9540
+........................................ [0.166813, 0.165935, 0.16592]
+OUTPUT:%f [0.166813, 0.165935, 0.16592] 0.1659275
+......VALUES: [' ', ' ', 80, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/573.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/573
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/573
+........................................ [0.215575, 0.212255, 0.202914]
+OUTPUT:%f [0.215575, 0.212255, 0.202914] 0.2075845
+......VALUES: [' ', ' ', 100, 2048, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1376.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1376
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1376
+........................................ [0.167391, 0.166103, 0.165692]
+OUTPUT:%f [0.167391, 0.166103, 0.165692] 0.1658975
+......VALUES: [' ', ' ', 32, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1613.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1613
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1613
+........................................ [0.212597, 0.213841, 0.203436]
+OUTPUT:%f [0.212597, 0.213841, 0.203436] 0.2086385
+......VALUES: [' ', ' ', 20, 80, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/5811.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/5811
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/5811
+........................................ [0.21844, 0.211204, 0.216924]
+OUTPUT:%f [0.21844, 0.211204, 0.216924] 0.214064
+......VALUES: [' ', ' ', 20, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/3880.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/3880
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/3880
+........................................ [0.220088, 0.212537, 0.212567]
+OUTPUT:%f [0.220088, 0.212537, 0.212567] 0.21255200000000002
+......VALUES: [' ', ' ', 16, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/286.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/286
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/286
+........................................ [0.211308, 0.212227, 0.202416]
+OUTPUT:%f [0.211308, 0.212227, 0.202416] 0.2073215
+......VALUES: [' ', ' ', 100, 64, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/505.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/505
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/505
+........................................ [0.218518, 0.218625, 0.218197]
+OUTPUT:%f [0.218518, 0.218625, 0.218197] 0.21841100000000002
+......VALUES: [' ', ' ', 64, 80, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/260.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/260
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/260
+........................................ [0.217436, 0.216213, 0.205514]
+OUTPUT:%f [0.217436, 0.216213, 0.205514] 0.21086349999999998
+......VALUES: [' ', ' ', 64, 64, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/5671.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/5671
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/5671
+........................................ [0.218988, 0.206098, 0.200112]
+OUTPUT:%f [0.218988, 0.206098, 0.200112] 0.203105
+......VALUES: [' ', ' ', 8, 80, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7934.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7934
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7934
+........................................ [0.219318, 0.21379, 0.213407]
+OUTPUT:%f [0.219318, 0.21379, 0.213407] 0.21359850000000002
+......VALUES: [' ', ' ', 64, 20, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7595.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7595
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7595
+........................................ [0.215572, 0.207494, 0.214258]
+OUTPUT:%f [0.215572, 0.207494, 0.214258] 0.210876
+......VALUES: [' ', ' ', 16, 2048, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/2434.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/2434
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/2434
+........................................ [0.159444, 0.158231, 0.159179]
+OUTPUT:%f [0.159444, 0.158231, 0.159179] 0.15870499999999998
+......VALUES: [' ', ' ', 100, 2048, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1496.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1496
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1496
+........................................ [0.16706, 0.166065, 0.165795]
+OUTPUT:%f [0.16706, 0.166065, 0.165795] 0.16593
+......VALUES: [' ', ' ', 16, 80, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/3000.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/3000
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/3000
+........................................ [0.218718, 0.212941, 0.212099]
+OUTPUT:%f [0.218718, 0.212941, 0.212099] 0.21252
+......VALUES: [' ', ' ', 50, 50, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1875.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1875
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1875
+........................................ [0.220073, 0.206939, 0.201246]
+OUTPUT:%f [0.220073, 0.206939, 0.201246] 0.2040925
+......VALUES: [' ', ' ', 16, 80, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/240.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/240
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/240
+........................................ [0.21855, 0.213166, 0.212472]
+OUTPUT:%f [0.21855, 0.213166, 0.212472] 0.21281899999999998
+......VALUES: [' ', ' ', 64, 128, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/8243.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/8243
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/8243
+........................................ [0.214334, 0.213332, 0.213655]
+OUTPUT:%f [0.214334, 0.213332, 0.213655] 0.2134935
+......VALUES: [' ', ' ', 32, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7975.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7975
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7975
+........................................ [0.212804, 0.214096, 0.203962]
+OUTPUT:%f [0.212804, 0.214096, 0.203962] 0.20902900000000002
+......VALUES: [' ', ' ', 80, 128, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/4094.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/4094
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/4094
+........................................ [0.212724, 0.211049, 0.213499]
+OUTPUT:%f [0.212724, 0.211049, 0.213499] 0.212274
+......VALUES: [' ', ' ', 50, 128, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1058.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1058
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1058
+........................................ [0.211799, 0.213192, 0.21126]
+OUTPUT:%f [0.211799, 0.213192, 0.21126] 0.212226
+......VALUES: [' ', ' ', 50, 2048, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/8866.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/8866
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/8866
+........................................ [0.166671, 0.165839, 0.16529]
+OUTPUT:%f [0.166671, 0.165839, 0.16529] 0.1655645
+......VALUES: [' ', ' ', 80, 2048, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7634.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7634
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7634
+........................................ [0.160537, 0.15982, 0.158226]
+OUTPUT:%f [0.160537, 0.15982, 0.158226] 0.159023
+......VALUES: [' ', ' ', 20, 80, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1124.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1124
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1124
+........................................ [0.218103, 0.210998, 0.216282]
+OUTPUT:%f [0.218103, 0.210998, 0.216282] 0.21364
+......VALUES: [' ', ' ', 20, 80, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9855.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9855
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9855
+........................................ [0.218587, 0.21109, 0.216617]
+OUTPUT:%f [0.218587, 0.21109, 0.216617] 0.2138535
+......VALUES: [' ', ' ', 20, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1458.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1458
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1458
+........................................ [0.217994, 0.212201, 0.211892]
+OUTPUT:%f [0.217994, 0.212201, 0.211892] 0.2120465
+max_evals 30 number of refit 30 how much to train 0.3 seed 1234 target task xl
+time...now 1652228681.4836988
+----------------------------- how much data to use?0.3
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 10667.81it/s]
+......VALUES: [' ', ' ', 32, 2048, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7221.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7221
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7221
+........................................ [1.62965, 1.62472, 1.624099]
+OUTPUT:%f [1.62965, 1.62472, 1.624099] 1.6244095
+......VALUES: [' ', ' ', 64, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1915.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1915
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1915
+........................................ [1.566625, 1.559969, 1.559026]
+OUTPUT:%f [1.566625, 1.559969, 1.559026] 1.5594975
+......VALUES: [' ', ' ', 128, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/123.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/123
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/123
+........................................ [1.575292, 1.565855, 1.566805]
+OUTPUT:%f [1.575292, 1.565855, 1.566805] 1.56633
+......VALUES: [' ', ' ', 16, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1486.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1486
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1486
+........................................ [1.829885, 1.657003, 1.659096]
+OUTPUT:%f [1.829885, 1.657003, 1.659096] 1.6580495
+......VALUES: [' ', ' ', 20, 2048, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9540.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9540
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9540
+........................................ [1.674233, 1.667687, 1.671091]
+OUTPUT:%f [1.674233, 1.667687, 1.671091] 1.669389
+......VALUES: [' ', ' ', 64, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/573.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/573
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/573
+........................................ [1.574852, 1.567648, 1.56499]
+OUTPUT:%f [1.574852, 1.567648, 1.56499] 1.566319
+......VALUES: [' ', ' ', 100, 2048, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1376.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1376
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1376
+........................................ [1.695095, 1.581229, 1.581074]
+OUTPUT:%f [1.695095, 1.581229, 1.581074] 1.5811515
+......VALUES: [' ', ' ', 50, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1613.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1613
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1613
+........................................ [1.575417, 1.573226, 1.570737]
+OUTPUT:%f [1.575417, 1.573226, 1.570737] 1.5719815000000001
+......VALUES: [' ', ' ', 16, 80, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/5811.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/5811
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/5811
+........................................ [1.690751, 1.684054, 1.694316]
+OUTPUT:%f [1.690751, 1.684054, 1.694316] 1.689185
+......VALUES: [' ', ' ', 16, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/3880.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/3880
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/3880
+........................................ [1.837463, 1.665428, 1.666126]
+OUTPUT:%f [1.837463, 1.665428, 1.666126] 1.6657769999999998
+......VALUES: [' ', ' ', 128, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/286.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/286
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/286
+........................................ [1.578516, 1.568425, 1.570735]
+OUTPUT:%f [1.578516, 1.568425, 1.570735] 1.56958
+......VALUES: [' ', ' ', 80, 64, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/505.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/505
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/505
+........................................ [1.60505, 1.594813, 1.604799]
+OUTPUT:%f [1.60505, 1.594813, 1.604799] 1.599806
+......VALUES: [' ', ' ', 20, 80, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/260.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/260
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/260
+........................................ [1.810975, 1.628217, 1.621959]
+OUTPUT:%f [1.810975, 1.628217, 1.621959] 1.6250879999999999
+......VALUES: [' ', ' ', 20, 64, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/5671.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/5671
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/5671
+........................................ [1.642277, 1.628265, 1.632291]
+OUTPUT:%f [1.642277, 1.628265, 1.632291] 1.6302780000000001
+......VALUES: [' ', ' ', 4, 80, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7934.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7934
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7934
+........................................ [2.364077, 2.359171, 2.358718]
+OUTPUT:%f [2.364077, 2.359171, 2.358718] 2.3589444999999998
+......VALUES: [' ', ' ', 20, 16, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7595.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7595
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7595
+........................................ [1.897769, 1.881705, 1.872411]
+OUTPUT:%f [1.897769, 1.881705, 1.872411] 1.877058
+......VALUES: [' ', ' ', 128, 2048, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/2434.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/2434
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/2434
+........................................ [1.582604, 1.579463, 1.577711]
+OUTPUT:%f [1.582604, 1.579463, 1.577711] 1.5785870000000002
+......VALUES: [' ', ' ', 100, 2048, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1496.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1496
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1496
+........................................ [1.586936, 1.584357, 1.582532]
+OUTPUT:%f [1.586936, 1.584357, 1.582532] 1.5834445000000001
+......VALUES: [' ', ' ', 128, 80, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/3000.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/3000
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/3000
+........................................ [1.584928, 1.578437, 1.579489]
+OUTPUT:%f [1.584928, 1.578437, 1.579489] 1.578963
+......VALUES: [' ', ' ', 8, 50, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1875.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1875
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1875
+........................................ [2.134562, 2.126988, 2.133194]
+OUTPUT:%f [2.134562, 2.126988, 2.133194] 2.130091
+......VALUES: [' ', ' ', 128, 80, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/240.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/240
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/240
+........................................ [1.580719, 1.573324, 1.578845]
+OUTPUT:%f [1.580719, 1.573324, 1.578845] 1.5760844999999999
+......VALUES: [' ', ' ', 20, 128, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/8243.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/8243
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/8243
+........................................ [1.653991, 1.6425, 1.643709]
+OUTPUT:%f [1.653991, 1.6425, 1.643709] 1.6431045000000002
+......VALUES: [' ', ' ', 50, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7975.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7975
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7975
+........................................ [1.590108, 1.588183, 1.584429]
+OUTPUT:%f [1.590108, 1.588183, 1.584429] 1.586306
+......VALUES: [' ', ' ', 80, 128, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/4094.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/4094
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/4094
+........................................ [1.592421, 1.570884, 1.56727]
+OUTPUT:%f [1.592421, 1.570884, 1.56727] 1.569077
+......VALUES: [' ', ' ', 8, 128, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1058.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1058
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1058
+........................................ [1.903422, 1.898474, 1.925928]
+OUTPUT:%f [1.903422, 1.898474, 1.925928] 1.912201
+......VALUES: [' ', ' ', 8, 2048, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/8866.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/8866
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/8866
+........................................ [1.853938, 1.845132, 1.845486]
+OUTPUT:%f [1.853938, 1.845132, 1.845486] 1.8453089999999999
+......VALUES: [' ', ' ', 64, 2048, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7634.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7634
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7634
+........................................ [1.604083, 1.598971, 1.60236]
+OUTPUT:%f [1.604083, 1.598971, 1.60236] 1.6006654999999999
+......VALUES: [' ', ' ', 16, 80, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1124.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1124
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1124
+........................................ [1.703862, 1.695642, 1.702761]
+OUTPUT:%f [1.703862, 1.695642, 1.702761] 1.6992015
+......VALUES: [' ', ' ', 16, 80, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9855.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9855
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9855
+........................................ [1.702932, 1.69083, 1.703393]
+OUTPUT:%f [1.702932, 1.69083, 1.703393] 1.6971115
+......VALUES: [' ', ' ', 20, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1458.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1458
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1458
+........................................ [1.633393, 1.629236, 1.63185]
+OUTPUT:%f [1.633393, 1.629236, 1.63185] 1.6305429999999999
+max_evals 30 number of refit 5 how much to train 0.3 seed 1234 target task sm
+time...now 1652229049.3414214
+----------------------------- how much data to use?0.3
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 7067.30it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 6981.12it/s]
+......VALUES: [' ', ' ', 16, 2048, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7221.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7221
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7221
+........................................ [0.00042, 0.000367, 0.000373]
+OUTPUT:%f [0.00042, 0.000367, 0.000373] 0.00037
+......VALUES: [' ', ' ', 80, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1915.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1915
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1915
+........................................ [0.000438, 0.000414, 0.000379]
+OUTPUT:%f [0.000438, 0.000414, 0.000379] 0.0003965
+......VALUES: [' ', ' ', 20, 80, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/123.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/123
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/123
+........................................ [0.000419, 0.000403, 0.000371]
+OUTPUT:%f [0.000419, 0.000403, 0.000371] 0.000387
+......VALUES: [' ', ' ', 20, 80, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1486.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1486
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1486
+........................................ [0.000451, 0.000411, 0.00037]
+OUTPUT:%f [0.000451, 0.000411, 0.00037] 0.0003905
+......VALUES: [' ', ' ', 64, 2048, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9540.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9540
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9540
+........................................ [0.000427, 0.000376, 0.000383]
+OUTPUT:%f [0.000427, 0.000376, 0.000383] 0.00037949999999999995
+Traceback (most recent call last):
+  File "Run_online_TL.py", line 166, in <module>
+    model.fit(real_data)
+  File "/home/jkoo/.conda/envs/ytune/lib/python3.7/site-packages/sdv/tabular/base.py", line 152, in fit
+    transformed = self._metadata.transform(data)
+  File "/home/jkoo/.conda/envs/ytune/lib/python3.7/site-packages/sdv/metadata/table.py", line 658, in transform
+    self._validate_data_on_constraints(data)
+  File "/home/jkoo/.conda/envs/ytune/lib/python3.7/site-packages/sdv/metadata/table.py", line 630, in _validate_data_on_constraints
+    raise ConstraintsNotMetError('Data is not valid for the given constraints')
+sdv.errors.ConstraintsNotMetError: Data is not valid for the given constraints
+max_evals 30 number of refit 5 how much to train 0.3 seed 1234 target task ml
+time...now 1652229091.4704144
+----------------------------- how much data to use?0.3
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 9994.53it/s]
+......VALUES: [' ', ' ', 128, 2048, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7221.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7221
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7221
+........................................ [0.167237, 0.166522, 0.166813]
+OUTPUT:%f [0.167237, 0.166522, 0.166813] 0.1666675
+......VALUES: [' ', ' ', 80, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1915.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1915
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1915
+........................................ [0.215853, 0.212284, 0.203107]
+OUTPUT:%f [0.215853, 0.212284, 0.203107] 0.2076955
+......VALUES: [' ', ' ', 16, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/123.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/123
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/123
+........................................ [0.212498, 0.212629, 0.204092]
+OUTPUT:%f [0.212498, 0.212629, 0.204092] 0.2083605
+......VALUES: [' ', ' ', 20, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1486.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1486
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1486
+........................................ [0.218438, 0.21269, 0.212751]
+OUTPUT:%f [0.218438, 0.21269, 0.212751] 0.21272049999999998
+......VALUES: [' ', ' ', 64, 2048, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9540.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9540
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9540
+........................................ [0.166821, 0.165844, 0.165553]
+OUTPUT:%f [0.166821, 0.165844, 0.165553] 0.1656985
+Traceback (most recent call last):
+  File "Run_online_TL.py", line 166, in <module>
+    model.fit(real_data)
+  File "/home/jkoo/.conda/envs/ytune/lib/python3.7/site-packages/sdv/tabular/base.py", line 152, in fit
+    transformed = self._metadata.transform(data)
+  File "/home/jkoo/.conda/envs/ytune/lib/python3.7/site-packages/sdv/metadata/table.py", line 658, in transform
+    self._validate_data_on_constraints(data)
+  File "/home/jkoo/.conda/envs/ytune/lib/python3.7/site-packages/sdv/metadata/table.py", line 630, in _validate_data_on_constraints
+    raise ConstraintsNotMetError('Data is not valid for the given constraints')
+sdv.errors.ConstraintsNotMetError: Data is not valid for the given constraints
+max_evals 30 number of refit 5 how much to train 0.3 seed 1234 target task xl
+time...now 1652229131.4066105
+----------------------------- how much data to use?0.3
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 10761.44it/s]
+......VALUES: [' ', ' ', 32, 2048, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7221.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7221
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/7221
+........................................ [1.630602, 1.622438, 1.626675]
+OUTPUT:%f [1.630602, 1.622438, 1.626675] 1.6245565000000002
+......VALUES: [' ', ' ', 64, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1915.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1915
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1915
+........................................ [1.579604, 1.572333, 1.571275]
+OUTPUT:%f [1.579604, 1.572333, 1.571275] 1.571804
+......VALUES: [' ', ' ', 128, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/123.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/123
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/123
+........................................ [1.576221, 1.57248, 1.570409]
+OUTPUT:%f [1.576221, 1.57248, 1.570409] 1.5714445000000001
+......VALUES: [' ', ' ', 16, 100, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1486.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1486
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/1486
+........................................ [1.673282, 1.666283, 1.667147]
+OUTPUT:%f [1.673282, 1.666283, 1.667147] 1.666715
+......VALUES: [' ', ' ', 20, 2048, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9540.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9540
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covariance_target/tmp_files/9540
+........................................ [1.678482, 1.839549, 1.66936]
+OUTPUT:%f [1.678482, 1.839549, 1.66936] 1.7544545
+Traceback (most recent call last):
+  File "Run_online_TL.py", line 166, in <module>
+    model.fit(real_data)
+  File "/home/jkoo/.conda/envs/ytune/lib/python3.7/site-packages/sdv/tabular/base.py", line 152, in fit
+    transformed = self._metadata.transform(data)
+  File "/home/jkoo/.conda/envs/ytune/lib/python3.7/site-packages/sdv/metadata/table.py", line 658, in transform
+    self._validate_data_on_constraints(data)
+  File "/home/jkoo/.conda/envs/ytune/lib/python3.7/site-packages/sdv/metadata/table.py", line 630, in _validate_data_on_constraints
+    raise ConstraintsNotMetError('Data is not valid for the given constraints')
+sdv.errors.ConstraintsNotMetError: Data is not valid for the given constraints

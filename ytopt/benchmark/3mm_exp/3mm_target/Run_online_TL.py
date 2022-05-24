@@ -23,6 +23,7 @@ from sdv.tabular import CopulaGAN
 from sdv.evaluation import evaluate
 from sdv.constraints import CustomConstraint, Between
 import random, argparse
+from sdv.sampling import Condition
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--max_evals', type=int, default=10, help='maximum number of evaluations')
@@ -94,7 +95,7 @@ def myobj(point: dict):
     def plopper_func(x):
         x = np.asarray_chkfinite(x)  # ValueError if any NaN or Inf
         value = [point[p_n] for p_n in param_name]
-        params = [f'P{i}' for i in range(len(param_name))]
+        params = [f'P{i+param_start}' for i in range(len(param_name))]
         d_size = input_sizes[tuple(i_target)][0]
         print('......VALUES:',value)
         print('......params:',params)
@@ -102,7 +103,7 @@ def myobj(point: dict):
         result, cmd, counter = obj.findRuntime(value, params, d_size) #
         return result, cmd, counter
 
-    x = np.array([point[f'p{i}'] for i in range(len(point))])
+    x = np.array([point[f'p{i+param_start}'] for i in range(len(point))])
     results, cmd, counter = plopper_func(x)    
     #   np.save(dir_path+'/tmp_results/exe_times_'+counter+'.npy',results) 
     #   np.save(dir_path+'/tmp_results/cmd_times_'+counter+'.npy',cmd) 
@@ -163,7 +164,9 @@ with open(filename, 'w') as csvfile:
     while eval_master < Max_evals:         
         # update model
         model.fit(real_data)
-        ss1 = model.sample(max(1000,Max_evals))#,conditions=conditions)
+#         ss1 = model.sample(max(1000,Max_evals))#,conditions=conditions)
+        condition = Condition(conditions, num_rows=min(1,Max_evals))
+        ss1 = model.sample_conditions(conditions=[condition])
         ss  = ss1.sort_values(by='runtime')#, ascending=False)
         new_sdv = ss[:Max_evals]
         max_evals = N_REFIT
