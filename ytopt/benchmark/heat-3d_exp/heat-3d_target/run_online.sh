@@ -11,17 +11,17 @@ source /soft/anaconda3/2020.02/etc/profile.d/conda.sh
 source activate /home/jkoo/.conda/envs/ytune
 cd /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/
 # ##############
-python Run_online_TL.py --kernel_name heat-3d --max_evals 30 --n_refit 30 --top 0.3 --nparam 6 --param_start 0 --target sm -itarget 70 30 -imin 20 10 -imax 1500 300
-mv tmp_files tmp_files_sm
-mv results_sdv.csv results_sdv_sm_heat-3d.csv
-# ##############
-python Run_online_TL.py --kernel_name heat-3d --max_evals 30 --n_refit 30 --top 0.3 --nparam 6 --param_start 0 --target ml -itarget 300 80 -imin 20 10 -imax 1500 300
-mv tmp_files tmp_files_ml
-mv results_sdv.csv results_sdv_ml_heat-3d.csv
-# ##############
-python Run_online_TL.py --kernel_name heat-3d --max_evals 30 --n_refit 30 --top 0.3 --nparam 6 --param_start 0 --target xl -itarget 1000 200 -imin 20 10 -imax 1500 300
-mv tmp_files tmp_files_xl
-mv results_sdv.csv results_sdv_xl_heat-3d.csv
+# python Run_online_TL.py --kernel_name heat-3d --max_evals 30 --n_refit 30 --top 0.3 --nparam 6 --param_start 0 --target sm -itarget 70 30 -imin 20 10 -imax 1500 300
+# mv tmp_files tmp_files_sm
+# mv results_sdv.csv results_sdv_sm_heat-3d.csv
+# # ##############
+# python Run_online_TL.py --kernel_name heat-3d --max_evals 30 --n_refit 30 --top 0.3 --nparam 6 --param_start 0 --target ml -itarget 300 80 -imin 20 10 -imax 1500 300
+# mv tmp_files tmp_files_ml
+# mv results_sdv.csv results_sdv_ml_heat-3d.csv
+# # ##############
+# python Run_online_TL.py --kernel_name heat-3d --max_evals 30 --n_refit 30 --top 0.3 --nparam 6 --param_start 0 --target xl -itarget 1000 200 -imin 20 10 -imax 1500 300
+# mv tmp_files tmp_files_xl
+# mv results_sdv.csv results_sdv_xl_heat-3d.csv
 # ##############
 python Run_online_TL.py --kernel_name heat-3d --max_evals 30 --n_refit 5 --top 0.3 --nparam 6 --param_start 0 --target sm -itarget 70 30 -imin 20 10 -imax 1500 300
 mv tmp_files tmp_files_sm_refit

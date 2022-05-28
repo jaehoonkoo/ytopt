@@ -191,10 +191,7 @@ with open(filename, 'w') as csvfile:
                 ss = [sample_point[p_n] for p_n in param_name]+[res]+[elapsed]
                 csvwriter.writerow(ss)
                 csvfile.flush()
-                row_prev = row
-                evaluated = row[1].values[1:]
-                evaluated[-1] = float(np.log(res))
-                evaluated = np.append(evaluated,row[1].values[0])
+                evaluated = [sample_point[p_n] for p_n in param_name]+[float(np.log(res))]+i_target
                 real_data.loc[max(real_data.index)+1] = evaluated 
                 eval_update += 1
                 eval_master += 1 

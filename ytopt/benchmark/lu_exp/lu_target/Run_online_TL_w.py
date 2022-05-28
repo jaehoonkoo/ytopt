@@ -1,5 +1,5 @@
 '''
-python Run_online_TL.py --kernel_name heat-3d --max_evals 30 --n_refit 30 --top 0.3 --nparam 6 --param_start 0 --target sm -itarget 70 30 -imin 20 10 -imax 1500 300
+python Run_online_TL.py --kernel_name lu --max_evals 30 --n_refit 30 --top 0.3 --nparam 5 --param_start 1 --target sm -itarget 260 -imin 40 -imax 6000
 '''
 import warnings
 warnings.filterwarnings("ignore")
@@ -60,7 +60,7 @@ i_min       = args.imin    # [1, 2, 0, ...]
 i_max       = args.imax    # [1000, 2000, 3000, ...]
 task_name  = [f't{i}' for i in range(len(i_target))]
 
-print ('max_evals',MAX_EVALS, 'number of refit', N_REFIT, 'how much to train', TOP, 'seed', RANDOM_SEED, 'target task', TARGET_task)
+print ('max_evals',MAX_EVALS, 'number of refit', N_REFIT, 'how much to train', TOP, 'seed', RANDOM_SEED, 'target task', TARGET_task, i_target)
 
 np.random.seed(RANDOM_SEED)
 random.seed(RANDOM_SEED)
@@ -75,20 +75,20 @@ obj = Plopper(dir_path+'/mmp.c',dir_path)
 
 ################################### this should be manual 
 task_s = {}
-task_s['s']  = [[40,20],' -DSMALL_DATASET'] 
-task_s['sm'] = [[70,30],' -DSM_DATASET'] 
-task_s['m']  = [[100,40],' -DMEDIUM_DATASET'] 
-task_s['ml'] = [[300,80],' -DML_DATASET'] 
-task_s['l']  = [[500,120],' -DLARGE_DATASET'] 
-task_s['xl'] = [[1000,200],' -DEXTRALARGE_DATASET'] 
+task_s['s']  = [[120],' -DSMALL_DATASET'] 
+task_s['sm'] = [[260],' -DSM_DATASET'] 
+task_s['m']  = [[400],' -DMEDIUM_DATASET'] 
+task_s['ml'] = [[1200],' -DML_DATASET'] 
+task_s['l']  = [[2000],' -DLARGE_DATASET'] 
+task_s['xl'] = [[4000],' -DEXTRALARGE_DATASET'] 
 
 input_sizes= {}
-input_sizes[(40,20)]  = [' -DSMALL_DATASET'] 
-input_sizes[(70,30)] = [' -DSM_DATASET'] 
-input_sizes[(100,40)] = [' -DMEDIUM_DATASET'] 
-input_sizes[(300,80)] = [' -DML_DATASET'] 
-input_sizes[(500,120)] = [' -DLARGE_DATASET'] 
-input_sizes[(1000,200)] = [' -DEXTRALARGE_DATASET']
+input_sizes[tuple([120])]  = [' -DSMALL_DATASET'] 
+input_sizes[tuple([260])] = [' -DSM_DATASET'] 
+input_sizes[tuple([400])] = [' -DMEDIUM_DATASET'] 
+input_sizes[tuple([1200])] = [' -DML_DATASET'] 
+input_sizes[tuple([2000])] = [' -DLARGE_DATASET'] 
+input_sizes[tuple([4000])] = [' -DEXTRALARGE_DATASET']
 ################################### 
 
 def myobj(point: dict):
@@ -134,7 +134,7 @@ field_transformers = {}
 conditions = {}
 for i, v in enumerate(task_name):
     constraint_inputs.append(Between(column=v,low=i_min[i],high=i_max[i]))
-    field_transformers[v] = 'integer'
+    field_transformers[v] = 'categorical'#'integer'
     conditions[v] = i_target[i]
 for i, v in enumerate(param_name):
     field_transformers[v] = 'categorical'
@@ -165,7 +165,7 @@ with open(filename, 'w') as csvfile:
         # update model
         model.fit(real_data)
 #         ss1 = model.sample(max(1000,Max_evals))#,conditions=conditions)
-        condition = Condition(conditions, num_rows=max(1000,Max_evals))
+        condition = Condition(conditions, num_rows=min(1000,Max_evals))
         ss1 = model.sample_conditions(conditions=[condition])
         ss  = ss1.sort_values(by='runtime')#, ascending=False)
         new_sdv = ss[:Max_evals]
@@ -191,7 +191,10 @@ with open(filename, 'w') as csvfile:
                 ss = [sample_point[p_n] for p_n in param_name]+[res]+[elapsed]
                 csvwriter.writerow(ss)
                 csvfile.flush()
-                evaluated = [sample_point[p_n] for p_n in param_name]+[float(np.log(res))]+i_target
+                row_prev = row
+                evaluated = row[1].values[1:]
+                evaluated[-1] = float(np.log(res))
+                evaluated = np.append(evaluated,row[1].values[0])
                 real_data.loc[max(real_data.index)+1] = evaluated 
                 eval_update += 1
                 eval_master += 1 
