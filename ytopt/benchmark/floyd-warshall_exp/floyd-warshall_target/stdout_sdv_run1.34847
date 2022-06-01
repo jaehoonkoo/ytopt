@@ -1,0 +1,568 @@
+/var/spool/slurmd/job34847/slurm_script: line 11: activate: No such file or directory
+max_evals 30 number of refit 5 how much to train 0.3 seed 1234 target task sm [340]
+time...now 1653725152.4874387
+----------------------------- how much data to use?0.3
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 10449.89it/s]
+......VALUES: [' ', ' ', 64, 100, 64]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/7221
+........................................ [17.696499, 17.700668, 17.586817]
+OUTPUT:%f [17.696499, 17.700668, 17.586817] 17.643742500000002
+......VALUES: [' ', ' ', 20, 16, 16]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1915
+........................................ [17.84049, 17.551399, 17.723585]
+OUTPUT:%f [17.84049, 17.551399, 17.723585] 17.637492
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 4, 64, 4]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/123
+........................................ [17.867651, 17.599171, 17.740157]
+OUTPUT:%f [17.867651, 17.599171, 17.740157] 17.669663999999997
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', ' ', 32, 128, 32]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1486
+........................................ [17.713916, 17.760235, 17.574325]
+OUTPUT:%f [17.713916, 17.760235, 17.574325] 17.66728
+......VALUES: [' ', ' ', 4, 128, 32]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/9540
+........................................ [17.90746, 17.764764, 17.761157]
+OUTPUT:%f [17.90746, 17.764764, 17.761157] 17.7629605
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 9130.68it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 8962.17it/s]
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 128, 128, 32]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/573
+........................................ [17.896004, 17.614121, 17.772454]
+OUTPUT:%f [17.896004, 17.614121, 17.772454] 17.6932875
+......VALUES: [' ', ' ', 8, 20, 50]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1376
+........................................ [17.779435, 17.781501, 17.631442]
+OUTPUT:%f [17.779435, 17.781501, 17.631442] 17.7064715
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 4, 64, 50]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1613
+........................................ [17.907585, 17.628161, 17.806133]
+OUTPUT:%f [17.907585, 17.628161, 17.806133] 17.717146999999997
+......VALUES: [' ', ' ', 96, 80, 32]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/5811
+........................................ [17.745486, 17.775152, 17.627568]
+OUTPUT:%f [17.745486, 17.775152, 17.627568] 17.70136
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 4, 20, 64]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/3880
+........................................ [17.765816, 17.78289, 17.650414]
+OUTPUT:%f [17.765816, 17.78289, 17.650414] 17.716652
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 6232.64it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 6170.90it/s]
+......VALUES: [' ', ' ', 20, 20, 32]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/286
+........................................ [17.889171, 17.588777, 17.752584]
+OUTPUT:%f [17.889171, 17.588777, 17.752584] 17.6706805
+......VALUES: [' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 20, 80, 256]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/505
+........................................ [17.733824, 17.800661, 17.607489]
+OUTPUT:%f [17.733824, 17.800661, 17.607489] 17.704075000000003
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', ' ', 20, 80, 50]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/260
+........................................ [17.931523, 17.815436, 17.656469]
+OUTPUT:%f [17.931523, 17.815436, 17.656469] 17.7359525
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', ' ', 4, 16, 64]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/5671
+........................................ [17.869662, 17.572371, 17.73184]
+OUTPUT:%f [17.869662, 17.572371, 17.73184] 17.652105499999998
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', ' ', 128, 20, 50]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/7934
+........................................ [17.730316, 17.777002, 17.61834]
+OUTPUT:%f [17.730316, 17.777002, 17.61834] 17.697671
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 8991.81it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 8826.88it/s]
+......VALUES: [' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 4, 64, 50]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/7595
+........................................ [17.866386, 17.511871, 17.68774]
+OUTPUT:%f [17.866386, 17.511871, 17.68774] 17.599805500000002
+......VALUES: [' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 32, 32, 32]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/2434
+........................................ [17.880355, 17.578396, 17.765886]
+OUTPUT:%f [17.880355, 17.578396, 17.765886] 17.672141
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 32, 128, 64]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1496
+........................................ [17.700208, 17.723386, 17.569791]
+OUTPUT:%f [17.700208, 17.723386, 17.569791] 17.6465885
+......VALUES: [' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 128, 20, 50]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/3000
+........................................ [17.894844, 17.575535, 17.743694]
+OUTPUT:%f [17.894844, 17.575535, 17.743694] 17.6596145
+......VALUES: [' ', ' ', 128, 20, 50]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1875
+........................................ [17.877, 17.554019, 17.561771]
+OUTPUT:%f [17.877, 17.554019, 17.561771] 17.557895000000002
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 8143.13it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 8009.81it/s]
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', ' ', 100, 20, 256]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/240
+........................................ [17.700713, 17.703322, 17.544994]
+OUTPUT:%f [17.700713, 17.703322, 17.544994] 17.624158
+......VALUES: [' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 32, 20, 64]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/8243
+........................................ [17.880569, 17.57028, 17.758298]
+OUTPUT:%f [17.880569, 17.57028, 17.758298] 17.664289
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', ' ', 128, 20, 80]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/7975
+........................................ [17.716973, 17.704722, 17.555645]
+OUTPUT:%f [17.716973, 17.704722, 17.555645] 17.6301835
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', ' ', 32, 16, 32]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/4094
+........................................ [17.737446, 17.786752, 17.637298]
+OUTPUT:%f [17.737446, 17.786752, 17.637298] 17.712025
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 128, 4, 50]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1058
+........................................ [17.849661, 17.58635, 17.745003]
+OUTPUT:%f [17.849661, 17.58635, 17.745003] 17.6656765
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 9665.70it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 9522.23it/s]
+......VALUES: [' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 32, 20, 64]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/8866
+........................................ [17.686928, 17.75524, 17.580352]
+OUTPUT:%f [17.686928, 17.75524, 17.580352] 17.667796000000003
+......VALUES: [' ', ' ', 4, 20, 50]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/7634
+........................................ [17.735598, 17.711473, 17.554718]
+OUTPUT:%f [17.735598, 17.711473, 17.554718] 17.633095500000003
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', ' ', 4, 20, 64]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1124
+........................................ [17.880755, 17.548348, 17.702793]
+OUTPUT:%f [17.880755, 17.548348, 17.702793] 17.625570500000002
+......VALUES: [' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 4, 64, 256]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/9855
+........................................ [17.676283, 17.72477, 17.721216]
+OUTPUT:%f [17.676283, 17.72477, 17.721216] 17.722993
+......VALUES: [' ', ' ', 4, 8, 8]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1458
+........................................ [17.630186, 17.717021, 17.567669]
+OUTPUT:%f [17.630186, 17.717021, 17.567669] 17.642345
+max_evals 30 number of refit 5 how much to train 0.3 seed 1234 target task ml [1650]
+time...now 1653726878.8212416
+----------------------------- how much data to use?0.3
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 10936.19it/s]
+......VALUES: [' ', ' ', 20, 4, 64]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/7221
+........................................ [17.794524, 17.555826, 17.680992]
+OUTPUT:%f [17.794524, 17.555826, 17.680992] 17.618409
+......VALUES: [' ', ' ', 4, 16, 64]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1915
+........................................ [17.846898, 17.523908, 17.692597]
+OUTPUT:%f [17.846898, 17.523908, 17.692597] 17.6082525
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 32, 64, 64]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/123
+........................................ [17.644169, 17.713666, 17.629424]
+OUTPUT:%f [17.644169, 17.713666, 17.629424] 17.671545000000002
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', ' ', 32, 128, 32]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1486
+........................................ [17.850443, 17.530983, 17.723144]
+OUTPUT:%f [17.850443, 17.530983, 17.723144] 17.6270635
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', ' ', 4, 128, 50]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/9540
+........................................ [17.972767, 17.519811, 17.699677]
+OUTPUT:%f [17.972767, 17.519811, 17.699677] 17.609744
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 7749.66it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 7627.13it/s]
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 128, 128, 32]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/573
+........................................ [17.670897, 17.71201, 17.569429]
+OUTPUT:%f [17.670897, 17.71201, 17.569429] 17.6407195
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 4, 64, 32]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1376
+........................................ [17.839228, 17.527231, 17.698787]
+OUTPUT:%f [17.839228, 17.527231, 17.698787] 17.613008999999998
+......VALUES: [' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 16, 80, 50]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1613
+........................................ [17.864181, 17.582759, 17.727468]
+OUTPUT:%f [17.864181, 17.582759, 17.727468] 17.6551135
+......VALUES: [' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 16, 80, 80]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/5811
+........................................ [17.719472, 17.74587, 17.577417]
+OUTPUT:%f [17.719472, 17.74587, 17.577417] 17.6616435
+......VALUES: [' ', ' ', 128, 20, 100]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/3880
+........................................ [17.874459, 17.546197, 17.743519]
+OUTPUT:%f [17.874459, 17.546197, 17.743519] 17.644858
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 8418.70it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 8274.08it/s]
+......VALUES: [' ', ' ', 4, 64, 80]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/286
+........................................ [17.698772, 17.734457, 17.579004]
+OUTPUT:%f [17.698772, 17.734457, 17.579004] 17.656730500000002
+......VALUES: [' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 128, 80, 64]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/505
+........................................ [17.670082, 17.726, 17.578355]
+OUTPUT:%f [17.670082, 17.726, 17.578355] 17.6521775
+......VALUES: [' ', ' ', 4, 80, 32]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/260
+........................................ [17.829992, 17.545466, 17.733547]
+OUTPUT:%f [17.829992, 17.545466, 17.733547] 17.639506500000003
+......VALUES: [' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 32, 128, 8]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/5671
+........................................ [17.670958, 17.776428, 17.586138]
+OUTPUT:%f [17.670958, 17.776428, 17.586138] 17.681283
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', ' ', 16, 80, 64]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/7934
+........................................ [17.713332, 17.609065, 17.753285]
+OUTPUT:%f [17.713332, 17.609065, 17.753285] 17.681175000000003
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 8919.52it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 8795.49it/s]
+......VALUES: [' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 32, 20, 32]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/7595
+........................................ [18.126814, 17.560029, 17.733744]
+OUTPUT:%f [18.126814, 17.560029, 17.733744] 17.6468865
+......VALUES: [' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 128, 2048, 64]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/2434
+........................................ [17.712386, 17.719657, 17.615402]
+OUTPUT:%f [17.712386, 17.719657, 17.615402] 17.6675295
+......VALUES: [' ', ' ', 128, 20, 50]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1496
+........................................ [17.727023, 17.684667, 17.548268]
+OUTPUT:%f [17.727023, 17.684667, 17.548268] 17.6164675
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 128, 128, 128]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/3000
+........................................ [17.880288, 17.552382, 17.733379]
+OUTPUT:%f [17.880288, 17.552382, 17.733379] 17.6428805
+......VALUES: [' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 128, 20, 32]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1875
+........................................ [17.747106, 17.754396, 17.612448]
+OUTPUT:%f [17.747106, 17.754396, 17.612448] 17.683422
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 9681.67it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 9533.74it/s]
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 50, 20, 50]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/240
+........................................ [17.659793, 17.722266, 17.547724]
+OUTPUT:%f [17.659793, 17.722266, 17.547724] 17.634995
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 128, 80, 32]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/8243
+........................................ [17.869844, 17.550151, 17.716587]
+OUTPUT:%f [17.869844, 17.550151, 17.716587] 17.633369000000002
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 4, 20, 64]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/7975
+........................................ [17.674952, 17.701852, 17.569147]
+OUTPUT:%f [17.674952, 17.701852, 17.569147] 17.6354995
+......VALUES: [' ', ' ', 32, 64, 32]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/4094
+........................................ [17.830368, 17.587094, 17.698834]
+OUTPUT:%f [17.830368, 17.587094, 17.698834] 17.642964
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', ' ', 100, 80, 80]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1058
+........................................ [17.874383, 17.504444, 17.705175]
+OUTPUT:%f [17.874383, 17.504444, 17.705175] 17.6048095
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 8929.69it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 8803.39it/s]
+......VALUES: [' ', ' ', 4, 20, 80]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/8866
+........................................ [17.722984, 17.745613, 17.60863]
+OUTPUT:%f [17.722984, 17.745613, 17.60863] 17.6771215
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 16, 16, 256]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/7634
+........................................ [17.909499, 17.743741, 17.592646]
+OUTPUT:%f [17.909499, 17.743741, 17.592646] 17.6681935
+......VALUES: [' ', ' ', 20, 16, 64]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1124
+........................................ [17.938258, 17.617594, 17.778107]
+OUTPUT:%f [17.938258, 17.617594, 17.778107] 17.6978505
+......VALUES: [' ', ' ', 64, 20, 32]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/9855
+........................................ [17.681061, 17.732056, 17.568318]
+OUTPUT:%f [17.681061, 17.732056, 17.568318] 17.650187000000003
+......VALUES: [' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 96, 128, 128]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1458
+........................................ [17.94236, 17.601813, 17.763315]
+OUTPUT:%f [17.94236, 17.601813, 17.763315] 17.682564
+max_evals 30 number of refit 5 how much to train 0.3 seed 1234 target task xl [5600]
+time...now 1653728601.3558939
+----------------------------- how much data to use?0.3
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 12293.92it/s]
+......VALUES: [' ', ' ', 4, 128, 64]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/7221
+........................................ [136.968164, 136.197875, 136.007197]
+OUTPUT:%f [136.968164, 136.197875, 136.007197] 136.102536
+......VALUES: [' ', ' ', 4, 16, 64]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1915
+........................................ [137.127798, 136.395296, 136.351855]
+OUTPUT:%f [137.127798, 136.395296, 136.351855] 136.37357550000002
+......VALUES: [' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 32, 64, 64]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/123
+........................................ [136.968061, 136.451214, 136.287423]
+OUTPUT:%f [136.968061, 136.451214, 136.287423] 136.3693185
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 128, 50, 50]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1486
+........................................ [137.286519, 136.352641, 136.312393]
+OUTPUT:%f [137.286519, 136.352641, 136.312393] 136.332517
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 32, 50, 50]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/9540
+........................................ [137.048703, 136.174112, 136.070236]
+OUTPUT:%f [137.048703, 136.174112, 136.070236] 136.122174
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 10375.06it/s]
+......VALUES: [' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 96, 20, 50]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/573
+........................................ [136.729294, 136.180633, 136.362725]
+OUTPUT:%f [136.729294, 136.180633, 136.362725] 136.271679
+......VALUES: [' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 16, 16, 100]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1376
+........................................ [137.122007, 136.429779, 136.337392]
+OUTPUT:%f [137.122007, 136.429779, 136.337392] 136.38358549999998
+......VALUES: [' ', ' ', 32, 80, 16]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1613
+........................................ [137.139447, 136.271501, 136.191556]
+OUTPUT:%f [137.139447, 136.271501, 136.191556] 136.2315285
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 8, 50, 32]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/5811
+........................................ [136.966316, 136.407016, 136.342642]
+OUTPUT:%f [136.966316, 136.407016, 136.342642] 136.374829
+......VALUES: [' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 32, 16, 8]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/3880
+........................................ [137.059964, 136.396702, 136.416692]
+OUTPUT:%f [137.059964, 136.396702, 136.416692] 136.406697
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 13685.36it/s]
+......VALUES: [' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 128, 80, 64]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/286
+........................................ [137.224158, 136.366638, 136.308395]
+OUTPUT:%f [137.224158, 136.366638, 136.308395] 136.3375165
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 4, 8, 32]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/505
+........................................ [136.885194, 136.339463, 136.290749]
+OUTPUT:%f [136.885194, 136.339463, 136.290749] 136.31510600000001
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', ' ', 4, 80, 32]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/260
+........................................ [136.982205, 136.215546, 136.445161]
+OUTPUT:%f [136.982205, 136.215546, 136.445161] 136.3303535
+......VALUES: [' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 128, 50, 256]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/5671
+........................................ [136.831468, 136.234526, 136.092381]
+OUTPUT:%f [136.831468, 136.234526, 136.092381] 136.1634535
+......VALUES: [' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 20, 20, 50]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/7934
+........................................ [137.11036, 136.308436, 136.12494]
+OUTPUT:%f [137.11036, 136.308436, 136.12494] 136.216688
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 9041.42it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 8875.24it/s]
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 96, 20, 100]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/7595
+........................................ [136.978242, 135.986518, 136.070782]
+OUTPUT:%f [136.978242, 135.986518, 136.070782] 136.02865
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', ' ', 32, 50, 50]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/2434
+........................................ [137.103325, 136.323961, 136.313763]
+OUTPUT:%f [137.103325, 136.323961, 136.313763] 136.318862
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', ' ', 128, 80, 50]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1496
+........................................ [137.065859, 136.255613, 136.126372]
+OUTPUT:%f [137.065859, 136.255613, 136.126372] 136.1909925
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', ' ', 4, 80, 32]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/3000
+........................................ [137.029408, 136.27779, 136.21175]
+OUTPUT:%f [137.029408, 136.27779, 136.21175] 136.24477000000002
+......VALUES: [' ', ' ', 20, 80, 128]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1875
+........................................ [136.961029, 136.053521, 136.163565]
+OUTPUT:%f [136.961029, 136.053521, 136.163565] 136.108543
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 7985.10it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 7886.34it/s]
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 32, 80, 64]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/240
+........................................ [137.090103, 136.464519, 135.921641]
+OUTPUT:%f [137.090103, 136.464519, 135.921641] 136.19308
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', ' ', 20, 80, 32]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/8243
+........................................ [137.072486, 136.296716, 136.211742]
+OUTPUT:%f [137.072486, 136.296716, 136.211742] 136.254229
+......VALUES: [' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 4, 20, 64]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/7975
+........................................ [137.105922, 136.371764, 136.801755]
+OUTPUT:%f [137.105922, 136.371764, 136.801755] 136.58675950000003
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', ' ', 50, 16, 100]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/4094
+........................................ [137.667989, 136.302033, 136.288831]
+OUTPUT:%f [137.667989, 136.302033, 136.288831] 136.295432
+......VALUES: [' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 64, 80, 64]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1058
+........................................ [137.717979, 136.563359, 136.367239]
+OUTPUT:%f [137.717979, 136.563359, 136.367239] 136.46529900000002
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 7661.58it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 7568.28it/s]
+......VALUES: [' ', ' ', 4, 20, 32]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/8866
+........................................ [136.87575, 136.167683, 136.266635]
+OUTPUT:%f [136.87575, 136.167683, 136.266635] 136.217159
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', ' ', 100, 20, 64]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/7634
+........................................ [137.253167, 136.190648, 136.242854]
+OUTPUT:%f [137.253167, 136.190648, 136.242854] 136.216751
+......VALUES: [' ', ' ', 20, 64, 256]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1124
+........................................ [137.315575, 136.438282, 136.284281]
+OUTPUT:%f [137.315575, 136.438282, 136.284281] 136.3612815
+......VALUES: ['#pragma clang loop(j2) pack array(path) allocate(malloc)', ' ', 20, 80, 80]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/9855
+........................................ [137.175263, 136.246164, 136.444475]
+OUTPUT:%f [137.175263, 136.246164, 136.444475] 136.34531950000002
+......VALUES: [' ', ' ', 4, 2048, 128]
+......params: ['P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/floyd-warshall_exp/floyd-warshall_target/tmp_files/1458
+........................................ [137.467922, 136.28379, 136.229983]
+OUTPUT:%f [137.467922, 136.28379, 136.229983] 136.2568865

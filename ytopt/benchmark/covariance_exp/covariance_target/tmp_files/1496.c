@@ -84,7 +84,7 @@ void kernel_covariance(int m, int n,
 
  
  
-#pragma clang loop(i,j,k) tile sizes(64,100,4) floor_ids(i1,j1,k1) tile_ids(i2,j2,k2)
+#pragma clang loop(i,j,k) tile sizes(128,100,4) floor_ids(i1,j1,k1) tile_ids(i2,j2,k2)
 #pragma clang loop id(i)
   for (i = 0; i < _PB_M; i++) {
     #pragma clang loop id(j)

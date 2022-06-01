@@ -23,17 +23,17 @@ cd /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/covariance_exp/covarianc
 # mv tmp_files tmp_files_xl
 # mv results_sdv.csv results_sdv_xl_covariance.csv
 # ##############
-python Run_online_TL.py --kernel_name covariance --max_evals 30 --n_refit 5 --top 0.3 --nparam 5 --param_start 1 --target sm -itarget 160 180 -imin 28 32 -imax 3800 4000
-mv tmp_files tmp_files_sm_refit
-mv results_sdv.csv results_sdv_sm_covariance_refit.csv
+# python Run_online_TL.py --kernel_name covariance --max_evals 30 --n_refit 5 --top 0.3 --nparam 5 --param_start 1 --target sm -itarget 160 180 -imin 28 32 -imax 3800 4000
+# mv tmp_files tmp_files_sm_refit
+# mv results_sdv.csv results_sdv_sm_covariance_refit.csv
 # ##############
 python Run_online_TL.py --kernel_name covariance --max_evals 30 --n_refit 5 --top 0.3 --nparam 5 --param_start 1 --target ml -itarget 720 830 -imin 28 32 -imax 3800 4000
 mv tmp_files tmp_files_ml_refit
-mv results_sdv.csv results_sdv_ml_covariance_refit.csv
+mv results_sdv.csv results_sdv_ml_covariance_refit_re.csv
 # ##############
 python Run_online_TL.py --kernel_name covariance --max_evals 30 --n_refit 5 --top 0.3 --nparam 5 --param_start 1 --target xl -itarget 2600 3000 -imin 28 32 -imax 3800 4000
 mv tmp_files tmp_files_xl_refit
-mv results_sdv.csv results_sdv_xl_covariance_refit.csv
+mv results_sdv.csv results_sdv_xl_covariance_refit_re.csv
 # mkdir ./tmp_results
 # rm ytopt.log
 # python -m ytopt.search.ambs --evaluator subprocess --problem problem_all.Problem --max-evals=30 --learner RF --set-KAPPA 1.96 --acq-func gp_hedge --set-SEED 2468 --set-NI 10

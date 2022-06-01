@@ -1,0 +1,658 @@
+/var/spool/slurmd/job34853/slurm_script: line 11: activate: No such file or directory
+max_evals 30 number of refit 5 how much to train 0.3 seed 1234 target task sm
+time...now 1653725813.131671
+----------------------------- how much data to use?0.3
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 7547.09it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 7451.20it/s]
+......VALUES: [' ', ' ', ' ', 4, 8, 4]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7221.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7221
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7221
+........................................ [0.002027, 0.001987, 0.001969]
+OUTPUT:%f [0.002027, 0.001987, 0.001969] 0.0019779999999999997
+......VALUES: [' ', ' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 4, 50, 20]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1915.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1915
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1915
+........................................ [0.00227, 0.001941, 0.002115]
+OUTPUT:%f [0.00227, 0.001941, 0.002115] 0.0020280000000000003
+......VALUES: [' ', ' ', ' ', 4, 128, 50]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/123.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/123
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/123
+........................................ [0.001558, 0.001437, 0.00142]
+OUTPUT:%f [0.001558, 0.001437, 0.00142] 0.0014285
+......VALUES: [' ', ' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 100, 16, 64]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1486.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1486
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1486
+........................................ [0.001761, 0.001796, 0.001693]
+OUTPUT:%f [0.001761, 0.001796, 0.001693] 0.0017445
+......VALUES: [' ', ' ', ' ', 4, 16, 20]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/9540.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/9540
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/9540
+........................................ [0.002024, 0.001772, 0.001762]
+OUTPUT:%f [0.002024, 0.001772, 0.001762] 0.001767
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 9637.18it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 9479.85it/s]
+......VALUES: [' ', ' ', ' ', 128, 20, 64]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/573.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/573
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/573
+........................................ [0.001668, 0.001527, 0.001463]
+OUTPUT:%f [0.001668, 0.001527, 0.001463] 0.001495
+......VALUES: [' ', ' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 100, 100, 16]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1376.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1376
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1376
+........................................ [0.001985, 0.001682, 0.001639]
+OUTPUT:%f [0.001985, 0.001682, 0.001639] 0.0016605
+......VALUES: [' ', ' ', ' ', 4, 16, 16]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1613.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1613
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1613
+........................................ [0.002155, 0.00181, 0.001813]
+OUTPUT:%f [0.002155, 0.00181, 0.001813] 0.0018115
+......VALUES: [' ', ' ', ' ', 4, 32, 64]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/5811.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/5811
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/5811
+........................................ [0.001525, 0.001513, 0.00142]
+OUTPUT:%f [0.001525, 0.001513, 0.00142] 0.0014665
+......VALUES: [' ', ' ', ' ', 100, 100, 16]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/3880.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/3880
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/3880
+........................................ [0.001802, 0.001753, 0.001571]
+OUTPUT:%f [0.001802, 0.001753, 0.001571] 0.0016619999999999998
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 8755.90it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 8620.75it/s]
+......VALUES: [' ', ' ', ' ', 4, 16, 64]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/286.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/286
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/286
+........................................ [0.001681, 0.001441, 0.001443]
+OUTPUT:%f [0.001681, 0.001441, 0.001443] 0.0014420000000000001
+......VALUES: [' ', ' ', ' ', 96, 50, 20]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/505.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/505
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/505
+........................................ [0.002016, 0.001651, 0.001868]
+OUTPUT:%f [0.002016, 0.001651, 0.001868] 0.0017595
+......VALUES: [' ', ' ', ' ', 4, 128, 20]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/260.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/260
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/260
+........................................ [0.002092, 0.001997, 0.001958]
+OUTPUT:%f [0.002092, 0.001997, 0.001958] 0.0019775
+......VALUES: [' ', ' ', ' ', 32, 32, 64]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/5671.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/5671
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/5671
+........................................ [0.001718, 0.001425, 0.00155]
+OUTPUT:%f [0.001718, 0.001425, 0.00155] 0.0014875
+......VALUES: [' ', ' ', ' ', 128, 100, 64]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7934.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7934
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7934
+........................................ [0.001718, 0.001423, 0.001553]
+OUTPUT:%f [0.001718, 0.001423, 0.001553] 0.001488
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 12596.30it/s]
+......VALUES: [' ', ' ', ' ', 4, 100, 4]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7595.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7595
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7595
+........................................ [0.002428, 0.002182, 0.002158]
+OUTPUT:%f [0.002428, 0.002182, 0.002158] 0.00217
+......VALUES: [' ', ' ', ' ', 128, 128, 64]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/2434.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/2434
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/2434
+........................................ [0.001556, 0.001537, 0.001414]
+OUTPUT:%f [0.001556, 0.001537, 0.001414] 0.0014754999999999998
+......VALUES: [' ', ' ', ' ', 4, 16, 64]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1496.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1496
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1496
+........................................ [0.001726, 0.001477, 0.001457]
+OUTPUT:%f [0.001726, 0.001477, 0.001457] 0.001467
+......VALUES: [' ', ' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 4, 50, 64]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/3000.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/3000
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/3000
+........................................ [0.001625, 0.00159, 0.001516]
+OUTPUT:%f [0.001625, 0.00159, 0.001516] 0.0015530000000000001
+......VALUES: [' ', ' ', ' ', 4, 64, 100]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1875.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1875
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1875
+........................................ [0.001638, 0.001411, 0.001413]
+OUTPUT:%f [0.001638, 0.001411, 0.001413] 0.001412
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 11520.76it/s]
+......VALUES: [' ', ' ', ' ', 4, 128, 64]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/240.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/240
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/240
+........................................ [0.001656, 0.001426, 0.001445]
+OUTPUT:%f [0.001656, 0.001426, 0.001445] 0.0014355000000000001
+......VALUES: [' ', ' ', ' ', 100, 50, 64]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/8243.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/8243
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/8243
+........................................ [0.001771, 0.001442, 0.001468]
+OUTPUT:%f [0.001771, 0.001442, 0.001468] 0.001455
+......VALUES: [' ', ' ', ' ', 4, 4, 64]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7975.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7975
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7975
+........................................ [0.001704, 0.001552, 0.001444]
+OUTPUT:%f [0.001704, 0.001552, 0.001444] 0.001498
+......VALUES: [' ', ' ', ' ', 50, 128, 20]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/4094.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/4094
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/4094
+........................................ [0.001894, 0.001797, 0.001652]
+OUTPUT:%f [0.001894, 0.001797, 0.001652] 0.0017245
+......VALUES: [' ', ' ', ' ', 128, 128, 64]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1058.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1058
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1058
+........................................ [0.001706, 0.001417, 0.0015]
+OUTPUT:%f [0.001706, 0.001417, 0.0015] 0.0014585000000000002
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 10181.73it/s]
+......VALUES: [' ', ' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 4, 64, 16]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/8866.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/8866
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/8866
+........................................ [0.002297, 0.002137, 0.00211]
+OUTPUT:%f [0.002297, 0.002137, 0.00211] 0.0021235
+......VALUES: [' ', ' ', ' ', 4, 128, 4]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7634.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7634
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7634
+........................................ [0.002481, 0.002253, 0.00225]
+OUTPUT:%f [0.002481, 0.002253, 0.00225] 0.0022515
+......VALUES: [' ', ' ', ' ', 128, 8, 64]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1124.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1124
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1124
+........................................ [0.001705, 0.001512, 0.001468]
+OUTPUT:%f [0.001705, 0.001512, 0.001468] 0.00149
+......VALUES: [' ', ' ', ' ', 128, 100, 64]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/9855.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/9855
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/9855
+........................................ [0.001766, 0.001588, 0.001458]
+OUTPUT:%f [0.001766, 0.001588, 0.001458] 0.001523
+......VALUES: [' ', ' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 50, 16, 4]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1458.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1458
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1458
+........................................ [0.002537, 0.002341, 0.002315]
+OUTPUT:%f [0.002537, 0.002341, 0.002315] 0.002328
+max_evals 30 number of refit 5 how much to train 0.3 seed 1234 target task ml
+time...now 1653726103.8298235
+----------------------------- how much data to use?0.3
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 6562.74it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 6490.71it/s]
+......VALUES: [' ', ' ', ' ', 128, 64, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7221.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7221
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7221
+........................................ [0.13815, 0.137474, 0.137336]
+OUTPUT:%f [0.13815, 0.137474, 0.137336] 0.137405
+......VALUES: [' ', ' ', ' ', 4, 2048, 16]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1915.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1915
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1915
+........................................ [0.237299, 0.237231, 0.236959]
+OUTPUT:%f [0.237299, 0.237231, 0.236959] 0.237095
+......VALUES: [' ', ' ', ' ', 128, 128, 4]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/123.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/123
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/123
+........................................ [0.325268, 0.320973, 0.321309]
+OUTPUT:%f [0.325268, 0.320973, 0.321309] 0.321141
+......VALUES: [' ', ' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 100, 128, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1486.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1486
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1486
+........................................ [0.151689, 0.148055, 0.147894]
+OUTPUT:%f [0.151689, 0.148055, 0.147894] 0.1479745
+......VALUES: [' ', ' ', ' ', 4, 16, 16]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/9540.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/9540
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/9540
+........................................ [0.210081, 0.208329, 0.208656]
+OUTPUT:%f [0.210081, 0.208329, 0.208656] 0.2084925
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 10450.80it/s]
+......VALUES: [' ', ' ', ' ', 32, 100, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/573.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/573
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/573
+........................................ [0.139661, 0.139071, 0.139056]
+OUTPUT:%f [0.139661, 0.139071, 0.139056] 0.1390635
+......VALUES: [' ', ' ', ' ', 128, 4, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1376.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1376
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1376
+........................................ [0.149941, 0.148972, 0.148897]
+OUTPUT:%f [0.149941, 0.148972, 0.148897] 0.1489345
+......VALUES: [' ', ' ', ' ', 4, 16, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1613.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1613
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1613
+........................................ [0.141086, 0.140666, 0.140743]
+OUTPUT:%f [0.141086, 0.140666, 0.140743] 0.1407045
+......VALUES: [' ', ' ', ' ', 100, 100, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/5811.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/5811
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/5811
+........................................ [0.139434, 0.139169, 0.139245]
+OUTPUT:%f [0.139434, 0.139169, 0.139245] 0.139207
+......VALUES: [' ', ' ', ' ', 4, 16, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/3880.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/3880
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/3880
+........................................ [0.143281, 0.142278, 0.142242]
+OUTPUT:%f [0.143281, 0.142278, 0.142242] 0.14226
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 12256.09it/s]
+......VALUES: [' ', ' ', ' ', 4, 16, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/286.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/286
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/286
+........................................ [0.141024, 0.140638, 0.140597]
+OUTPUT:%f [0.141024, 0.140638, 0.140597] 0.1406175
+......VALUES: [' ', ' ', ' ', 8, 2048, 16]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/505.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/505
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/505
+........................................ [0.214724, 0.202647, 0.202295]
+OUTPUT:%f [0.214724, 0.202647, 0.202295] 0.202471
+......VALUES: [' ', ' ', ' ', 4, 8, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/260.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/260
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/260
+........................................ [0.148143, 0.14467, 0.144571]
+OUTPUT:%f [0.148143, 0.14467, 0.144571] 0.14462049999999999
+......VALUES: [' ', ' ', ' ', 32, 16, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/5671.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/5671
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/5671
+........................................ [0.142638, 0.141455, 0.141425]
+OUTPUT:%f [0.142638, 0.141455, 0.141425] 0.14144
+......VALUES: [' ', ' ', ' ', 4, 128, 16]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7934.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7934
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7934
+........................................ [0.24037, 0.240055, 0.239168]
+OUTPUT:%f [0.24037, 0.240055, 0.239168] 0.23961149999999998
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 10024.00it/s]
+......VALUES: [' ', ' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 16, 8, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7595.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7595
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7595
+........................................ [0.152391, 0.147368, 0.147951]
+OUTPUT:%f [0.152391, 0.147368, 0.147951] 0.1476595
+......VALUES: [' ', ' ', ' ', 100, 128, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/2434.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/2434
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/2434
+........................................ [0.139155, 0.138713, 0.138632]
+OUTPUT:%f [0.139155, 0.138713, 0.138632] 0.1386725
+......VALUES: [' ', ' ', ' ', 128, 20, 16]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1496.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1496
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1496
+........................................ [0.212416, 0.21057, 0.210499]
+OUTPUT:%f [0.212416, 0.21057, 0.210499] 0.2105345
+......VALUES: [' ', ' ', ' ', 128, 128, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/3000.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/3000
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/3000
+........................................ [0.139228, 0.138934, 0.138965]
+OUTPUT:%f [0.139228, 0.138934, 0.138965] 0.1389495
+......VALUES: [' ', ' ', ' ', 4, 50, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1875.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1875
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1875
+........................................ [0.138852, 0.138598, 0.138622]
+OUTPUT:%f [0.138852, 0.138598, 0.138622] 0.13861
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 10943.44it/s]
+......VALUES: [' ', ' ', ' ', 4, 64, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/240.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/240
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/240
+........................................ [0.141256, 0.138934, 0.139058]
+OUTPUT:%f [0.141256, 0.138934, 0.139058] 0.138996
+......VALUES: [' ', ' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 4, 100, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/8243.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/8243
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/8243
+........................................ [0.139868, 0.138452, 0.138308]
+OUTPUT:%f [0.139868, 0.138452, 0.138308] 0.13838
+......VALUES: [' ', ' ', ' ', 20, 8, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7975.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7975
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7975
+........................................ [0.143472, 0.141314, 0.141269]
+OUTPUT:%f [0.143472, 0.141314, 0.141269] 0.14129150000000001
+......VALUES: [' ', ' ', ' ', 128, 128, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/4094.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/4094
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/4094
+........................................ [0.138125, 0.13784, 0.137705]
+OUTPUT:%f [0.138125, 0.13784, 0.137705] 0.1377725
+......VALUES: [' ', ' ', ' ', 128, 32, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1058.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1058
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1058
+........................................ [0.140968, 0.139312, 0.13934]
+OUTPUT:%f [0.140968, 0.139312, 0.13934] 0.139326
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 13796.69it/s]
+......VALUES: [' ', ' ', ' ', 4, 32, 64]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/8866.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/8866
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/8866
+........................................ [0.174495, 0.174008, 0.174057]
+OUTPUT:%f [0.174495, 0.174008, 0.174057] 0.17403249999999998
+......VALUES: [' ', ' ', ' ', 20, 2048, 16]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7634.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7634
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7634
+........................................ [0.205953, 0.200894, 0.200935]
+OUTPUT:%f [0.205953, 0.200894, 0.200935] 0.2009145
+......VALUES: [' ', ' ', ' ', 128, 100, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1124.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1124
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1124
+........................................ [0.14036, 0.139089, 0.139061]
+OUTPUT:%f [0.14036, 0.139089, 0.139061] 0.139075
+......VALUES: [' ', ' ', ' ', 128, 20, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/9855.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/9855
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/9855
+........................................ [0.139921, 0.139567, 0.139482]
+OUTPUT:%f [0.139921, 0.139567, 0.139482] 0.1395245
+......VALUES: [' ', ' ', ' ', 100, 32, 32]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1458.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1458
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1458
+........................................ [0.22072, 0.219612, 0.212339]
+OUTPUT:%f [0.22072, 0.219612, 0.212339] 0.2159755
+max_evals 30 number of refit 5 how much to train 0.3 seed 1234 target task xl
+time...now 1653726404.8549395
+----------------------------- how much data to use?0.3
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 6186.52it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 6123.61it/s]
+......VALUES: [' ', ' ', ' ', 128, 50, 20]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7221.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7221
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7221
+........................................ [33.587528, 33.592191, 33.571912]
+OUTPUT:%f [33.587528, 33.592191, 33.571912] 33.5820515
+......VALUES: [' ', ' ', ' ', 128, 4, 80]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1915.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1915
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1915
+........................................ [27.053389, 27.072907, 26.926052]
+OUTPUT:%f [27.053389, 27.072907, 26.926052] 26.9994795
+......VALUES: [' ', ' ', ' ', 128, 100, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/123.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/123
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/123
+........................................ [14.567492, 14.563405, 14.718643]
+OUTPUT:%f [14.567492, 14.563405, 14.718643] 14.641024
+......VALUES: [' ', ' ', ' ', 32, 128, 100]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1486.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1486
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1486
+........................................ [30.183136, 30.204917, 30.213078]
+OUTPUT:%f [30.183136, 30.204917, 30.213078] 30.2089975
+......VALUES: [' ', ' ', ' ', 4, 128, 32]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/9540.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/9540
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/9540
+........................................ [29.237974, 29.226964, 29.066199]
+OUTPUT:%f [29.237974, 29.226964, 29.066199] 29.1465815
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 9265.78it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 9110.96it/s]
+......VALUES: [' ', ' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 4, 128, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/573.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/573
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/573
+........................................ [15.170651, 15.334429, 15.180579]
+OUTPUT:%f [15.170651, 15.334429, 15.180579] 15.257504
+......VALUES: [' ', ' ', ' ', 32, 32, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1376.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1376
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1376
+........................................ [14.69787, 14.544241, 14.720166]
+OUTPUT:%f [14.69787, 14.544241, 14.720166] 14.6322035
+......VALUES: [' ', ' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 128, 64, 80]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1613.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1613
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1613
+........................................ [37.39647, 37.438705, 37.534076]
+OUTPUT:%f [37.39647, 37.438705, 37.534076] 37.4863905
+......VALUES: [' ', ' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 4, 50, 20]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/5811.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/5811
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/5811
+........................................ [36.289483, 36.292609, 36.309651]
+OUTPUT:%f [36.289483, 36.292609, 36.309651] 36.30113
+......VALUES: [' ', ' ', ' ', 128, 8, 16]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/3880.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/3880
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/3880
+........................................ [30.005612, 29.816981, 29.98163]
+OUTPUT:%f [30.005612, 29.816981, 29.98163] 29.899305499999997
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 9993.10it/s]
+......VALUES: [' ', ' ', ' ', 32, 4, 4]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/286.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/286
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/286
+........................................ [30.067528, 30.225044, 30.250317]
+OUTPUT:%f [30.067528, 30.225044, 30.250317] 30.2376805
+......VALUES: [' ', ' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 128, 16, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/505.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/505
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/505
+........................................ [15.637099, 15.475266, 15.637751]
+OUTPUT:%f [15.637099, 15.475266, 15.637751] 15.5565085
+......VALUES: [' ', ' ', ' ', 128, 100, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/260.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/260
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/260
+........................................ [14.59194, 14.770273, 14.58964]
+OUTPUT:%f [14.59194, 14.770273, 14.58964] 14.6799565
+......VALUES: [' ', ' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 100, 8, 4]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/5671.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/5671
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/5671
+........................................ [34.382639, 34.362455, 34.3678]
+OUTPUT:%f [34.382639, 34.362455, 34.3678] 34.3651275
+......VALUES: [' ', ' ', ' ', 128, 50, 50]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7934.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7934
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7934
+........................................ [34.932529, 34.938471, 34.945658]
+OUTPUT:%f [34.932529, 34.938471, 34.945658] 34.9420645
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 7606.56it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 7483.79it/s]
+......VALUES: [' ', ' ', ' ', 32, 16, 16]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7595.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7595
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7595
+........................................ [30.149151, 30.1744, 30.143734]
+OUTPUT:%f [30.149151, 30.1744, 30.143734] 30.159067
+......VALUES: [' ', ' ', ' ', 4, 4, 80]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/2434.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/2434
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/2434
+........................................ [26.5081, 26.344936, 26.441899]
+OUTPUT:%f [26.5081, 26.344936, 26.441899] 26.393417499999998
+......VALUES: [' ', ' ', ' ', 100, 8, 32]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1496.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1496
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1496
+........................................ [28.281667, 28.291742, 28.347688]
+OUTPUT:%f [28.281667, 28.291742, 28.347688] 28.319715000000002
+......VALUES: [' ', ' ', ' ', 128, 4, 100]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/3000.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/3000
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/3000
+........................................ [25.956004, 25.847356, 25.927286]
+OUTPUT:%f [25.956004, 25.847356, 25.927286] 25.887321
+......VALUES: [' ', ' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 128, 128, 100]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1875.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1875
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1875
+........................................ [34.703524, 35.004476, 34.871164]
+OUTPUT:%f [34.703524, 35.004476, 34.871164] 34.93782
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 10196.11it/s]
+......VALUES: [' ', ' ', ' ', 4, 128, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/240.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/240
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/240
+........................................ [14.375267, 14.533849, 14.386048]
+OUTPUT:%f [14.375267, 14.533849, 14.386048] 14.4599485
+......VALUES: [' ', ' ', ' ', 16, 100, 8]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/8243.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/8243
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/8243
+........................................ [37.527843, 37.529183, 37.722821]
+OUTPUT:%f [37.527843, 37.529183, 37.722821] 37.626002
+......VALUES: [' ', ' ', ' ', 128, 128, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7975.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7975
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7975
+........................................ [14.587376, 14.742728, 14.600454]
+OUTPUT:%f [14.587376, 14.742728, 14.600454] 14.671591
+......VALUES: [' ', ' ', ' ', 100, 32, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/4094.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/4094
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/4094
+........................................ [14.864637, 14.698536, 14.72343]
+OUTPUT:%f [14.864637, 14.698536, 14.72343] 14.710983
+......VALUES: [' ', ' ', ' ', 128, 100, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1058.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1058
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1058
+........................................ [14.645449, 14.644279, 14.795894]
+OUTPUT:%f [14.645449, 14.644279, 14.795894] 14.7200865
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 10089.28it/s]
+......VALUES: [' ', ' ', ' ', 100, 32, 64]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/8866.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/8866
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/8866
+........................................ [31.167199, 31.169528, 31.185786]
+OUTPUT:%f [31.167199, 31.169528, 31.185786] 31.177657
+......VALUES: [' ', ' ', ' ', 32, 50, 8]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7634.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7634
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/7634
+........................................ [35.233031, 35.216642, 35.207098]
+OUTPUT:%f [35.233031, 35.216642, 35.207098] 35.211870000000005
+......VALUES: [' ', ' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 128, 8, 64]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1124.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1124
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1124
+........................................ [28.023567, 28.184758, 28.176936]
+OUTPUT:%f [28.023567, 28.184758, 28.176936] 28.180847
+......VALUES: [' ', ' ', ' ', 100, 16, 20]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/9855.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/9855
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/9855
+........................................ [29.983495, 29.997348, 30.002354]
+OUTPUT:%f [29.983495, 29.997348, 30.002354] 29.999851
+......VALUES: [' ', ' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 4, 16, 256]
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1458.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1458
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/heat-3d_exp/heat-3d_target/tmp_files/1458
+........................................ [15.460562, 15.605024, 15.46784]
+OUTPUT:%f [15.460562, 15.605024, 15.46784] 15.536432000000001
