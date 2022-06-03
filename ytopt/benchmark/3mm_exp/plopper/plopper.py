@@ -67,8 +67,8 @@ class Plopper:
                 " " + str(d_size) + " -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o "+tmpbinary
         print (cmd1)
 #         cmd2 = kernel_dir + "/exe.pl " +  tmpbinary
-#         cmd2 = 'srun -n 1 ' +tmpbinary
-        cmd2 = tmpbinary
+        cmd2 = 'srun -n 1 ' +tmpbinary
+#         cmd2 = tmpbinary
         print (cmd2)  
         #Find the compilation status using subprocess
         compilation_status = subprocess.run(cmd1, shell=True, stderr=subprocess.PIPE)

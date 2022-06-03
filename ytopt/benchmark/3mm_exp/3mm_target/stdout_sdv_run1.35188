@@ -1,0 +1,1300 @@
+/var/spool/slurmd/job35188/slurm_script: line 11: activate: No such file or directory
+max_evals 30 number of refit 30 how much to train 0.3 seed 1234 target task sm
+time...now 1654136951.6333416
+----------------------------- how much data to use? 0.3
+  0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 30/30 [00:00<00:00, 518.10it/s]
+......VALUES: [' ', ' ', ' ', 16, 100, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7221.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7221
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7221
+........................................ [0.004344, 0.004139, 0.004107]
+OUTPUT:%f [0.004344, 0.004139, 0.004107] 0.004123
+......VALUES: [' ', ' ', ' ', 4, 32, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1915.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1915
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1915
+........................................ [0.004672, 0.004516, 0.004481]
+OUTPUT:%f [0.004672, 0.004516, 0.004481] 0.0044985
+......VALUES: [' ', ' ', ' ', 100, 8, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/123.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/123
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/123
+........................................ [0.00499, 0.004527, 0.004579]
+OUTPUT:%f [0.00499, 0.004527, 0.004579] 0.004553
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 50, 16, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1486.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1486
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1486
+........................................ [0.004823, 0.00445, 0.004416]
+OUTPUT:%f [0.004823, 0.00445, 0.004416] 0.0044329999999999994
+......VALUES: [' ', ' ', ' ', 100, 100, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9540.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9540
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9540
+........................................ [0.004463, 0.004169, 0.004151]
+OUTPUT:%f [0.004463, 0.004169, 0.004151] 0.0041600000000000005
+......VALUES: [' ', ' ', ' ', 20, 20, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/573.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/573
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/573
+........................................ [0.00482, 0.004557, 0.004537]
+OUTPUT:%f [0.00482, 0.004557, 0.004537] 0.004547000000000001
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 128, 80, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1376.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1376
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1376
+........................................ [0.004501, 0.004232, 0.004249]
+OUTPUT:%f [0.004501, 0.004232, 0.004249] 0.0042404999999999995
+......VALUES: [' ', ' ', ' ', 16, 16, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1613.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1613
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1613
+........................................ [0.004939, 0.004694, 0.004671]
+OUTPUT:%f [0.004939, 0.004694, 0.004671] 0.0046825
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 80, 80, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5811.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5811
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5811
+........................................ [0.004509, 0.004289, 0.004267]
+OUTPUT:%f [0.004509, 0.004289, 0.004267] 0.0042780000000000006
+......VALUES: [' ', ' ', ' ', 128, 32, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3880.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3880
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3880
+........................................ [0.004723, 0.004319, 0.004318]
+OUTPUT:%f [0.004723, 0.004319, 0.004318] 0.004318499999999999
+......VALUES: [' ', ' ', ' ', 16, 100, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/286.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/286
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/286
+........................................ [0.004335, 0.004143, 0.004116]
+OUTPUT:%f [0.004335, 0.004143, 0.004116] 0.0041294999999999995
+......VALUES: [' ', ' ', ' ', 16, 80, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/505.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/505
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/505
+........................................ [0.003982, 0.00371, 0.0037]
+OUTPUT:%f [0.003982, 0.00371, 0.0037] 0.003705
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 16, 20, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/260.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/260
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/260
+........................................ [0.004729, 0.004382, 0.004335]
+OUTPUT:%f [0.004729, 0.004382, 0.004335] 0.0043584999999999995
+......VALUES: [' ', ' ', ' ', 100, 80, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5671.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5671
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5671
+........................................ [0.004029, 0.003751, 0.003748]
+OUTPUT:%f [0.004029, 0.003751, 0.003748] 0.0037495000000000002
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 16, 64, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7934.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7934
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7934
+........................................ [0.004546, 0.004276, 0.004261]
+OUTPUT:%f [0.004546, 0.004276, 0.004261] 0.0042685
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 16, 80, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7595.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7595
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7595
+........................................ [0.004477, 0.004264, 0.004251]
+OUTPUT:%f [0.004477, 0.004264, 0.004251] 0.0042575
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 96, 16, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/2434.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/2434
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/2434
+........................................ [0.00487, 0.004488, 0.004491]
+OUTPUT:%f [0.00487, 0.004488, 0.004491] 0.0044895000000000004
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 100, 100, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1496.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1496
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1496
+........................................ [0.004547, 0.004199, 0.004203]
+OUTPUT:%f [0.004547, 0.004199, 0.004203] 0.004201
+......VALUES: [' ', ' ', ' ', 4, 80, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3000.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3000
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3000
+........................................ [0.004551, 0.004374, 0.004363]
+OUTPUT:%f [0.004551, 0.004374, 0.004363] 0.0043685
+......VALUES: [' ', ' ', ' ', 80, 128, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1875.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1875
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1875
+........................................ [0.00421, 0.003968, 0.003937]
+OUTPUT:%f [0.00421, 0.003968, 0.003937] 0.0039525
+......VALUES: [' ', ' ', ' ', 8, 50, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/240.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/240
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/240
+........................................ [0.004667, 0.004427, 0.004403]
+OUTPUT:%f [0.004667, 0.004427, 0.004403] 0.0044150000000000005
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 16, 8, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8243.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8243
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8243
+........................................ [0.005008, 0.004715, 0.004689]
+OUTPUT:%f [0.005008, 0.004715, 0.004689] 0.004702
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 16, 20, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7975.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7975
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7975
+........................................ [0.004327, 0.003952, 0.003954]
+OUTPUT:%f [0.004327, 0.003952, 0.003954] 0.003953
+......VALUES: [' ', ' ', ' ', 80, 8, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/4094.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/4094
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/4094
+........................................ [0.005043, 0.004688, 0.004665]
+OUTPUT:%f [0.005043, 0.004688, 0.004665] 0.0046765
+......VALUES: [' ', ' ', ' ', 96, 64, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1058.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1058
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1058
+........................................ [0.004487, 0.004271, 0.004263]
+OUTPUT:%f [0.004487, 0.004271, 0.004263] 0.004267
+......VALUES: [' ', ' ', ' ', 100, 32, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8866.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8866
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8866
+........................................ [0.004784, 0.004406, 0.004379]
+OUTPUT:%f [0.004784, 0.004406, 0.004379] 0.004392500000000001
+......VALUES: [' ', ' ', ' ', 16, 16, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7634.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7634
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7634
+........................................ [0.004837, 0.004597, 0.004601]
+OUTPUT:%f [0.004837, 0.004597, 0.004601] 0.004599000000000001
+......VALUES: [' ', ' ', ' ', 4, 100, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1124.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1124
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1124
+........................................ [0.004334, 0.004207, 0.004192]
+OUTPUT:%f [0.004334, 0.004207, 0.004192] 0.0041995
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 128, 80, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9855.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9855
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9855
+........................................ [0.004489, 0.004271, 0.004251]
+OUTPUT:%f [0.004489, 0.004271, 0.004251] 0.004260999999999999
+......VALUES: [' ', ' ', ' ', 4, 32, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1458.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1458
+/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1458
+........................................ [0.004745, 0.004575, 0.004552]
+OUTPUT:%f [0.004745, 0.004575, 0.004552] 0.0045635
+max_evals 30 number of refit 30 how much to train 0.3 seed 1234 target task ml
+time...now 1654137143.1152697
+----------------------------- how much data to use? 0.3
+  0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 30/30 [00:00<00:00, 514.81it/s]
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 4, 50, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7221.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7221
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7221
+........................................ [0.40173, 0.400399, 0.400461]
+OUTPUT:%f [0.40173, 0.400399, 0.400461] 0.40043
+......VALUES: [' ', ' ', ' ', 8, 100, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1915.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1915
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1915
+........................................ [0.395058, 0.392114, 0.392122]
+OUTPUT:%f [0.395058, 0.392114, 0.392122] 0.392118
+......VALUES: [' ', ' ', ' ', 80, 80, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/123.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/123
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/123
+........................................ [0.415501, 0.411922, 0.412021]
+OUTPUT:%f [0.415501, 0.411922, 0.412021] 0.41197150000000005
+......VALUES: [' ', ' ', ' ', 96, 32, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1486.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1486
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1486
+........................................ [0.414629, 0.410896, 0.410402]
+OUTPUT:%f [0.414629, 0.410896, 0.410402] 0.410649
+......VALUES: [' ', ' ', ' ', 80, 50, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9540.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9540
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9540
+........................................ [0.417078, 0.43551, 0.41354]
+OUTPUT:%f [0.417078, 0.43551, 0.41354] 0.42452500000000004
+......VALUES: [' ', ' ', ' ', 32, 2048, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/573.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/573
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/573
+........................................ [0.517456, 0.355598, 0.353955]
+OUTPUT:%f [0.517456, 0.355598, 0.353955] 0.35477650000000005
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 96, 128, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1376.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1376
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1376
+........................................ [0.401157, 0.399099, 0.399045]
+OUTPUT:%f [0.401157, 0.399099, 0.399045] 0.399072
+......VALUES: [' ', ' ', ' ', 16, 32, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1613.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1613
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1613
+........................................ [0.414127, 0.41254, 0.412871]
+OUTPUT:%f [0.414127, 0.41254, 0.412871] 0.4127055
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 16, 128, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5811.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5811
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5811
+........................................ [0.376618, 0.37467, 0.374149]
+OUTPUT:%f [0.376618, 0.37467, 0.374149] 0.3744095
+......VALUES: [' ', ' ', ' ', 50, 100, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3880.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3880
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3880
+........................................ [0.413142, 0.409901, 0.40993]
+OUTPUT:%f [0.413142, 0.409901, 0.40993] 0.4099155
+......VALUES: [' ', ' ', ' ', 4, 4, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/286.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/286
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/286
+........................................ [0.450274, 0.601633, 0.457247]
+OUTPUT:%f [0.450274, 0.601633, 0.457247] 0.52944
+......VALUES: [' ', ' ', ' ', 16, 128, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/505.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/505
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/505
+........................................ [0.406036, 0.404279, 0.403896]
+OUTPUT:%f [0.406036, 0.404279, 0.403896] 0.4040875
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 16, 2048, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/260.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/260
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/260
+........................................ [0.353895, 0.352249, 0.35183]
+OUTPUT:%f [0.353895, 0.352249, 0.35183] 0.35203949999999995
+......VALUES: [' ', ' ', ' ', 80, 128, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5671.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5671
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5671
+........................................ [0.408077, 0.406223, 0.406067]
+OUTPUT:%f [0.408077, 0.406223, 0.406067] 0.406145
+......VALUES: [' ', ' ', ' ', 4, 80, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7934.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7934
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7934
+........................................ [0.435741, 0.446293, 0.420099]
+OUTPUT:%f [0.435741, 0.446293, 0.420099] 0.433196
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 16, 128, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7595.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7595
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7595
+........................................ [0.383931, 0.437301, 0.490663]
+OUTPUT:%f [0.383931, 0.437301, 0.490663] 0.463982
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 100, 32, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/2434.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/2434
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/2434
+........................................ [0.404063, 0.401914, 0.402777]
+OUTPUT:%f [0.404063, 0.401914, 0.402777] 0.4023455
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 80, 50, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1496.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1496
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1496
+........................................ [0.403242, 0.401965, 0.40098]
+OUTPUT:%f [0.403242, 0.401965, 0.40098] 0.4014725
+......VALUES: [' ', ' ', ' ', 4, 128, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3000.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3000
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3000
+........................................ [0.399174, 0.397178, 0.396415]
+OUTPUT:%f [0.399174, 0.397178, 0.396415] 0.3967965
+......VALUES: [' ', ' ', ' ', 80, 16, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1875.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1875
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1875
+........................................ [0.416798, 0.414897, 0.414962]
+OUTPUT:%f [0.416798, 0.414897, 0.414962] 0.4149295
+......VALUES: [' ', ' ', ' ', 128, 8, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/240.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/240
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/240
+........................................ [0.601643, 0.443455, 0.443295]
+OUTPUT:%f [0.601643, 0.443455, 0.443295] 0.44337499999999996
+......VALUES: [' ', ' ', ' ', 16, 80, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8243.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8243
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8243
+........................................ [0.39818, 0.395473, 0.395661]
+OUTPUT:%f [0.39818, 0.395473, 0.395661] 0.395567
+......VALUES: [' ', ' ', ' ', 16, 2048, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7975.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7975
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7975
+........................................ [0.355666, 0.353656, 0.353509]
+OUTPUT:%f [0.355666, 0.353656, 0.353509] 0.3535825
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 16, 80, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/4094.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/4094
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/4094
+........................................ [0.379758, 0.376308, 0.375674]
+OUTPUT:%f [0.379758, 0.376308, 0.375674] 0.37599099999999996
+......VALUES: [' ', ' ', ' ', 80, 2048, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1058.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1058
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1058
+........................................ [0.367538, 0.363213, 0.362956]
+OUTPUT:%f [0.367538, 0.363213, 0.362956] 0.36308450000000003
+......VALUES: [' ', ' ', ' ', 80, 100, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8866.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8866
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8866
+........................................ [0.371782, 0.374556, 0.373909]
+OUTPUT:%f [0.371782, 0.374556, 0.373909] 0.37423249999999997
+......VALUES: [' ', ' ', ' ', 4, 32, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7634.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7634
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7634
+........................................ [0.435025, 0.434071, 0.434334]
+OUTPUT:%f [0.435025, 0.434071, 0.434334] 0.4342025
+......VALUES: [' ', ' ', ' ', 4, 64, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1124.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1124
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1124
+........................................ [0.409205, 0.407333, 0.409524]
+OUTPUT:%f [0.409205, 0.407333, 0.409524] 0.40842849999999997
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 96, 128, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9855.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9855
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9855
+........................................ [0.397347, 0.395512, 0.395358]
+OUTPUT:%f [0.397347, 0.395512, 0.395358] 0.395435
+......VALUES: [' ', ' ', ' ', 4, 100, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1458.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1458
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1458
+........................................ [0.403074, 0.403585, 0.403274]
+OUTPUT:%f [0.403074, 0.403585, 0.403274] 0.4034295
+max_evals 30 number of refit 30 how much to train 0.3 seed 1234 target task xl
+time...now 1654137356.4350727
+----------------------------- how much data to use? 0.3
+  0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 30/30 [00:00<00:00, 441.08it/s]
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 4, 2048, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7221.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7221
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7221
+........................................ [3.345676, 3.309443, 3.311227]
+OUTPUT:%f [3.345676, 3.309443, 3.311227] 3.3103350000000002
+......VALUES: [' ', ' ', ' ', 128, 20, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1915.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1915
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1915
+........................................ [2.676424, 2.658013, 2.658889]
+OUTPUT:%f [2.676424, 2.658013, 2.658889] 2.658451
+......VALUES: [' ', ' ', ' ', 16, 128, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/123.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/123
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/123
+........................................ [2.360404, 2.342684, 2.3444]
+OUTPUT:%f [2.360404, 2.342684, 2.3444] 2.3435420000000002
+......VALUES: [' ', ' ', ' ', 80, 100, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1486.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1486
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1486
+........................................ [2.24567, 2.23107, 2.231778]
+OUTPUT:%f [2.24567, 2.23107, 2.231778] 2.2314239999999996
+......VALUES: [' ', ' ', ' ', 16, 2048, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9540.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9540
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9540
+........................................ [6.160001, 5.962678, 5.966819]
+OUTPUT:%f [6.160001, 5.962678, 5.966819] 5.964748500000001
+......VALUES: [' ', ' ', ' ', 50, 128, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/573.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/573
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/573
+........................................ [2.138665, 2.124611, 2.124408]
+OUTPUT:%f [2.138665, 2.124611, 2.124408] 2.1245095
+......VALUES: [' ', ' ', ' ', 100, 32, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1376.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1376
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1376
+........................................ [2.258997, 2.413615, 2.240675]
+OUTPUT:%f [2.258997, 2.413615, 2.240675] 2.327145
+......VALUES: [' ', ' ', ' ', 4, 100, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1613.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1613
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1613
+........................................ [3.731178, 3.70467, 3.702356]
+OUTPUT:%f [3.731178, 3.70467, 3.702356] 3.703513
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 16, 32, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5811.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5811
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5811
+........................................ [2.874523, 2.85419, 3.017097]
+OUTPUT:%f [2.874523, 2.85419, 3.017097] 2.9356435000000003
+......VALUES: [' ', ' ', ' ', 100, 20, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3880.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3880
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3880
+........................................ [2.646594, 2.641246, 2.636107]
+OUTPUT:%f [2.646594, 2.641246, 2.636107] 2.6386765
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 4, 8, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/286.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/286
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/286
+........................................ [10.051939, 9.754024, 9.828761]
+OUTPUT:%f [10.051939, 9.754024, 9.828761] 9.7913925
+......VALUES: [' ', ' ', ' ', 4, 32, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/505.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/505
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/505
+........................................ [5.89608, 6.000492, 5.829502]
+OUTPUT:%f [5.89608, 6.000492, 5.829502] 5.914997
+......VALUES: [' ', ' ', ' ', 4, 128, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/260.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/260
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/260
+........................................ [3.652449, 3.622546, 3.62122]
+OUTPUT:%f [3.652449, 3.622546, 3.62122] 3.621883
+......VALUES: [' ', ' ', ' ', 16, 32, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5671.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5671
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5671
+........................................ [4.208867, 4.373052, 4.370292]
+OUTPUT:%f [4.208867, 4.373052, 4.370292] 4.371672
+......VALUES: [' ', ' ', ' ', 4, 128, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7934.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7934
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7934
+........................................ [5.350627, 5.370243, 5.517359]
+OUTPUT:%f [5.350627, 5.370243, 5.517359] 5.443801000000001
+......VALUES: [' ', ' ', ' ', 4, 32, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7595.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7595
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7595
+........................................ [3.830126, 3.794623, 3.794794]
+OUTPUT:%f [3.830126, 3.794623, 3.794794] 3.7947085
+......VALUES: [' ', ' ', ' ', 80, 4, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/2434.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/2434
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/2434
+........................................ [5.461932, 5.588066, 5.435441]
+OUTPUT:%f [5.461932, 5.588066, 5.435441] 5.5117535
+......VALUES: [' ', ' ', ' ', 16, 2048, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1496.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1496
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1496
+........................................ [2.515603, 2.499958, 2.49771]
+OUTPUT:%f [2.515603, 2.499958, 2.49771] 2.498834
+......VALUES: [' ', ' ', ' ', 8, 16, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3000.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3000
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3000
+........................................ [3.774556, 3.917378, 3.750521]
+OUTPUT:%f [3.774556, 3.917378, 3.750521] 3.8339495
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 16, 32, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1875.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1875
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1875
+........................................ [2.639178, 2.619347, 2.616133]
+OUTPUT:%f [2.639178, 2.619347, 2.616133] 2.61774
+......VALUES: [' ', ' ', ' ', 96, 80, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/240.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/240
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/240
+........................................ [2.154077, 2.141203, 2.141857]
+OUTPUT:%f [2.154077, 2.141203, 2.141857] 2.14153
+......VALUES: [' ', ' ', ' ', 4, 16, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8243.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8243
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8243
+........................................ [5.768685, 5.740604, 5.741714]
+OUTPUT:%f [5.768685, 5.740604, 5.741714] 5.741159
+......VALUES: [' ', ' ', ' ', 4, 128, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7975.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7975
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7975
+........................................ [5.553581, 5.378034, 5.375683]
+OUTPUT:%f [5.553581, 5.378034, 5.375683] 5.376858500000001
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 16, 128, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/4094.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/4094
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/4094
+........................................ [2.445349, 2.425852, 2.429334]
+OUTPUT:%f [2.445349, 2.425852, 2.429334] 2.427593
+......VALUES: [' ', ' ', ' ', 80, 128, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1058.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1058
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1058
+........................................ [2.173265, 2.328766, 2.167165]
+OUTPUT:%f [2.173265, 2.328766, 2.167165] 2.2479655
+......VALUES: [' ', ' ', ' ', 16, 50, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8866.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8866
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8866
+........................................ [3.52779, 3.50863, 3.502673]
+OUTPUT:%f [3.52779, 3.50863, 3.502673] 3.5056515
+......VALUES: [' ', ' ', ' ', 4, 100, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7634.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7634
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7634
+........................................ [3.727747, 3.850547, 3.691125]
+OUTPUT:%f [3.727747, 3.850547, 3.691125] 3.770836
+......VALUES: [' ', ' ', ' ', 8, 80, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1124.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1124
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1124
+........................................ [3.07402, 3.05194, 3.051837]
+OUTPUT:%f [3.07402, 3.05194, 3.051837] 3.0518885
+......VALUES: [' ', ' ', ' ', 100, 32, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9855.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9855
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9855
+........................................ [2.37892, 2.361247, 2.364469]
+OUTPUT:%f [2.37892, 2.361247, 2.364469] 2.362858
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 20, 64, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1458.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1458
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1458
+........................................ [2.546881, 2.534741, 2.531134]
+OUTPUT:%f [2.546881, 2.534741, 2.531134] 2.5329375
+max_evals 30 number of refit 5 how much to train 0.3 seed 1234 target task sm
+time...now 1654137895.1281302
+----------------------------- how much data to use? 0.3
+  0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 30/30 [00:00<00:00, 433.44it/s]
+......VALUES: [' ', ' ', ' ', 16, 100, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7221.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7221
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7221
+........................................ [0.004386, 0.004146, 0.004123]
+OUTPUT:%f [0.004386, 0.004146, 0.004123] 0.0041345
+......VALUES: [' ', ' ', ' ', 4, 32, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1915.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1915
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1915
+........................................ [0.004755, 0.004508, 0.004502]
+OUTPUT:%f [0.004755, 0.004508, 0.004502] 0.004505
+......VALUES: [' ', ' ', ' ', 100, 8, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/123.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/123
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/123
+........................................ [0.004694, 0.004234, 0.004213]
+OUTPUT:%f [0.004694, 0.004234, 0.004213] 0.0042235
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 50, 16, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1486.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1486
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1486
+........................................ [0.005058, 0.004463, 0.004441]
+OUTPUT:%f [0.005058, 0.004463, 0.004441] 0.004451999999999999
+......VALUES: [' ', ' ', ' ', 100, 100, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9540.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9540
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9540
+........................................ [0.004927, 0.004187, 0.004312]
+OUTPUT:%f [0.004927, 0.004187, 0.004312] 0.0042495
+  0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 30/30 [00:00<00:00, 542.44it/s]
+......VALUES: [' ', ' ', ' ', 4, 128, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/573.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/573
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/573
+........................................ [0.004406, 0.00419, 0.004169]
+OUTPUT:%f [0.004406, 0.00419, 0.004169] 0.0041795
+......VALUES: [' ', ' ', ' ', 100, 32, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1376.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1376
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1376
+........................................ [0.004824, 0.004557, 0.004428]
+OUTPUT:%f [0.004824, 0.004557, 0.004428] 0.0044925
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 4, 32, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1613.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1613
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1613
+........................................ [0.004844, 0.004622, 0.004595]
+OUTPUT:%f [0.004844, 0.004622, 0.004595] 0.0046085
+......VALUES: [' ', ' ', ' ', 16, 2048, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5811.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5811
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5811
+........................................ [0.004099, 0.003856, 0.003822]
+OUTPUT:%f [0.004099, 0.003856, 0.003822] 0.003839
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 4, 128, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3880.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3880
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3880
+........................................ [0.004064, 0.003682, 0.003683]
+OUTPUT:%f [0.004064, 0.003682, 0.003683] 0.0036825
+  0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 30/30 [00:00<00:00, 551.03it/s]
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 80, 32, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/286.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/286
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/286
+........................................ [0.004849, 0.018952, 0.011714]
+OUTPUT:%f [0.004849, 0.018952, 0.011714] 0.015333
+......VALUES: [' ', '#pragma clang loop(i1) pack array(B) allocate(malloc)', ' ', 100, 80, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/505.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/505
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/505
+........................................ [0.004085, 0.003748, 0.003756]
+OUTPUT:%f [0.004085, 0.003748, 0.003756] 0.003752
+......VALUES: [' ', ' ', ' ', 128, 8, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/260.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/260
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/260
+........................................ [0.005121, 0.004559, 0.004551]
+OUTPUT:%f [0.005121, 0.004559, 0.004551] 0.004555
+......VALUES: [' ', ' ', ' ', 80, 128, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5671.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5671
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5671
+........................................ [0.004343, 0.004083, 0.00405]
+OUTPUT:%f [0.004343, 0.004083, 0.00405] 0.0040665
+......VALUES: [' ', ' ', ' ', 100, 128, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7934.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7934
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7934
+........................................ [0.004293, 0.003999, 0.003986]
+OUTPUT:%f [0.004293, 0.003999, 0.003986] 0.0039924999999999995
+  0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 30/30 [00:00<00:00, 540.84it/s]
+......VALUES: [' ', ' ', ' ', 16, 100, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7595.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7595
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7595
+........................................ [0.003946, 0.003672, 0.003672]
+OUTPUT:%f [0.003946, 0.003672, 0.003672] 0.003672
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 100, 32, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/2434.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/2434
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/2434
+........................................ [0.004891, 0.004468, 0.004436]
+OUTPUT:%f [0.004891, 0.004468, 0.004436] 0.004451999999999999
+......VALUES: [' ', ' ', ' ', 4, 64, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1496.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1496
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1496
+........................................ [0.004639, 0.004353, 0.004332]
+OUTPUT:%f [0.004639, 0.004353, 0.004332] 0.0043425
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 16, 20, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3000.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3000
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3000
+........................................ [0.00492, 0.004567, 0.004526]
+OUTPUT:%f [0.00492, 0.004567, 0.004526] 0.0045465
+......VALUES: [' ', ' ', ' ', 100, 32, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1875.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1875
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1875
+........................................ [0.004838, 0.004427, 0.004401]
+OUTPUT:%f [0.004838, 0.004427, 0.004401] 0.004414
+  0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 30/30 [00:00<00:00, 548.55it/s]
+......VALUES: [' ', ' ', ' ', 128, 16, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/240.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/240
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/240
+........................................ [0.004974, 0.00441, 0.004306]
+OUTPUT:%f [0.004974, 0.00441, 0.004306] 0.004358
+......VALUES: [' ', ' ', ' ', 16, 16, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8243.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8243
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8243
+........................................ [0.004216, 0.003932, 0.003928]
+OUTPUT:%f [0.004216, 0.003932, 0.003928] 0.0039299999999999995
+......VALUES: [' ', ' ', ' ', 100, 100, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7975.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7975
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7975
+........................................ [0.004611, 0.004186, 0.004194]
+OUTPUT:%f [0.004611, 0.004186, 0.004194] 0.004189999999999999
+......VALUES: [' ', ' ', ' ', 16, 16, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/4094.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/4094
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/4094
+........................................ [0.004876, 0.004651, 0.004627]
+OUTPUT:%f [0.004876, 0.004651, 0.004627] 0.004639
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 16, 128, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1058.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1058
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1058
+........................................ [0.004181, 0.003997, 0.003963]
+OUTPUT:%f [0.004181, 0.003997, 0.003963] 0.00398
+  0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 30/30 [00:00<00:00, 265.73it/s]Sampling conditions: 100%|██████████| 30/30 [00:00<00:00, 261.31it/s]
+......VALUES: [' ', ' ', ' ', 80, 32, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8866.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8866
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8866
+........................................ [0.004558, 0.004264, 0.004249]
+OUTPUT:%f [0.004558, 0.004264, 0.004249] 0.0042565
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', '#pragma clang loop(i1) pack array(B) allocate(malloc)', ' ', 16, 32, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7634.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7634
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7634
+........................................ [0.00473, 0.00441, 0.004417]
+OUTPUT:%f [0.00473, 0.00441, 0.004417] 0.0044135
+......VALUES: [' ', ' ', ' ', 16, 32, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1124.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1124
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1124
+........................................ [0.004678, 0.004431, 0.00441]
+OUTPUT:%f [0.004678, 0.004431, 0.00441] 0.0044205
+......VALUES: [' ', ' ', ' ', 100, 128, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9855.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9855
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9855
+........................................ [0.004291, 0.004012, 0.003984]
+OUTPUT:%f [0.004291, 0.004012, 0.003984] 0.003998
+......VALUES: [' ', ' ', ' ', 16, 32, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DSM_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1458.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DSM_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1458
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1458
+........................................ [0.004698, 0.004462, 0.004422]
+OUTPUT:%f [0.004698, 0.004462, 0.004422] 0.004442
+max_evals 30 number of refit 5 how much to train 0.3 seed 1234 target task ml
+time...now 1654138122.4592156
+----------------------------- how much data to use? 0.3
+  0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 30/30 [00:00<00:00, 367.86it/s]
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 4, 50, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7221.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7221
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7221
+........................................ [0.401831, 0.402205, 0.401343]
+OUTPUT:%f [0.401831, 0.402205, 0.401343] 0.40177399999999996
+......VALUES: [' ', ' ', ' ', 8, 100, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1915.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1915
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1915
+........................................ [0.392811, 0.390813, 0.390805]
+OUTPUT:%f [0.392811, 0.390813, 0.390805] 0.390809
+......VALUES: [' ', ' ', ' ', 80, 80, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/123.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/123
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/123
+........................................ [0.415669, 0.413732, 0.414267]
+OUTPUT:%f [0.415669, 0.413732, 0.414267] 0.41399949999999996
+......VALUES: [' ', ' ', ' ', 96, 32, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1486.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1486
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1486
+........................................ [0.413203, 0.411333, 0.410697]
+OUTPUT:%f [0.413203, 0.411333, 0.410697] 0.411015
+......VALUES: [' ', ' ', ' ', 80, 50, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9540.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9540
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9540
+........................................ [0.416169, 0.412611, 0.412402]
+OUTPUT:%f [0.416169, 0.412611, 0.412402] 0.4125065
+  0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 30/30 [00:00<00:00, 540.63it/s]
+......VALUES: [' ', ' ', ' ', 80, 100, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/573.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/573
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/573
+........................................ [0.385198, 0.383718, 0.383604]
+OUTPUT:%f [0.385198, 0.383718, 0.383604] 0.38366100000000003
+......VALUES: [' ', '#pragma clang loop(i1) pack array(B) allocate(malloc)', ' ', 16, 128, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1376.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1376
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1376
+........................................ [0.426141, 0.426406, 0.422362]
+OUTPUT:%f [0.426141, 0.426406, 0.422362] 0.424384
+......VALUES: [' ', ' ', ' ', 16, 32, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1613.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1613
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1613
+........................................ [0.412854, 0.410403, 0.410261]
+OUTPUT:%f [0.412854, 0.410403, 0.410261] 0.41033200000000003
+......VALUES: [' ', ' ', ' ', 16, 128, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5811.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5811
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5811
+........................................ [0.3937, 0.391426, 0.391363]
+OUTPUT:%f [0.3937, 0.391426, 0.391363] 0.3913945
+......VALUES: [' ', ' ', ' ', 50, 32, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3880.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3880
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3880
+........................................ [0.419124, 0.416062, 0.416329]
+OUTPUT:%f [0.419124, 0.416062, 0.416329] 0.4161955
+  0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 30/30 [00:00<00:00, 485.50it/s]
+......VALUES: [' ', ' ', ' ', 100, 128, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/286.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/286
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/286
+........................................ [0.384645, 0.381586, 0.380811]
+OUTPUT:%f [0.384645, 0.381586, 0.380811] 0.3811985
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 96, 100, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/505.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/505
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/505
+........................................ [0.501508, 0.499774, 0.498976]
+OUTPUT:%f [0.501508, 0.499774, 0.498976] 0.499375
+......VALUES: [' ', ' ', ' ', 100, 50, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/260.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/260
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/260
+........................................ [0.412747, 0.410649, 0.410487]
+OUTPUT:%f [0.412747, 0.410649, 0.410487] 0.410568
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 100, 128, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5671.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5671
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5671
+........................................ [0.396592, 0.394933, 0.394812]
+OUTPUT:%f [0.396592, 0.394933, 0.394812] 0.39487249999999996
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 100, 16, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7934.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7934
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7934
+........................................ [0.430672, 0.428519, 0.428744]
+OUTPUT:%f [0.430672, 0.428519, 0.428744] 0.4286315
+  0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 30/30 [00:00<00:00, 536.63it/s]
+......VALUES: [' ', ' ', ' ', 4, 32, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7595.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7595
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7595
+........................................ [0.422677, 0.424276, 0.421943]
+OUTPUT:%f [0.422677, 0.424276, 0.421943] 0.4231095
+......VALUES: [' ', ' ', ' ', 80, 32, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/2434.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/2434
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/2434
+........................................ [0.401934, 0.398477, 0.39811]
+OUTPUT:%f [0.401934, 0.398477, 0.39811] 0.3982935
+......VALUES: [' ', ' ', ' ', 96, 16, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1496.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1496
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1496
+........................................ [0.423304, 0.421348, 0.421251]
+OUTPUT:%f [0.423304, 0.421348, 0.421251] 0.4212995
+......VALUES: [' ', ' ', ' ', 4, 32, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3000.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3000
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3000
+........................................ [0.423208, 0.423252, 0.42309]
+OUTPUT:%f [0.423208, 0.423252, 0.42309] 0.423171
+......VALUES: [' ', ' ', ' ', 20, 64, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1875.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1875
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1875
+........................................ [0.401702, 0.399904, 0.399524]
+OUTPUT:%f [0.401702, 0.399904, 0.399524] 0.399714
+  0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 30/30 [00:00<00:00, 484.12it/s]
+......VALUES: [' ', ' ', ' ', 4, 16, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/240.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/240
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/240
+........................................ [0.431304, 0.431767, 0.431318]
+OUTPUT:%f [0.431304, 0.431767, 0.431318] 0.4315425
+......VALUES: [' ', ' ', ' ', 80, 32, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8243.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8243
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8243
+........................................ [0.424153, 0.421592, 0.42128]
+OUTPUT:%f [0.424153, 0.421592, 0.42128] 0.42143600000000003
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 80, 128, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7975.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7975
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7975
+........................................ [0.380246, 0.378532, 0.378672]
+OUTPUT:%f [0.380246, 0.378532, 0.378672] 0.378602
+......VALUES: [' ', ' ', ' ', 4, 16, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/4094.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/4094
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/4094
+........................................ [0.409065, 0.413033, 0.412381]
+OUTPUT:%f [0.409065, 0.413033, 0.412381] 0.412707
+......VALUES: [' ', ' ', ' ', 4, 2048, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1058.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1058
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1058
+........................................ [0.356513, 0.35424, 0.354227]
+OUTPUT:%f [0.356513, 0.35424, 0.354227] 0.3542335
+  0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 30/30 [00:00<00:00, 263.65it/s]Sampling conditions: 100%|██████████| 30/30 [00:00<00:00, 259.34it/s]
+......VALUES: [' ', ' ', ' ', 100, 80, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8866.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8866
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8866
+........................................ [0.40507, 0.403002, 0.403011]
+OUTPUT:%f [0.40507, 0.403002, 0.403011] 0.40300650000000005
+......VALUES: [' ', ' ', ' ', 100, 100, 4, ' ', '#pragma clang loop(i1) pack array(D) allocate(malloc)', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7634.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7634
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7634
+........................................ [0.387821, 0.38553, 0.38511]
+OUTPUT:%f [0.387821, 0.38553, 0.38511] 0.38532
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 16, 100, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1124.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1124
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1124
+........................................ [0.392884, 0.390128, 0.389491]
+OUTPUT:%f [0.392884, 0.390128, 0.389491] 0.3898095
+......VALUES: [' ', ' ', ' ', 100, 16, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9855.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9855
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9855
+........................................ [0.425814, 0.423309, 0.423073]
+OUTPUT:%f [0.425814, 0.423309, 0.423073] 0.423191
+......VALUES: [' ', ' ', ' ', 80, 16, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DML_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1458.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DML_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1458
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1458
+........................................ [0.427082, 0.411995, 0.411886]
+OUTPUT:%f [0.427082, 0.411995, 0.411886] 0.4119405
+max_evals 30 number of refit 5 how much to train 0.3 seed 1234 target task xl
+time...now 1654138356.2156324
+----------------------------- how much data to use? 0.3
+  0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 30/30 [00:00<00:00, 523.89it/s]
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 4, 2048, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7221.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7221
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7221
+........................................ [3.32895, 3.299866, 3.30081]
+OUTPUT:%f [3.32895, 3.299866, 3.30081] 3.300338
+......VALUES: [' ', ' ', ' ', 128, 20, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1915.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1915
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1915
+........................................ [2.689745, 2.665523, 2.670583]
+OUTPUT:%f [2.689745, 2.665523, 2.670583] 2.668053
+......VALUES: [' ', ' ', ' ', 16, 128, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/123.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/123
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/123
+........................................ [2.359099, 2.340843, 2.341614]
+OUTPUT:%f [2.359099, 2.340843, 2.341614] 2.3412284999999997
+......VALUES: [' ', ' ', ' ', 80, 100, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1486.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1486
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1486
+........................................ [2.243989, 2.228524, 2.22869]
+OUTPUT:%f [2.243989, 2.228524, 2.22869] 2.2286070000000002
+......VALUES: [' ', ' ', ' ', 16, 2048, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9540.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9540
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9540
+........................................ [5.017263, 5.260877, 5.108904]
+OUTPUT:%f [5.017263, 5.260877, 5.108904] 5.1848905
+  0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 30/30 [00:00<00:00, 543.05it/s]
+......VALUES: [' ', ' ', ' ', 100, 16, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/573.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/573
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/573
+........................................ [2.400318, 2.393592, 2.390135]
+OUTPUT:%f [2.400318, 2.393592, 2.390135] 2.3918635
+......VALUES: [' ', ' ', ' ', 20, 80, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1376.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1376
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1376
+........................................ [2.387487, 2.369088, 2.5195]
+OUTPUT:%f [2.387487, 2.369088, 2.5195] 2.444294
+......VALUES: [' ', ' ', ' ', 16, 16, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1613.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1613
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1613
+........................................ [2.913379, 2.89571, 2.896212]
+OUTPUT:%f [2.913379, 2.89571, 2.896212] 2.895961
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', '#pragma clang loop(i1) pack array(B) allocate(malloc)', ' ', 16, 32, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5811.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5811
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5811
+........................................ [4.396433, 4.566686, 4.718643]
+OUTPUT:%f [4.396433, 4.566686, 4.718643] 4.6426645
+......VALUES: [' ', ' ', ' ', 4, 128, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3880.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3880
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3880
+........................................ [3.605134, 3.575103, 3.572832]
+OUTPUT:%f [3.605134, 3.575103, 3.572832] 3.5739675
+  0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 30/30 [00:00<00:00, 451.98it/s]
+......VALUES: [' ', ' ', ' ', 16, 16, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/286.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/286
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/286
+........................................ [2.917771, 3.049753, 2.898468]
+OUTPUT:%f [2.917771, 3.049753, 2.898468] 2.9741105
+......VALUES: [' ', ' ', ' ', 100, 4, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/505.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/505
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/505
+........................................ [5.114217, 5.086916, 5.090784]
+OUTPUT:%f [5.114217, 5.086916, 5.090784] 5.088850000000001
+......VALUES: [' ', ' ', ' ', 96, 16, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/260.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/260
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/260
+........................................ [2.429281, 2.496824, 2.491406]
+OUTPUT:%f [2.429281, 2.496824, 2.491406] 2.494115
+......VALUES: [' ', ' ', ' ', 16, 128, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5671.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5671
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/5671
+........................................ [2.35041, 2.33564, 2.33594]
+OUTPUT:%f [2.35041, 2.33564, 2.33594] 2.3357900000000003
+......VALUES: [' ', ' ', ' ', 100, 100, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7934.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7934
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7934
+........................................ [2.133027, 2.119913, 2.123377]
+OUTPUT:%f [2.133027, 2.119913, 2.123377] 2.121645
+  0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 30/30 [00:00<00:00, 546.43it/s]
+......VALUES: [' ', ' ', ' ', 16, 128, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7595.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7595
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7595
+........................................ [4.307084, 4.307062, 4.297509]
+OUTPUT:%f [4.307084, 4.307062, 4.297509] 4.3022855
+......VALUES: [' ', ' ', ' ', 80, 16, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/2434.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/2434
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/2434
+........................................ [4.008021, 3.993838, 3.974299]
+OUTPUT:%f [4.008021, 3.993838, 3.974299] 3.9840685000000002
+......VALUES: [' ', ' ', ' ', 16, 20, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1496.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1496
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1496
+........................................ [3.009942, 2.984122, 2.981752]
+OUTPUT:%f [3.009942, 2.984122, 2.981752] 2.982937
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 32, 16, 4, ' ', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3000.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3000
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/3000
+........................................ [4.536821, 4.508974, 4.502255]
+OUTPUT:%f [4.536821, 4.508974, 4.502255] 4.5056145
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 4, 100, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1875.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1875
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1875
+........................................ [3.714724, 3.681416, 3.681051]
+OUTPUT:%f [3.714724, 3.681416, 3.681051] 3.6812335000000003
+  0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 30/30 [00:00<00:00, 543.97it/s]
+......VALUES: [' ', ' ', ' ', 80, 100, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/240.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/240
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/240
+........................................ [2.070922, 2.056717, 2.057817]
+OUTPUT:%f [2.070922, 2.056717, 2.057817] 2.057267
+......VALUES: [' ', ' ', ' ', 100, 2048, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8243.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8243
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8243
+........................................ [5.394909, 5.418812, 5.415899]
+OUTPUT:%f [5.394909, 5.418812, 5.415899] 5.417355499999999
+......VALUES: [' ', ' ', ' ', 100, 80, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7975.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7975
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7975
+........................................ [2.148685, 2.135231, 2.134991]
+OUTPUT:%f [2.148685, 2.135231, 2.134991] 2.135111
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 4, 16, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/4094.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/4094
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/4094
+........................................ [5.718155, 5.689052, 5.690446]
+OUTPUT:%f [5.718155, 5.689052, 5.690446] 5.689749
+......VALUES: [' ', ' ', ' ', 16, 128, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1058.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1058
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1058
+........................................ [4.381775, 4.516531, 4.346843]
+OUTPUT:%f [4.381775, 4.516531, 4.346843] 4.431687
+  0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/30 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 30/30 [00:00<00:00, 259.01it/s]Sampling conditions: 100%|██████████| 30/30 [00:00<00:00, 254.87it/s]
+......VALUES: [' ', ' ', ' ', 16, 16, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', '#pragma clang loop(i1) pack array(F) allocate(malloc)']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8866.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8866
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/8866
+........................................ [4.453035, 4.450541, 4.449224]
+OUTPUT:%f [4.453035, 4.450541, 4.449224] 4.4498825
+......VALUES: [' ', '#pragma clang loop(i1) pack array(B) allocate(malloc)', ' ', 96, 100, 4, ' ', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7634.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7634
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/7634
+........................................ [3.751326, 3.847232, 3.843597]
+OUTPUT:%f [3.751326, 3.847232, 3.843597] 3.8454145
+......VALUES: [' ', ' ', ' ', 16, 128, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1124.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1124
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1124
+........................................ [2.383891, 2.366565, 2.368479]
+OUTPUT:%f [2.383891, 2.366565, 2.368479] 2.367522
+......VALUES: [' ', ' ', '#pragma clang loop(i1,j1,k1,i2,j2) interchange permutation(j1,k1,i1,j2,i2)', 16, 8, 4, '#pragma clang loop(j2) pack array(C) allocate(malloc)', ' ', ' ', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9855.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9855
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/9855
+........................................ [13.944327, 13.77686, 13.932137]
+OUTPUT:%f [13.944327, 13.77686, 13.932137] 13.8544985
+......VALUES: ['#pragma clang loop(j2) pack array(A) allocate(malloc)', ' ', ' ', 100, 8, 4, ' ', ' ', '#pragma clang loop(j2) pack array(E) allocate(malloc)', ' ']
+......params: ['P0', 'P1', 'P2', 'P3', 'P4', 'P5', 'P6', 'P7', 'P8', 'P9']
+......d_size:  -DEXTRALARGE_DATASET
+clang /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1458.c /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/polybench.c -I/lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target  -DEXTRALARGE_DATASET -DPOLYBENCH_TIME -std=c99 -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1458
+srun -n 1 /lcrc/project/EE-ECP/jkoo/code/ytopt/ytopt/benchmark/3mm_exp/3mm_target/tmp_files/1458
+........................................ [5.444067, 5.431267, 5.431319]
+OUTPUT:%f [5.444067, 5.431267, 5.431319] 5.431293

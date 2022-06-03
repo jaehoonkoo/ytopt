@@ -113,7 +113,7 @@ def myobj(point: dict):
 #### selet by best top x%   
 X_opt    = []
 cutoff_p = TOP
-print (f"----------------------------- how much data to use?{cutoff_p}") 
+print (f"----------------------------- how much data to use? {cutoff_p}") 
 frames = []
 
 for i_size in ['s','m','l']:
@@ -165,7 +165,7 @@ with open(filename, 'w') as csvfile:
         # update model
         model.fit(real_data)
 #         ss1 = model.sample(max(1000,Max_evals))#,conditions=conditions)
-        condition = Condition(conditions, num_rows=min(1,Max_evals))
+        condition = Condition(conditions, num_rows=min(1000,Max_evals))
         ss1 = model.sample_conditions(conditions=[condition])
         ss  = ss1.sort_values(by='runtime')#, ascending=False)
         new_sdv = ss[:Max_evals]
