@@ -1,0 +1,23 @@
+Uncaught exception <class 'ModuleNotFoundError'>: No module named 'problem_all'Traceback (most recent call last):
+  File "/home/jkoo/anaconda3/envs/ytune/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/jkoo/anaconda3/envs/ytune/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/gpfs/jlse-fs0/users/jkoo/github/ytune/ytopt/ytopt/search/ambs.py", line 129, in <module>
+    search = AMBS(**vars(args))
+  File "/gpfs/jlse-fs0/users/jkoo/github/ytune/ytopt/ytopt/search/ambs.py", line 45, in __init__
+    super().__init__(**kwargs)
+  File "/gpfs/jlse-fs0/users/jkoo/github/ytune/ytopt/ytopt/search/search.py", line 38, in __init__
+    self.problem = util.generic_loader(problem, 'Problem')
+  File "/gpfs/jlse-fs0/users/jkoo/github/ytune/ytopt/ytopt/search/util.py", line 125, in generic_loader
+    return load_attr_from(target)
+  File "/gpfs/jlse-fs0/users/jkoo/github/ytune/ytopt/ytopt/search/util.py", line 100, in load_attr_from
+    module = import_module(str_module)
+  File "/home/jkoo/anaconda3/envs/ytune/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'problem_all'
+mv: cannot stat 'results.csv': No such file or directory
+mv: cannot stat 'exe_times.npy': No such file or directory

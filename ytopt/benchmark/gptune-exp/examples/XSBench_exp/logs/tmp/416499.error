@@ -1,0 +1,318 @@
+/home/jkoo/.bashrc: line 146: module: command not found
+loading depenency llvm module
+loading depenency cuda module
+
+Loading openmpi/4.1.1-llvm
+  Loading requirement: cuda/11.0.2 llvm/release-13.0.1
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+/home/jkoo/anaconda3/envs/ytune/lib/python3.7/site-packages/sklearn/utils/deprecation.py:143: FutureWarning: The sklearn.neighbors.kde module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.neighbors. Anything that cannot be imported from sklearn.neighbors is now part of the private API.
+  warnings.warn(message, FutureWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The number of calls to function has reached maxfev = 600.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/optimize.py:283: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  "minimize step, clipping to bounds", RuntimeWarning)

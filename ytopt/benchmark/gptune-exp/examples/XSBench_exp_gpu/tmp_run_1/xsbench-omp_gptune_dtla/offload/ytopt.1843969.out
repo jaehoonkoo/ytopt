@@ -1,0 +1,32 @@
+[2m[36m(compute_objective pid=3703499)[0m VALUES: 16
+[2m[36m(compute_objective pid=3703499)[0m OUTPUT:%f 68.927
+[2m[36m(compute_objective pid=3703499)[0m VALUES: 8
+[2m[36m(compute_objective pid=3703499)[0m OUTPUT:%f 67.511
+[2m[36m(compute_objective pid=3703499)[0m VALUES: 8
+[2m[36m(compute_objective pid=3703499)[0m OUTPUT:%f 67.262
+[2m[36m(compute_objective pid=3703499)[0m VALUES: 16
+[2m[36m(compute_objective pid=3703499)[0m OUTPUT:%f 67.23
+[2m[36m(compute_objective pid=3703499)[0m VALUES: 42
+[2m[36m(compute_objective pid=3703499)[0m OUTPUT:%f 67.336
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch5>
+Subject: Job 1843969: <ytopt> in cluster <summit> Done
+
+Job <ytopt> was submitted from host <login1> by user <wuxf> in cluster <summit> at Fri Feb 11 10:30:35 2022
+Job was executed on host(s) <1*batch5>, in queue <batch>, as user <wuxf> in cluster <summit> at Fri Feb 11 10:40:03 2022
+                            <42*h32n08>
+</ccs/home/wuxf> was used as the home directory.
+</ccs/home/wuxf/flashx/ytopt/xsbench-omp/offload> was used as the working directory.
+Started at Fri Feb 11 10:40:03 2022
+Terminated at Fri Feb 11 10:46:42 2022
+Results reported at Fri Feb 11 10:46:42 2022
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <ytopt.1843969.err> for stderr output of this job.
+

@@ -1,0 +1,15 @@
+import pandas as pd 
+dat = pd.read_csv('./results_rf_s_covariance.csv')
+
+cols = ['p1', 'p2']             ## xsbench cpu
+for col in cols:
+    dat[col] = dat[col].astype('category')
+for col in cols:
+    dat[col] = dat[col].cat.codes      
+    
+    
+dat.corr()
+cor = dat.corr()
+
+for idx, row in cor['objective'].iterrows():
+    print(row.

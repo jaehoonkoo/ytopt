@@ -1,0 +1,25 @@
+Jobid: 402478
+qsub -I -t 360 -n 1 -q skylake_8180
+Fri Dec 17 19:49:32 2021 +0000 (UTC) submitted with cwd set to: /gpfs/jlse-fs0/users/jkoo/code/kde/Benchmarks/RSBench_exp/logs
+jobid 402478 submitted from terminal /dev/pts/34
+Fri Dec 17 19:49:50 2021 +0000 (UTC) 
+Fri Dec 17 19:49:50 2021 +0000 (UTC) Command: '/usr/bin/ssh' 'skylake03' '/usr/libexec/cobalt/cobalt-launcher.py' '--nf' '/var/tmp/cobalt.402478' '--jobid' '402478' '--cwd' '/gpfs/jlse-fs0/users/jkoo/code/kde/Benchmarks/RSBench_exp/logs' '--env' 'COBALT_JOBID=402478' '/bin/sleep' '21600'
+Fri Dec 17 19:49:50 2021 +0000 (UTC) 
+Fri Dec 17 19:49:50 2021 +0000 (UTC) Environment:
+Fri Dec 17 19:49:50 2021 +0000 (UTC) SHELL=/bin/bash
+Fri Dec 17 19:49:50 2021 +0000 (UTC) COBALT_NODEFILE=/tmp/tmpzevmpJ
+Fri Dec 17 19:49:50 2021 +0000 (UTC) COBALT_PARTNAME=skylake03
+Fri Dec 17 19:49:50 2021 +0000 (UTC) COBALT_JOBID=402478
+Fri Dec 17 19:49:50 2021 +0000 (UTC) COBALT_STARTTIME=1639770574
+Fri Dec 17 19:49:50 2021 +0000 (UTC) LOGNAME=jkoo
+Fri Dec 17 19:49:50 2021 +0000 (UTC) USER=jkoo
+Fri Dec 17 19:49:50 2021 +0000 (UTC) COBALT_ENDTIME=1639792174
+Fri Dec 17 19:49:50 2021 +0000 (UTC) COBALT_PARTSIZE=1
+Fri Dec 17 19:49:50 2021 +0000 (UTC) HOME=/home/jkoo
+Fri Dec 17 19:49:50 2021 +0000 (UTC) COBALT_JOBSIZE=1
+Fri Dec 17 19:49:50 2021 +0000 (UTC) 
+Fri Dec 17 19:49:50 2021 +0000 (UTC) Info: stdin received from /dev/null
+Fri Dec 17 19:49:50 2021 +0000 (UTC) Info: stdout sent to /gpfs/jlse-fs0/users/jkoo/code/kde/Benchmarks/RSBench_exp/logs/402478.output
+Fri Dec 17 19:49:50 2021 +0000 (UTC) Info: stderr sent to /gpfs/jlse-fs0/users/jkoo/code/kde/Benchmarks/RSBench_exp/logs/402478.error
+Fri Dec 17 19:49:50 2021 +0000 (UTC) 
+Fri Dec 17 19:50:59 2021 +0000 (UTC) Info: user delete requested with signal SIGTERM by user jkoo

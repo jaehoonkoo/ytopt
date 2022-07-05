@@ -1,0 +1,932 @@
+time...now 1645231701.5399003
+machine: skylake processor: intel num_nodes: 1 num_cores: 56
+
+
+------Validating the options
+  
+  total core counts provided to GPTune: 56
+   ---> distributed_memory_parallelism: False
+   ---> shared_memory_parallelism: False
+   ---> objective_evaluation_parallelism: False
+  
+  total core counts for modeling: 2
+   ---> model_processes: 1
+   ---> model_threads: 1
+   ---> model_restart_processes: 1
+   ---> model_restart_threads: 1
+  
+  total core counts for search: 1
+   ---> search_processes: 1
+   ---> search_threads: 1
+   ---> search_multitask_processes: 1
+   ---> search_multitask_threads: 1
+  
+  total core counts for objective function evaluation: 2
+   ---> core counts in a single application run: 1
+   ---> objective_multisample_processes: 1
+   ---> objective_multisample_threads: 1
+problem size is l [[5000000]]
+[[5000000]]
+GPTune History Database Init
+[HistoryDB] use filelock for synchronization
+[HistoryDB] Create a JSON file at ./gptune.db/rsbench.json
+
+
+
+------Starting MLA with HistoryDB with 1 tasks and 200 samples each 
+[HistoryDB] Found a history database file
+no history data has been loaded
+VALUES: {'p0': '4', 'p1': '400', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '8', 'p5': '32', 'p6': '20', 'p7': 'balanced', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8112.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8112 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8112 -s large -m event -l 5000000
+........................................ [66.1757, 66.38125, 66.19686]
+OUTPUT:%f [66.1757, 66.38125, 66.19686] 66.28905499999999
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '4', 'p1': '400', 'p2': ' ', 'p3': ' ', 'p4': '4', 'p5': '2', 'p6': '128', 'p7': 'disabled', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/780.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/780 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/780 -s large -m event -l 5000000
+........................................ [66.07994, 66.06995, 66.02053]
+OUTPUT:%f [66.07994, 66.06995, 66.02053] 66.04524
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '7', 'p1': '640', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '8', 'p5': '4', 'p6': '80', 'p7': 'none', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1972.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1972 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1972 -s large -m event -l 5000000
+........................................ [65.69606, 65.6822, 65.80907]
+OUTPUT:%f [65.69606, 65.6822, 65.80907] 65.745635
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '7', 'p1': '800', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '32', 'p5': '2', 'p6': '64', 'p7': 'disabled', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/342.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/342 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/342 -s large -m event -l 5000000
+........................................ [65.70519, 65.79047, 65.80903]
+OUTPUT:%f [65.70519, 65.79047, 65.80903] 65.79975
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '4', 'p1': '800', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '96', 'p5': '2', 'p6': '160', 'p7': 'scatter', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5289.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5289 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5289 -s large -m event -l 5000000
+........................................ [65.75829, 65.77525, 65.78553]
+OUTPUT:%f [65.75829, 65.77525, 65.78553] 65.78039
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '5', 'p1': '1600', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '2', 'p5': '4', 'p6': '64', 'p7': 'disabled', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/9287.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/9287 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/9287 -s large -m event -l 5000000
+........................................ [66.16397, 66.1617, 66.08163]
+OUTPUT:%f [66.16397, 66.1617, 66.08163] 66.12166500000001
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '5', 'p1': '640', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '16', 'p5': '128', 'p6': '64', 'p7': 'disabled', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7478.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7478 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7478 -s large -m event -l 5000000
+........................................ [65.77512, 65.74495, 65.80335]
+OUTPUT:%f [65.77512, 65.74495, 65.80335] 65.77414999999999
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '4', 'p1': '200', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '64', 'p5': '64', 'p6': '160', 'p7': 'compact', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5250.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5250 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5250 -s large -m event -l 5000000
+........................................ [65.49097, 65.4311, 65.45275]
+OUTPUT:%f [65.49097, 65.4311, 65.45275] 65.441925
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '7', 'p1': '1600', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '2', 'p5': '2', 'p6': '40', 'p7': 'disabled', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5783.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5783 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5783 -s large -m event -l 5000000
+........................................ [66.33436, 66.46253, 66.4567]
+OUTPUT:%f [66.33436, 66.46253, 66.4567] 66.459615
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '7', 'p1': '1280', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '32', 'p5': '32', 'p6': '64', 'p7': 'none', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2357.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2357 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2357 -s large -m event -l 5000000
+........................................ [65.70274, 65.67108, 65.58766]
+OUTPUT:%f [65.70274, 65.67108, 65.58766] 65.62937
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '6', 'p1': '2000', 'p2': ' ', 'p3': ' ', 'p4': '4', 'p5': '4', 'p6': '40', 'p7': 'explicit', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3878.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3878 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3878 -s large -m event -l 5000000
+........................................ [65.42367, 65.36033, 65.31417]
+OUTPUT:%f [65.42367, 65.36033, 65.31417] 65.33725000000001
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '5', 'p1': '640', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '4', 'p5': '16', 'p6': '64', 'p7': 'balanced', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6741.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6741 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6741 -s large -m event -l 5000000
+........................................ [65.71951, 65.70723, 65.63844]
+OUTPUT:%f [65.71951, 65.70723, 65.63844] 65.67283499999999
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '7', 'p1': '100', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '4', 'p5': '2', 'p6': '20', 'p7': 'compact', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7003.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7003 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7003 -s large -m event -l 5000000
+........................................ [65.39689, 65.33749, 65.37069]
+OUTPUT:%f [65.39689, 65.33749, 65.37069] 65.35409
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '8', 'p1': '100', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '16', 'p5': '16', 'p6': '200', 'p7': 'explicit', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1963.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1963 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1963 -s large -m event -l 5000000
+........................................ [65.68904, 65.61873, 65.61684]
+OUTPUT:%f [65.68904, 65.61873, 65.61684] 65.617785
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '6', 'p1': '100', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '128', 'p5': '16', 'p6': '10', 'p7': 'scatter', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1138.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1138 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1138 -s large -m event -l 5000000
+........................................ [65.84018, 65.77429, 65.80604]
+OUTPUT:%f [65.84018, 65.77429, 65.80604] 65.790165
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '6', 'p1': '2000', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '128', 'p5': '256', 'p6': '80', 'p7': 'scatter', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6568.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6568 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6568 -s large -m event -l 5000000
+........................................ [65.41406, 65.26542, 65.29275]
+OUTPUT:%f [65.41406, 65.26542, 65.29275] 65.27908500000001
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '6', 'p1': '1280', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '64', 'p5': '16', 'p6': '10', 'p7': 'scatter', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3386.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3386 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3386 -s large -m event -l 5000000
+........................................ [65.00766, 64.98171, 64.96694]
+OUTPUT:%f [65.00766, 64.98171, 64.96694] 64.974325
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '6', 'p1': '100', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '128', 'p5': '256', 'p6': '20', 'p7': 'none', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1771.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1771 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1771 -s large -m event -l 5000000
+........................................ [65.79517, 65.81898, 65.78541]
+OUTPUT:%f [65.79517, 65.81898, 65.78541] 65.802195
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '4', 'p1': '1000', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '64', 'p5': '96', 'p6': '20', 'p7': 'compact', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5378.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5378 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5378 -s large -m event -l 5000000
+........................................ [65.63809, 65.56869, 65.51494]
+OUTPUT:%f [65.63809, 65.56869, 65.51494] 65.541815
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '5', 'p1': '800', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '32', 'p5': '8', 'p6': '40', 'p7': 'compact', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/4916.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/4916 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/4916 -s large -m event -l 5000000
+........................................ [66.07679, 66.01965, 65.9856]
+OUTPUT:%f [66.07679, 66.01965, 65.9856] 66.002625
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '6', 'p1': '640', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '64', 'p5': '64', 'p6': '160', 'p7': 'explicit', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6857.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6857 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6857 -s large -m event -l 5000000
+........................................ [65.86049, 65.85265, 65.78924]
+OUTPUT:%f [65.86049, 65.85265, 65.78924] 65.820945
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '7', 'p1': '200', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '256', 'p5': '256', 'p6': '20', 'p7': 'compact', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2196.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2196 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2196 -s large -m event -l 5000000
+........................................ [65.75299, 65.70051, 65.70499]
+OUTPUT:%f [65.75299, 65.70051, 65.70499] 65.70275
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '6', 'p1': '640', 'p2': ' ', 'p3': ' ', 'p4': '2', 'p5': '96', 'p6': '100', 'p7': 'none', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2050.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2050 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2050 -s large -m event -l 5000000
+........................................ [65.35835, 65.36039, 65.32188]
+OUTPUT:%f [65.35835, 65.36039, 65.32188] 65.341135
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '7', 'p1': '640', 'p2': ' ', 'p3': ' ', 'p4': '96', 'p5': '16', 'p6': '128', 'p7': 'explicit', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6567.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6567 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6567 -s large -m event -l 5000000
+........................................ [65.88681, 65.86055, 65.87954]
+OUTPUT:%f [65.88681, 65.86055, 65.87954] 65.870045
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '7', 'p1': '640', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '128', 'p5': '16', 'p6': '64', 'p7': 'compact', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/9540.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/9540 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/9540 -s large -m event -l 5000000
+........................................ [66.28072, 66.22929, 66.26039]
+OUTPUT:%f [66.28072, 66.22929, 66.26039] 66.24484000000001
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '5', 'p1': '1280', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '4', 'p5': '16', 'p6': '64', 'p7': 'explicit', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3004.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3004 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3004 -s large -m event -l 5000000
+........................................ [66.23506, 66.14491, 66.208]
+OUTPUT:%f [66.23506, 66.14491, 66.208] 66.176455
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '5', 'p1': '1280', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '256', 'p5': '4', 'p6': '200', 'p7': 'none', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/4397.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/4397 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/4397 -s large -m event -l 5000000
+........................................ [65.46789, 65.53959, 65.47388]
+OUTPUT:%f [65.46789, 65.53959, 65.47388] 65.50673499999999
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '8', 'p1': '1600', 'p2': ' ', 'p3': ' ', 'p4': '32', 'p5': '8', 'p6': '200', 'p7': 'scatter', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/647.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/647 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/647 -s large -m event -l 5000000
+........................................ [66.30506, 66.1784, 66.18595]
+OUTPUT:%f [66.30506, 66.1784, 66.18595] 66.182175
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '5', 'p1': '1000', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '4', 'p5': '128', 'p6': '40', 'p7': 'compact', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6702.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6702 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6702 -s large -m event -l 5000000
+........................................ [65.38647, 65.31565, 65.28642]
+OUTPUT:%f [65.38647, 65.31565, 65.28642] 65.30103500000001
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '7', 'p1': '1600', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '16', 'p5': '8', 'p6': '20', 'p7': 'disabled', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2063.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2063 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2063 -s large -m event -l 5000000
+........................................ [65.57217, 65.57435, 65.57268]
+OUTPUT:%f [65.57217, 65.57435, 65.57268] 65.573515
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '8', 'p1': '2000', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '16', 'p5': '4', 'p6': '10', 'p7': 'disabled', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8050.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8050 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8050 -s large -m event -l 5000000
+........................................ [65.42233, 65.36948, 65.37302]
+OUTPUT:%f [65.42233, 65.36948, 65.37302] 65.37125
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '8', 'p1': '1000', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '16', 'p5': '64', 'p6': '10', 'p7': 'compact', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6592.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6592 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6592 -s large -m event -l 5000000
+........................................ [65.66296, 65.71202, 65.6774]
+OUTPUT:%f [65.66296, 65.71202, 65.6774] 65.69471
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '4', 'p1': '1000', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '32', 'p5': '64', 'p6': '10', 'p7': 'none', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7198.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7198 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7198 -s large -m event -l 5000000
+........................................ [65.86175, 65.86712, 65.91288]
+OUTPUT:%f [65.86175, 65.86712, 65.91288] 65.89
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '4', 'p1': '100', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '256', 'p5': '256', 'p6': '128', 'p7': 'explicit', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3922.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3922 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3922 -s large -m event -l 5000000
+........................................ [65.1441, 65.09328, 65.08967]
+OUTPUT:%f [65.1441, 65.09328, 65.08967] 65.091475
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '6', 'p1': '1280', 'p2': ' ', 'p3': ' ', 'p4': '256', 'p5': '256', 'p6': '10', 'p7': 'explicit', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5747.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5747 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5747 -s large -m event -l 5000000
+........................................ [65.97753, 66.00927, 65.9168]
+OUTPUT:%f [65.97753, 66.00927, 65.9168] 65.96303499999999
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '6', 'p1': '1280', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '64', 'p5': '2', 'p6': '10', 'p7': 'compact', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6477.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6477 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6477 -s large -m event -l 5000000
+........................................ [65.90147, 65.92812, 65.88016]
+OUTPUT:%f [65.90147, 65.92812, 65.88016] 65.90414000000001
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '8', 'p1': '200', 'p2': ' ', 'p3': ' ', 'p4': '96', 'p5': '32', 'p6': '100', 'p7': 'balanced', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8799.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8799 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8799 -s large -m event -l 5000000
+........................................ [65.75449, 65.79614, 65.76512]
+OUTPUT:%f [65.75449, 65.79614, 65.76512] 65.78063
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '7', 'p1': '1600', 'p2': ' ', 'p3': ' ', 'p4': '256', 'p5': '96', 'p6': '100', 'p7': 'balanced', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3236.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3236 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3236 -s large -m event -l 5000000
+........................................ [65.88921, 65.97154, 65.93467]
+OUTPUT:%f [65.88921, 65.97154, 65.93467] 65.953105
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '7', 'p1': '400', 'p2': ' ', 'p3': ' ', 'p4': '32', 'p5': '64', 'p6': '160', 'p7': 'balanced', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3608.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3608 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3608 -s large -m event -l 5000000
+........................................ [65.803, 65.80263, 65.79965]
+OUTPUT:%f [65.803, 65.80263, 65.79965] 65.80114
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '5', 'p1': '200', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '4', 'p5': '32', 'p6': '200', 'p7': 'scatter', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2547.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2547 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2547 -s large -m event -l 5000000
+........................................ [65.54328, 65.55305, 65.56898]
+OUTPUT:%f [65.54328, 65.55305, 65.56898] 65.561015
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '5', 'p1': '2000', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '64', 'p5': '96', 'p6': '40', 'p7': 'disabled', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1781.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1781 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1781 -s large -m event -l 5000000
+........................................ [66.18791, 66.1118, 66.16197]
+OUTPUT:%f [66.18791, 66.1118, 66.16197] 66.136885
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '6', 'p1': '1000', 'p2': ' ', 'p3': ' ', 'p4': '8', 'p5': '96', 'p6': '20', 'p7': 'balanced', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/873.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/873 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/873 -s large -m event -l 5000000
+........................................ [66.20177, 66.08446, 66.04872]
+OUTPUT:%f [66.20177, 66.08446, 66.04872] 66.06659
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '5', 'p1': '100', 'p2': ' ', 'p3': ' ', 'p4': '2', 'p5': '32', 'p6': '40', 'p7': 'none', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8819.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8819 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8819 -s large -m event -l 5000000
+........................................ [66.20091, 66.12364, 66.16754]
+OUTPUT:%f [66.20091, 66.12364, 66.16754] 66.14559
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '8', 'p1': '1000', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '128', 'p5': '2', 'p6': '160', 'p7': 'explicit', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2311.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2311 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2311 -s large -m event -l 5000000
+........................................ [65.23667, 65.22872, 65.27143]
+OUTPUT:%f [65.23667, 65.22872, 65.27143] 65.250075
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '8', 'p1': '800', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '2', 'p5': '256', 'p6': '100', 'p7': 'scatter', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2881.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2881 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2881 -s large -m event -l 5000000
+........................................ [65.6956, 65.71943, 65.68203]
+OUTPUT:%f [65.6956, 65.71943, 65.68203] 65.70073
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '7', 'p1': '1600', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '96', 'p5': '8', 'p6': '40', 'p7': 'none', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7407.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7407 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7407 -s large -m event -l 5000000
+........................................ [65.4732, 65.59673, 65.51467]
+OUTPUT:%f [65.4732, 65.59673, 65.51467] 65.5557
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '6', 'p1': '200', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '32', 'p5': '8', 'p6': '160', 'p7': 'disabled', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/9113.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/9113 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/9113 -s large -m event -l 5000000
+........................................ [66.03133, 66.03816, 65.99082]
+OUTPUT:%f [66.03133, 66.03816, 65.99082] 66.01449
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '8', 'p1': '2000', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '96', 'p5': '128', 'p6': '160', 'p7': 'balanced', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5529.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5529 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5529 -s large -m event -l 5000000
+........................................ [66.69941, 66.63712, 66.68766]
+OUTPUT:%f [66.69941, 66.63712, 66.68766] 66.66238999999999
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '7', 'p1': '1600', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '256', 'p5': '2', 'p6': '100', 'p7': 'explicit', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/187.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/187 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/187 -s large -m event -l 5000000
+........................................ [66.98165, 66.97908, 67.03502]
+OUTPUT:%f [66.98165, 66.97908, 67.03502] 67.00704999999999
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '6', 'p1': '1600', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '8', 'p5': '128', 'p6': '160', 'p7': 'explicit', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/4942.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/4942 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/4942 -s large -m event -l 5000000
+........................................ [65.7492, 65.75013, 65.78905]
+OUTPUT:%f [65.7492, 65.75013, 65.78905] 65.76959
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '5', 'p1': '1000', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '256', 'p5': '16', 'p6': '100', 'p7': 'scatter', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3020.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3020 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3020 -s large -m event -l 5000000
+........................................ [65.77833, 65.83451, 65.80517]
+OUTPUT:%f [65.77833, 65.83451, 65.80517] 65.81984
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '8', 'p1': '800', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '96', 'p5': '64', 'p6': '200', 'p7': 'balanced', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2960.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2960 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2960 -s large -m event -l 5000000
+........................................ [65.79432, 65.79333, 65.79004]
+OUTPUT:%f [65.79432, 65.79333, 65.79004] 65.791685
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '8', 'p1': '100', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '64', 'p5': '128', 'p6': '128', 'p7': 'explicit', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1558.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1558 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1558 -s large -m event -l 5000000
+........................................ [65.84805, 65.87476, 65.84858]
+OUTPUT:%f [65.84805, 65.87476, 65.84858] 65.86167
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '4', 'p1': '640', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '256', 'p5': '256', 'p6': '20', 'p7': 'balanced', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7042.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7042 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7042 -s large -m event -l 5000000
+........................................ [65.43038, 65.39467, 65.4036]
+OUTPUT:%f [65.43038, 65.39467, 65.4036] 65.399135
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '8', 'p1': '400', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '64', 'p5': '96', 'p6': '80', 'p7': 'explicit', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/9324.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/9324 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/9324 -s large -m event -l 5000000
+........................................ [66.49096, 66.49942, 66.50391]
+OUTPUT:%f [66.49096, 66.49942, 66.50391] 66.501665
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '8', 'p1': '1280', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '128', 'p5': '8', 'p6': '80', 'p7': 'disabled', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2345.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2345 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2345 -s large -m event -l 5000000
+........................................ [65.56672, 65.52001, 65.49706]
+OUTPUT:%f [65.56672, 65.52001, 65.49706] 65.508535
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '5', 'p1': '1000', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '4', 'p5': '16', 'p6': '128', 'p7': 'none', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3883.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3883 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3883 -s large -m event -l 5000000
+........................................ [66.16121, 66.13681, 66.04798]
+OUTPUT:%f [66.16121, 66.13681, 66.04798] 66.092395
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '8', 'p1': '2000', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '32', 'p5': '8', 'p6': '64', 'p7': 'scatter', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/280.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/280 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/280 -s large -m event -l 5000000
+........................................ [65.67859, 65.6129, 65.67616]
+OUTPUT:%f [65.67859, 65.6129, 65.67616] 65.64453
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '5', 'p1': '1600', 'p2': ' ', 'p3': ' ', 'p4': '96', 'p5': '2', 'p6': '128', 'p7': 'disabled', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/9635.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/9635 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/9635 -s large -m event -l 5000000
+........................................ [65.75189, 65.70009, 65.65889]
+OUTPUT:%f [65.75189, 65.70009, 65.65889] 65.67949
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '4', 'p1': '1600', 'p2': ' ', 'p3': ' ', 'p4': '96', 'p5': '4', 'p6': '80', 'p7': 'disabled', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5151.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5151 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5151 -s large -m event -l 5000000
+........................................ [66.57954, 66.46936, 66.36539]
+OUTPUT:%f [66.57954, 66.46936, 66.36539] 66.41737499999999
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '5', 'p1': '800', 'p2': ' ', 'p3': ' ', 'p4': '8', 'p5': '4', 'p6': '10', 'p7': 'none', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5779.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5779 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5779 -s large -m event -l 5000000
+........................................ [66.86664, 66.84914, 66.79719]
+OUTPUT:%f [66.86664, 66.84914, 66.79719] 66.823165
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '8', 'p1': '640', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '16', 'p5': '2', 'p6': '200', 'p7': 'balanced', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/726.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/726 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/726 -s large -m event -l 5000000
+........................................ [66.32736, 66.17224, 66.16701]
+OUTPUT:%f [66.32736, 66.17224, 66.16701] 66.169625
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '6', 'p1': '1280', 'p2': ' ', 'p3': ' ', 'p4': '8', 'p5': '64', 'p6': '128', 'p7': 'none', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/4235.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/4235 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/4235 -s large -m event -l 5000000
+........................................ [66.93663, 66.87634, 66.88562]
+OUTPUT:%f [66.93663, 66.87634, 66.88562] 66.88098
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '4', 'p1': '640', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '96', 'p5': '128', 'p6': '64', 'p7': 'scatter', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2943.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2943 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2943 -s large -m event -l 5000000
+........................................ [65.95917, 65.84816, 65.81867]
+OUTPUT:%f [65.95917, 65.84816, 65.81867] 65.833415
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '5', 'p1': '2000', 'p2': ' ', 'p3': ' ', 'p4': '16', 'p5': '64', 'p6': '100', 'p7': 'disabled', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7287.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7287 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7287 -s large -m event -l 5000000
+........................................ [66.38477, 66.32669, 66.32782]
+OUTPUT:%f [66.38477, 66.32669, 66.32782] 66.32725500000001
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '4', 'p1': '400', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '4', 'p5': '64', 'p6': '128', 'p7': 'balanced', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7276.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7276 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7276 -s large -m event -l 5000000
+........................................ [65.68431, 65.60733, 65.60162]
+OUTPUT:%f [65.68431, 65.60733, 65.60162] 65.60447500000001
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '5', 'p1': '1600', 'p2': ' ', 'p3': ' ', 'p4': '32', 'p5': '128', 'p6': '100', 'p7': 'explicit', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3683.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3683 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3683 -s large -m event -l 5000000
+........................................ [65.79705, 65.8048, 65.81269]
+OUTPUT:%f [65.79705, 65.8048, 65.81269] 65.808745
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '5', 'p1': '200', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '256', 'p5': '8', 'p6': '100', 'p7': 'scatter', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8109.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8109 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8109 -s large -m event -l 5000000
+........................................ [66.54806, 66.4604, 66.36989]
+OUTPUT:%f [66.54806, 66.4604, 66.36989] 66.415145
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '7', 'p1': '1280', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '16', 'p5': '64', 'p6': '20', 'p7': 'none', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7377.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7377 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7377 -s large -m event -l 5000000
+........................................ [65.70088, 65.68797, 65.65842]
+OUTPUT:%f [65.70088, 65.68797, 65.65842] 65.673195
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '4', 'p1': '400', 'p2': ' ', 'p3': ' ', 'p4': '2', 'p5': '32', 'p6': '200', 'p7': 'compact', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5947.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5947 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5947 -s large -m event -l 5000000
+........................................ [66.18674, 66.08355, 66.0269]
+OUTPUT:%f [66.18674, 66.08355, 66.0269] 66.05522500000001
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '6', 'p1': '1280', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '128', 'p5': '96', 'p6': '40', 'p7': 'none', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8384.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8384 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8384 -s large -m event -l 5000000
+........................................ [66.19046, 66.23278, 66.19626]
+OUTPUT:%f [66.19046, 66.23278, 66.19626] 66.21452
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '7', 'p1': '400', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '8', 'p5': '32', 'p6': '80', 'p7': 'disabled', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5031.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5031 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5031 -s large -m event -l 5000000
+........................................ [66.33085, 66.32401, 66.24235]
+OUTPUT:%f [66.33085, 66.32401, 66.24235] 66.28318
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '6', 'p1': '1600', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '4', 'p5': '4', 'p6': '80', 'p7': 'explicit', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8128.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8128 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8128 -s large -m event -l 5000000
+........................................ [66.33156, 66.2638, 66.25227]
+OUTPUT:%f [66.33156, 66.2638, 66.25227] 66.258035
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '4', 'p1': '200', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '64', 'p5': '96', 'p6': '128', 'p7': 'scatter', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8917.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8917 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8917 -s large -m event -l 5000000
+........................................ [66.78206, 66.73263, 66.63299]
+OUTPUT:%f [66.78206, 66.73263, 66.63299] 66.68281
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '5', 'p1': '2000', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '2', 'p5': '256', 'p6': '160', 'p7': 'balanced', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7003.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7003 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7003 -s large -m event -l 5000000
+........................................ [66.51438, 66.42125, 66.38093]
+OUTPUT:%f [66.51438, 66.42125, 66.38093] 66.40109000000001
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '4', 'p1': '640', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '128', 'p5': '96', 'p6': '40', 'p7': 'scatter', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3947.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3947 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/3947 -s large -m event -l 5000000
+........................................ [65.2904, 65.28074, 65.24854]
+OUTPUT:%f [65.2904, 65.28074, 65.24854] 65.26464
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '5', 'p1': '800', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '256', 'p5': '2', 'p6': '80', 'p7': 'disabled', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/9623.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/9623 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/9623 -s large -m event -l 5000000
+........................................ [65.58992, 65.60097, 65.60828]
+OUTPUT:%f [65.58992, 65.60097, 65.60828] 65.604625
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '5', 'p1': '2000', 'p2': ' ', 'p3': ' ', 'p4': '128', 'p5': '16', 'p6': '80', 'p7': 'compact', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1258.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1258 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1258 -s large -m event -l 5000000
+........................................ [66.06776, 65.97763, 65.99171]
+OUTPUT:%f [66.06776, 65.97763, 65.99171] 65.98467
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '7', 'p1': '1000', 'p2': ' ', 'p3': ' ', 'p4': '8', 'p5': '4', 'p6': '128', 'p7': 'scatter', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/9226.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/9226 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/9226 -s large -m event -l 5000000
+........................................ [66.319, 66.28395, 66.29867]
+OUTPUT:%f [66.319, 66.28395, 66.29867] 66.29131000000001
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '6', 'p1': '200', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '128', 'p5': '32', 'p6': '10', 'p7': 'compact', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6314.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6314 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6314 -s large -m event -l 5000000
+........................................ [66.6619, 66.73582, 66.65947]
+OUTPUT:%f [66.6619, 66.73582, 66.65947] 66.697645
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '8', 'p1': '800', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '64', 'p5': '128', 'p6': '128', 'p7': 'none', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5860.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5860 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5860 -s large -m event -l 5000000
+........................................ [65.31718, 65.25567, 65.35009]
+OUTPUT:%f [65.31718, 65.25567, 65.35009] 65.30287999999999
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '7', 'p1': '400', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '16', 'p5': '128', 'p6': '80', 'p7': 'explicit', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2536.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2536 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2536 -s large -m event -l 5000000
+........................................ [66.25984, 66.22492, 66.10887]
+OUTPUT:%f [66.25984, 66.22492, 66.10887] 66.166895
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '4', 'p1': '1000', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '32', 'p5': '8', 'p6': '10', 'p7': 'balanced', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/37.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/37 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/37 -s large -m event -l 5000000
+........................................ [66.37712, 66.32791, 66.38529]
+OUTPUT:%f [66.37712, 66.32791, 66.38529] 66.3566
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '6', 'p1': '100', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '16', 'p5': '32', 'p6': '200', 'p7': 'compact', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8369.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8369 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/8369 -s large -m event -l 5000000
+........................................ [66.17122, 66.29564, 66.18968]
+OUTPUT:%f [66.17122, 66.29564, 66.18968] 66.24266
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '4', 'p1': '800', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '2', 'p5': '96', 'p6': '20', 'p7': 'balanced', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7701.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7701 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7701 -s large -m event -l 5000000
+........................................ [65.59114, 65.54058, 65.52972]
+OUTPUT:%f [65.59114, 65.54058, 65.52972] 65.53515
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '8', 'p1': '800', 'p2': ' ', 'p3': ' ', 'p4': '96', 'p5': '256', 'p6': '200', 'p7': 'disabled', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5592.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5592 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5592 -s large -m event -l 5000000
+........................................ [65.92509, 66.00163, 65.98871]
+OUTPUT:%f [65.92509, 66.00163, 65.98871] 65.99517
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '6', 'p1': '100', 'p2': ' ', 'p3': ' ', 'p4': '4', 'p5': '256', 'p6': '200', 'p7': 'scatter', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6817.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6817 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6817 -s large -m event -l 5000000
+........................................ [65.97246, 66.05052, 65.98247]
+OUTPUT:%f [65.97246, 66.05052, 65.98247] 66.016495
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '4', 'p1': '400', 'p2': ' ', 'p3': ' ', 'p4': '8', 'p5': '256', 'p6': '200', 'p7': 'balanced', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2786.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2786 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2786 -s large -m event -l 5000000
+........................................ [67.4113, 67.35015, 67.35405]
+OUTPUT:%f [67.4113, 67.35015, 67.35405] 67.35210000000001
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '6', 'p1': '1000', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '2', 'p5': '16', 'p6': '20', 'p7': 'none', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7010.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7010 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7010 -s large -m event -l 5000000
+........................................ [65.87926, 65.77677, 65.78116]
+OUTPUT:%f [65.87926, 65.77677, 65.78116] 65.778965
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '4', 'p1': '200', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '16', 'p5': '32', 'p6': '64', 'p7': 'explicit', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/806.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/806 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/806 -s large -m event -l 5000000
+........................................ [66.81824, 66.6949, 66.64654]
+OUTPUT:%f [66.81824, 66.6949, 66.64654] 66.67072
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '8', 'p1': '400', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '2', 'p5': '8', 'p6': '40', 'p7': 'scatter', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6238.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6238 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/6238 -s large -m event -l 5000000
+........................................ [66.20521, 66.07019, 66.05942]
+OUTPUT:%f [66.20521, 66.07019, 66.05942] 66.064805
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '6', 'p1': '2000', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '8', 'p5': '64', 'p6': '160', 'p7': 'compact', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1552.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1552 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1552 -s large -m event -l 5000000
+........................................ [67.25979, 67.28186, 67.26187]
+OUTPUT:%f [67.25979, 67.28186, 67.26187] 67.27186499999999
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '4', 'p1': '400', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '32', 'p5': '96', 'p6': '100', 'p7': 'scatter', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/4971.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/4971 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/4971 -s large -m event -l 5000000
+........................................ [66.73856, 66.69952, 66.60363]
+OUTPUT:%f [66.73856, 66.69952, 66.60363] 66.65157500000001
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '7', 'p1': '100', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '64', 'p5': '4', 'p6': '10', 'p7': 'none', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1455.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1455 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1455 -s large -m event -l 5000000
+........................................ [66.22819, 66.22694, 66.19774]
+OUTPUT:%f [66.22819, 66.22694, 66.19774] 66.21234
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '4', 'p1': '1280', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '96', 'p5': '128', 'p6': '100', 'p7': 'balanced', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/4905.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/4905 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/4905 -s large -m event -l 5000000
+........................................ [66.7605, 66.72146, 66.67762]
+OUTPUT:%f [66.7605, 66.72146, 66.67762] 66.69954
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '8', 'p1': '200', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '2', 'p5': '128', 'p6': '160', 'p7': 'compact', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/287.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/287 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/287 -s large -m event -l 5000000
+........................................ [65.63818, 65.64251, 65.60599]
+OUTPUT:%f [65.63818, 65.64251, 65.60599] 65.62425
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '7', 'p1': '800', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '256', 'p5': '32', 'p6': '40', 'p7': 'disabled', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5289.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5289 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/5289 -s large -m event -l 5000000
+........................................ [66.98821, 66.90977, 66.77937]
+OUTPUT:%f [66.98821, 66.90977, 66.77937] 66.84457
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '8', 'p1': '2000', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '128', 'p5': '4', 'p6': '100', 'p7': 'compact', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1626.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1626 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1626 -s large -m event -l 5000000
+........................................ [66.52113, 66.4986, 66.51612]
+OUTPUT:%f [66.52113, 66.4986, 66.51612] 66.50736
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '8', 'p1': '200', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '8', 'p5': '32', 'p6': '64', 'p7': 'compact', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2987.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2987 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/2987 -s large -m event -l 5000000
+........................................ [66.1514, 66.06144, 66.02274]
+OUTPUT:%f [66.1514, 66.06144, 66.02274] 66.04209
+store_func_eval
+problem.constants
+None
+VALUES: {'p0': '7', 'p1': '100', 'p2': ' ', 'p3': ' ', 'p4': '96', 'p5': '8', 'p6': '80', 'p7': 'none', 'p8': 'sockets', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1081.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1081 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/1081 -s large -m event -l 5000000
+........................................ [66.52731, 66.46349, 66.46283]
+OUTPUT:%f [66.52731, 66.46349, 66.46283] 66.46315999999999
+store_func_eval
+problem.constants
+None
+MLA iteration:  0
+exec /gpfs/jlse-fs0/users/jkoo/code/gptune/GPTune/lcm.py args None nproc 1
+LCM spawn time:  2.590773517
+L-BFGS time:  0.072645602
+fun      :  150.97415531409945
+message  :  CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+nfev     :  99
+nit      :  49
+status   :  0
+success  :  True
+theta: [6.8864 1.8477 7.6182 3.243  6.9199 0.8107 1.7062 4.4553 9.4826]
+var: [1.]
+kappa: [2.2948]
+sigma: [1.e-05]
+WS: [32.8133]
+0 OK
+bestX [array([[0.8145, 0.118 , 0.2789, 0.4499, 0.822 , 0.0309, 0.8913, 0.9699,
+        0.2201]])]
+VALUES: {'p0': '8', 'p1': '200', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '128', 'p5': '2', 'p6': '200', 'p7': 'explicit', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/553.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/553 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/553 -s large -m event -l 5000000
+........................................ [65.2633, 65.25307, 65.30284]
+OUTPUT:%f [65.2633, 65.25307, 65.30284] 65.27795499999999
+store_func_eval
+problem.constants
+None
+MLA iteration:  1
+exec /gpfs/jlse-fs0/users/jkoo/code/gptune/GPTune/lcm.py args None nproc 1
+LCM spawn time:  2.801024764
+L-BFGS time:  0.113057906
+fun      :  159.00835564402786
+message  :  CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+nfev     :  142
+nit      :  59
+status   :  0
+success  :  True
+theta: [17.3738  6.908   1.2726  1.9373 12.2362  6.5635  0.9059  2.7761  2.2942]
+var: [1.]
+kappa: [246.5494]
+sigma: [1.e-05]
+WS: [27.5622]
+0 OK
+bestX [array([[0.7211, 0.1112, 0.3116, 0.832 , 0.1807, 0.8767, 0.0526, 0.0342,
+        0.4908]])]
+VALUES: {'p0': '7', 'p1': '200', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '4', 'p5': '128', 'p6': '10', 'p7': 'compact', 'p8': 'threads', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7162.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7162 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/7162 -s large -m event -l 5000000
+........................................ [65.72483, 65.69471, 65.71226]
+OUTPUT:%f [65.72483, 65.69471, 65.71226] 65.703485
+store_func_eval
+problem.constants
+None
+MLA iteration:  2
+exec /gpfs/jlse-fs0/users/jkoo/code/gptune/GPTune/lcm.py args None nproc 1
+LCM spawn time:  2.592242768
+L-BFGS time:  0.074952087
+fun      :  188.1556696818222
+message  :  CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+nfev     :  97
+nit      :  74
+status   :  0
+success  :  True
+theta: [ 18.0904  25.3397  39.003    4.935  112.0582  25.4967   1.574    0.1291
+   9.3695]
+var: [1.]
+kappa: [0.1439]
+sigma: [1.e-05]
+WS: [30.4501]
+0 OK
+bestX [array([[8.8812e-01, 5.1247e-01, 5.1047e-01, 4.8733e-01, 6.1802e-04,
+        5.2530e-01, 4.0743e-02, 3.5940e-01, 2.4884e-01]])]
+VALUES: {'p0': '8', 'p1': '800', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '2', 'p5': '32', 'p6': '10', 'p7': 'balanced', 'p8': 'cores', 't': 5000000}
+clang /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/4676.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/material.c /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/utils.c  -I/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/4676 -lm -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla_l/tmp_files/4676 -s large -m event -l 5000000
+........................................ [65.28102, 65.38809, 65.31902]
+OUTPUT:%f [65.28102, 65.38809, 65.31902] 65.353555
+store_func_eval
+problem.constants
+None
+MLA iteration:  3
+exec /gpfs/jlse-fs0/users/jkoo/code/gptune/GPTune/lcm.py args None nproc 1
+LCM spawn time:  2.535802333
+L-BFGS time:  0.051466651
+fun      :  156.47035469536223
+message  :  CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL
+nfev     :  64
+nit      :  56
+status   :  0
+success  :  True
+theta: [ 5.9117  3.2149 17.85    2.1219  1.4726  1.782   1.6973 15.0253  1.9012]
+var: [1.]
+kappa: [0.1138]
+sigma: [1.e-05]
+WS: [30.7563]

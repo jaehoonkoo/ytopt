@@ -1,0 +1,16 @@
+# Begin LSF Directives
+#BSUB -P AST136
+#BSUB -W 00:60
+#BSUB -nnodes 1
+#BSUB -alloc_flags gpumps
+#BSUB -J ytopt
+#BSUB -o ytopt.%J.out
+#BSUB -e ytopt.%J.err
+
+module load ibm-wml-ce
+conda activate ytune
+
+#jsrun --nrs 1 --tasks_per_rs 6 --cpu_per_rs 42 --gpu_per_rs 6 --rs_per_host 1 --launch_distribution plane:6 --bind packed:7 ./launch.sh
+#jsrun -n1 -g1 ./run.cob
+python3 -m ytopt.search.ambs --evaluator ray --problem problem.Problem --max-evals=5 --learner RF
+

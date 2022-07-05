@@ -1,0 +1,25 @@
+Jobid: 413574
+qsub -t 360 -n 1 -q skylake_8180 run_autotune_sm.sh
+Thu Jan 27 23:27:31 2022 +0000 (UTC) submitted with cwd set to: /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/logs
+jobid 413574 submitted from terminal /dev/pts/40
+Thu Jan 27 23:27:49 2022 +0000 (UTC) 
+Thu Jan 27 23:27:49 2022 +0000 (UTC) Command: '/usr/bin/ssh' 'skylake11' '/usr/libexec/cobalt/cobalt-launcher.py' '--nf' '/var/tmp/cobalt.413574' '--jobid' '413574' '--cwd' '/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/logs' '--env' 'COBALT_JOBID=413574' '/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/logs/run_autotune_sm.sh'
+Thu Jan 27 23:27:49 2022 +0000 (UTC) 
+Thu Jan 27 23:27:49 2022 +0000 (UTC) Environment:
+Thu Jan 27 23:27:49 2022 +0000 (UTC) SHELL=/bin/bash
+Thu Jan 27 23:27:49 2022 +0000 (UTC) COBALT_NODEFILE=/tmp/tmpuuVaZI
+Thu Jan 27 23:27:49 2022 +0000 (UTC) COBALT_PARTNAME=skylake11
+Thu Jan 27 23:27:49 2022 +0000 (UTC) COBALT_JOBID=413574
+Thu Jan 27 23:27:49 2022 +0000 (UTC) COBALT_STARTTIME=1643326056
+Thu Jan 27 23:27:49 2022 +0000 (UTC) LOGNAME=jkoo
+Thu Jan 27 23:27:49 2022 +0000 (UTC) USER=jkoo
+Thu Jan 27 23:27:49 2022 +0000 (UTC) COBALT_ENDTIME=1643347656
+Thu Jan 27 23:27:49 2022 +0000 (UTC) COBALT_PARTSIZE=1
+Thu Jan 27 23:27:49 2022 +0000 (UTC) HOME=/home/jkoo
+Thu Jan 27 23:27:49 2022 +0000 (UTC) COBALT_JOBSIZE=1
+Thu Jan 27 23:27:49 2022 +0000 (UTC) 
+Thu Jan 27 23:27:49 2022 +0000 (UTC) Info: stdin received from /dev/null
+Thu Jan 27 23:27:49 2022 +0000 (UTC) Info: stdout sent to /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/logs/413574.output
+Thu Jan 27 23:27:49 2022 +0000 (UTC) Info: stderr sent to /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/logs/413574.error
+Thu Jan 27 23:27:49 2022 +0000 (UTC) 
+Thu Jan 27 23:28:11 2022 +0000 (UTC) Info: user delete requested with signal SIGTERM by user jkoo

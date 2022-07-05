@@ -1,0 +1,24 @@
+Jobid: 419979
+qsub -t 360 -n 1 -q skylake_8180 run_autotune_gptune.sh
+Thu Feb 17 17:18:36 2022 +0000 (UTC) submitted with cwd set to: /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/XSBench_exp/xsbench_gptune_dtla
+jobid 419979 submitted from terminal /dev/pts/37
+Thu Feb 17 17:18:57 2022 +0000 (UTC) 
+Thu Feb 17 17:18:57 2022 +0000 (UTC) Command: '/usr/bin/ssh' 'skylake11' '/usr/libexec/cobalt/cobalt-launcher.py' '--nf' '/var/tmp/cobalt.419979' '--jobid' '419979' '--cwd' '/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/XSBench_exp/xsbench_gptune_dtla' '--env' 'COBALT_JOBID=419979' '/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/XSBench_exp/xsbench_gptune_dtla/run_autotune_gptune.sh'
+Thu Feb 17 17:18:57 2022 +0000 (UTC) 
+Thu Feb 17 17:18:57 2022 +0000 (UTC) Environment:
+Thu Feb 17 17:18:57 2022 +0000 (UTC) SHELL=/bin/bash
+Thu Feb 17 17:18:57 2022 +0000 (UTC) COBALT_NODEFILE=/tmp/tmpnJq7vF
+Thu Feb 17 17:18:57 2022 +0000 (UTC) COBALT_PARTNAME=skylake11
+Thu Feb 17 17:18:57 2022 +0000 (UTC) COBALT_JOBID=419979
+Thu Feb 17 17:18:57 2022 +0000 (UTC) COBALT_STARTTIME=1645118321
+Thu Feb 17 17:18:57 2022 +0000 (UTC) LOGNAME=jkoo
+Thu Feb 17 17:18:57 2022 +0000 (UTC) USER=jkoo
+Thu Feb 17 17:18:57 2022 +0000 (UTC) COBALT_ENDTIME=1645139921
+Thu Feb 17 17:18:57 2022 +0000 (UTC) COBALT_PARTSIZE=1
+Thu Feb 17 17:18:57 2022 +0000 (UTC) HOME=/home/jkoo
+Thu Feb 17 17:18:57 2022 +0000 (UTC) COBALT_JOBSIZE=1
+Thu Feb 17 17:18:57 2022 +0000 (UTC) 
+Thu Feb 17 17:18:57 2022 +0000 (UTC) Info: stdin received from /dev/null
+Thu Feb 17 17:18:57 2022 +0000 (UTC) Info: stdout sent to /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/XSBench_exp/xsbench_gptune_dtla/419979.output
+Thu Feb 17 17:18:57 2022 +0000 (UTC) Info: stderr sent to /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/XSBench_exp/xsbench_gptune_dtla/419979.error
+Thu Feb 17 17:18:57 2022 +0000 (UTC) 

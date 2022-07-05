@@ -1,0 +1,405 @@
+/gpfs/jlse-fs0/users/jkoo/code/kde/Benchmarks/RSBench_exp/logs/run_autotune_xl.sh: line 10: cd: /gpfs/jlse-fs0/users/jkoo/code/kde/Benchmarks/XSBench_exp/rsbench_xl: No such file or directory
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+/home/jkoo/anaconda3/envs/ytune/lib/python3.7/site-packages/sklearn/utils/deprecation.py:143: FutureWarning: The sklearn.neighbors.kde module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.neighbors. Anything that cannot be imported from sklearn.neighbors is now part of the private API.
+  warnings.warn(message, FutureWarning)
+/home/jkoo/anaconda3/envs/ytune/lib/python3.7/site-packages/numpy/lib/function_base.py:804: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  return array(a, order=order, subok=subok, copy=True)

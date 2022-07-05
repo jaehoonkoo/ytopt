@@ -1,0 +1,268 @@
+(gptune) jkoo@gpulogin1:/lcrc/project/EE-ECP/jkoo/code/gptune/examples/XSBench_exp/xsbench_gptune_dtla_test$ mpirun -n 1 python demo_dtla_test.py -nrun 6 -ntask 4 -perfmodel 0 -optimization GPTune -dsize sm
+time...now 1647390955.122318
+machine: mymachine processor: haswell num_nodes: 1 num_cores: 128
+[HistoryDB] use filelock for synchronization
+[HistoryDB] Found a history database file
+.....target problem size is sm [[500000], [100000], [1000000], [5000000]]
+====================================== 100000 s
+[HistoryDB] use filelock for synchronization
+[HistoryDB] Found a history database file
+KWARGS:  {'kwargs': {}, 'RCI_mode': False, 'mpi_comm': None, 'distributed_memory_parallelism': False, 'shared_memory_parallelism': False, 'constraints_evaluation_parallelism': False, 'verbose': False, 'oversubscribe': False, 'objective_evaluation_parallelism': False, 'objective_multisample_processes': 1, 'objective_multisample_threads': 1, 'objective_nprocmax': 1, 'sample_class': 'SampleLHSMDU', 'sample_algo': 'LHS-MDU', 'sample_max_iter': 1000000000, 'model_class': 'Model_GPy_LCM', 'model_kern': 'RBF', 'model_output_constraint': False, 'model_threads': 1, 'model_processes': 1, 'model_groups': 1, 'model_restarts': 1, 'model_restart_processes': 1, 'model_restart_threads': 1, 'model_max_iters': 15000, 'model_jitter': 1e-10, 'model_latent': None, 'model_sparse': False, 'model_inducing': None, 'model_layers': 2, 'model_max_jitter_try': 10, 'search_class': 'SearchPyGMO', 'search_threads': 1, 'search_processes': 1, 'search_multitask_threads': 1, 'search_multitask_processes': 1, 'search_algo': 'pso', 'search_udi': 'thread_island', 'search_pop_size': 1000, 'search_gen': 1000, 'search_evolve': 10, 'search_max_iters': 10, 'search_more_samples': 1, 'TLA_method': 'Regression', 'budget_min': 0.1, 'budget_max': 1, 'budget_base': 2, 'fidelity_map': None, 'N_PILOT_CGP': 20, 'N_SEQUENTIAL_CGP': 20, 'RND_SEED_CGP': 1, 'EXAMPLE_NAME_CGP': 'obj_name_dummy', 'METHOD_CGP': 'FREQUENTIST', 'N_BURNIN_CGP': 500, 'N_MCMCSAMPLES_CGP': 500, 'N_INFERENCE_CGP': 500, 'EXPLORATION_RATE_CGP': 1.0, 'NO_CLUSTER_CGP': False, 'N_NEIGHBORS_CGP': 3, 'CLUSTER_METHOD_CGP': 'BGM', 'N_COMPONENTS_CGP': 3, 'ACQUISITION_CGP': 'EI', 'BIGVAL_CGP': 1000000000000.0}
+Model kern:  RBF
+reconstraining parameters GP_regression.Gaussian_noise.variance
+====================================== 1000000 m
+[HistoryDB] use filelock for synchronization
+[HistoryDB] Found a history database file
+KWARGS:  {'kwargs': {}, 'RCI_mode': False, 'mpi_comm': None, 'distributed_memory_parallelism': False, 'shared_memory_parallelism': False, 'constraints_evaluation_parallelism': False, 'verbose': False, 'oversubscribe': False, 'objective_evaluation_parallelism': False, 'objective_multisample_processes': 1, 'objective_multisample_threads': 1, 'objective_nprocmax': 1, 'sample_class': 'SampleLHSMDU', 'sample_algo': 'LHS-MDU', 'sample_max_iter': 1000000000, 'model_class': 'Model_GPy_LCM', 'model_kern': 'RBF', 'model_output_constraint': False, 'model_threads': 1, 'model_processes': 1, 'model_groups': 1, 'model_restarts': 1, 'model_restart_processes': 1, 'model_restart_threads': 1, 'model_max_iters': 15000, 'model_jitter': 1e-10, 'model_latent': None, 'model_sparse': False, 'model_inducing': None, 'model_layers': 2, 'model_max_jitter_try': 10, 'search_class': 'SearchPyGMO', 'search_threads': 1, 'search_processes': 1, 'search_multitask_threads': 1, 'search_multitask_processes': 1, 'search_algo': 'pso', 'search_udi': 'thread_island', 'search_pop_size': 1000, 'search_gen': 1000, 'search_evolve': 10, 'search_max_iters': 10, 'search_more_samples': 1, 'TLA_method': 'Regression', 'budget_min': 0.1, 'budget_max': 1, 'budget_base': 2, 'fidelity_map': None, 'N_PILOT_CGP': 20, 'N_SEQUENTIAL_CGP': 20, 'RND_SEED_CGP': 1, 'EXAMPLE_NAME_CGP': 'obj_name_dummy', 'METHOD_CGP': 'FREQUENTIST', 'N_BURNIN_CGP': 500, 'N_MCMCSAMPLES_CGP': 500, 'N_INFERENCE_CGP': 500, 'EXPLORATION_RATE_CGP': 1.0, 'NO_CLUSTER_CGP': False, 'N_NEIGHBORS_CGP': 3, 'CLUSTER_METHOD_CGP': 'BGM', 'N_COMPONENTS_CGP': 3, 'ACQUISITION_CGP': 'EI', 'BIGVAL_CGP': 1000000000000.0}
+Model kern:  RBF
+reconstraining parameters GP_regression.Gaussian_noise.variance
+====================================== 5000000 l
+[HistoryDB] use filelock for synchronization
+[HistoryDB] Found a history database file
+KWARGS:  {'kwargs': {}, 'RCI_mode': False, 'mpi_comm': None, 'distributed_memory_parallelism': False, 'shared_memory_parallelism': False, 'constraints_evaluation_parallelism': False, 'verbose': False, 'oversubscribe': False, 'objective_evaluation_parallelism': False, 'objective_multisample_processes': 1, 'objective_multisample_threads': 1, 'objective_nprocmax': 1, 'sample_class': 'SampleLHSMDU', 'sample_algo': 'LHS-MDU', 'sample_max_iter': 1000000000, 'model_class': 'Model_GPy_LCM', 'model_kern': 'RBF', 'model_output_constraint': False, 'model_threads': 1, 'model_processes': 1, 'model_groups': 1, 'model_restarts': 1, 'model_restart_processes': 1, 'model_restart_threads': 1, 'model_max_iters': 15000, 'model_jitter': 1e-10, 'model_latent': None, 'model_sparse': False, 'model_inducing': None, 'model_layers': 2, 'model_max_jitter_try': 10, 'search_class': 'SearchPyGMO', 'search_threads': 1, 'search_processes': 1, 'search_multitask_threads': 1, 'search_multitask_processes': 1, 'search_algo': 'pso', 'search_udi': 'thread_island', 'search_pop_size': 1000, 'search_gen': 1000, 'search_evolve': 10, 'search_max_iters': 10, 'search_more_samples': 1, 'TLA_method': 'Regression', 'budget_min': 0.1, 'budget_max': 1, 'budget_base': 2, 'fidelity_map': None, 'N_PILOT_CGP': 20, 'N_SEQUENTIAL_CGP': 20, 'RND_SEED_CGP': 1, 'EXAMPLE_NAME_CGP': 'obj_name_dummy', 'METHOD_CGP': 'FREQUENTIST', 'N_BURNIN_CGP': 500, 'N_MCMCSAMPLES_CGP': 500, 'N_INFERENCE_CGP': 500, 'EXPLORATION_RATE_CGP': 1.0, 'NO_CLUSTER_CGP': False, 'N_NEIGHBORS_CGP': 3, 'CLUSTER_METHOD_CGP': 'BGM', 'N_COMPONENTS_CGP': 3, 'ACQUISITION_CGP': 'EI', 'BIGVAL_CGP': 1000000000000.0}
+Model kern:  RBF
+reconstraining parameters GP_regression.Gaussian_noise.variance
+
+
+
+------Starting MLA with HistoryDB with 4 tasks and 6 samples each 
+NS1:  3
+tmpP:  [array([[0.2691, 0.7034, 0.606 , 0.5036, 0.3733, 0.1077, 0.1212, 0.4173],
+       [0.9654, 0.4093, 0.2869, 0.8058, 0.7792, 0.8396, 0.6573, 0.8324],
+       [0.4393, 0.1424, 0.669 , 0.074 , 0.3143, 0.5677, 0.9875, 0.1003]]), array([[0.9591, 0.5675, 0.2698, 0.6377, 0.5994, 0.9319, 0.1252, 0.012 ],
+       [0.5803, 0.7865, 0.9367, 0.1704, 0.8833, 0.63  , 0.3647, 0.8219],
+       [0.2323, 0.0979, 0.6224, 0.8338, 0.234 , 0.1127, 0.8594, 0.5142]]), array([[0.6351, 0.3167, 0.8773, 0.7762, 0.2639, 0.1648, 0.1472, 0.7057],
+       [0.6971, 0.9835, 0.1495, 0.2242, 0.9299, 0.6859, 0.9626, 0.381 ],
+       [0.1064, 0.5245, 0.4311, 0.5841, 0.3637, 0.5165, 0.4503, 0.2538]]), array([[0.184 , 0.4678, 0.2517, 0.4043, 0.4502, 0.1458, 0.1713, 0.2074],
+       [0.5203, 0.0447, 0.8734, 0.7121, 0.1966, 0.9681, 0.9279, 0.6208],
+       [0.9589, 0.6763, 0.568 , 0.0048, 0.7974, 0.4494, 0.4655, 0.9832]])]
+500000 OUTPUT:%f [50.19776787661979, 50.072176148853025, 50.50287862641992] 50.28752738763647
+store_func_eval
+problem.constants
+None
+500000 OUTPUT:%f [50.3453556180708, 50.79307467469563, 50.6424643633738] 50.71776951903472
+store_func_eval
+problem.constants
+None
+500000 OUTPUT:%f [50.55373420333344, 50.79977984690047, 50.19143731222193] 50.4956085795612
+store_func_eval
+problem.constants
+None
+.....................Task:  100000
+.....................point {'p0': '256', 'p1': '100', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '64', 'p5': '256', 'p6': 'cores', 'p7': 'compact', 't': 100000}
+.....................model ret:  {'y': [[100.24818258546293]], 'y_var': array([[0.0002]]), 'source': 'model_function'}
+store_func_eval
+problem.constants
+None
+.....................Task:  100000
+.....................point {'p0': '64', 'p1': '160', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '128', 'p5': '64', 'p6': 'threads', 'p7': 'disabled', 't': 100000}
+.....................model ret:  {'y': [[100.60555436636787]], 'y_var': array([[0.0001]]), 'source': 'model_function'}
+store_func_eval
+problem.constants
+None
+.....................Task:  100000
+.....................point {'p0': '8', 'p1': '10', 'p2': ' ', 'p3': ' ', 'p4': '8', 'p5': '4', 'p6': 'sockets', 'p7': 'none', 't': 100000}
+.....................model ret:  {'y': [[100.95544447097927]], 'y_var': array([[0.0001]]), 'source': 'model_function'}
+store_func_eval
+problem.constants
+None
+.....................Task:  1000000
+.....................point {'p0': '64', 'p1': '40', 'p2': ' ', 'p3': ' ', 'p4': '8', 'p5': '4', 'p6': 'cores', 'p7': 'disabled', 't': 1000000}
+.....................model ret:  {'y': [[150.18477405339945]], 'y_var': array([[1.2502e-05]]), 'source': 'model_function'}
+store_func_eval
+problem.constants
+None
+.....................Task:  1000000
+.....................point {'p0': '96', 'p1': '200', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '256', 'p5': '96', 'p6': 'sockets', 'p7': 'balanced', 't': 1000000}
+.....................model ret:  {'y': [[150.73696405015653]], 'y_var': array([[1.6471e-05]]), 'source': 'model_function'}
+store_func_eval
+problem.constants
+None
+.....................Task:  1000000
+.....................point {'p0': '4', 'p1': '80', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '16', 'p5': '32', 'p6': 'threads', 'p7': 'scatter', 't': 1000000}
+.....................model ret:  {'y': [[150.53777510934742]], 'y_var': array([[9.2097e-07]]), 'source': 'model_function'}
+store_func_eval
+problem.constants
+None
+.....................Task:  5000000
+.....................point {'p0': '8', 'p1': '80', 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': '32', 'p5': '4', 'p6': 'cores', 'p7': 'scatter', 't': 5000000}
+.....................model ret:  {'y': [[200.37843392975628]], 'y_var': array([[0.0001]]), 'source': 'model_function'}
+store_func_eval
+problem.constants
+None
+.....................Task:  5000000
+.....................point {'p0': '48', 'p1': '10', 'p2': ' ', 'p3': ' ', 'p4': '4', 'p5': '256', 'p6': 'sockets', 'p7': 'none', 't': 5000000}
+.....................model ret:  {'y': [[200.72528852662072]], 'y_var': array([[3.2942e-05]]), 'source': 'model_function'}
+store_func_eval
+problem.constants
+None
+.....................Task:  5000000
+.....................point {'p0': '256', 'p1': '128', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '128', 'p5': '32', 'p6': 'threads', 'p7': 'explicit', 't': 5000000}
+.....................model ret:  {'y': [[200.87152300169691]], 'y_var': array([[0.0002]]), 'source': 'model_function'}
+store_func_eval
+problem.constants
+None
+NSmin:  3
+NS:  6
+MLA iteration:  0
+reconstraining parameters gp.mixed_noise.Gaussian_noise_0.variance
+reconstraining parameters gp.mixed_noise.Gaussian_noise_1.variance
+reconstraining parameters gp.mixed_noise.Gaussian_noise_2.variance
+reconstraining parameters gp.mixed_noise.Gaussian_noise_3.variance
+SEARCH!
+self.IOrig:  [500000]
+self.POrig:  [['8', '128', ' ', ' ', '16', '2', 'cores', 'balanced'], ['256', '64', '#pragma clang loop unrolling full', ' ', '128', '128', 'threads', 'disabled'], ['32', '20', ' ', '#pragma omp parallel for', '8', '64', 'sockets', 'compact']]
+prob:  <search.SurrogateProblem object at 0x14d58126eeb0>
+bestX [array([[0.9793, 0.8934, 0.7838, 0.9108, 0.3909, 0.2273, 0.0217, 0.1578]])]
+SEARCH!
+self.IOrig:  [100000]
+self.POrig:  [['256', '100', '#pragma clang loop unrolling full', ' ', '64', '256', 'cores', 'compact'], ['64', '160', ' ', '#pragma omp parallel for', '128', '64', 'threads', 'disabled'], ['8', '10', ' ', ' ', '8', '4', 'sockets', 'none']]
+prob:  <search.SurrogateProblem object at 0x14d58126eeb0>
+bestX [array([[0.7067, 0.8323, 0.5676, 0.7844, 0.0629, 0.5854, 0.487 , 0.0527]])]
+SEARCH!
+self.IOrig:  [1000000]
+self.POrig:  [['64', '40', ' ', ' ', '8', '4', 'cores', 'disabled'], ['96', '200', '#pragma clang loop unrolling full', '#pragma omp parallel for', '256', '96', 'sockets', 'balanced'], ['4', '80', '#pragma clang loop unrolling full', ' ', '16', '32', 'threads', 'scatter']]
+prob:  <search.SurrogateProblem object at 0x14d58126eeb0>
+bestX [array([[0.7856, 0.916 , 0.6345, 0.9684, 0.1369, 0.3582, 0.2193, 0.0159]])]
+SEARCH!
+self.IOrig:  [5000000]
+self.POrig:  [['8', '80', '#pragma clang loop unrolling full', '#pragma omp parallel for', '32', '4', 'cores', 'scatter'], ['48', '10', ' ', ' ', '4', '256', 'sockets', 'none'], ['256', '128', ' ', '#pragma omp parallel for', '128', '32', 'threads', 'explicit']]
+prob:  <search.SurrogateProblem object at 0x14d5812a70a0>
+bestX [array([[0.913 , 0.8964, 0.5678, 0.7436, 0.9822, 0.0903, 0.3024, 0.0636]])]
+500000 OUTPUT:%f [50.046686560052365, 50.9556872900659, 50.93107240294272] 50.943379846504314
+store_func_eval
+problem.constants
+None
+.....................Task:  100000
+.....................point {'p0': '96', 'p1': '160', 'p2': ' ', 'p3': ' ', 'p4': '2', 'p5': '64', 'p6': 'threads', 'p7': 'compact', 't': 100000}
+.....................model ret:  {'y': [[100.65337685294799]], 'y_var': array([[6.7698e-05]]), 'source': 'model_function'}
+store_func_eval
+problem.constants
+None
+.....................Task:  1000000
+.....................point {'p0': '128', 'p1': '200', 'p2': ' ', 'p3': ' ', 'p4': '4', 'p5': '16', 'p6': 'cores', 'p7': 'compact', 't': 1000000}
+.....................model ret:  {'y': [[150.1917848973535]], 'y_var': array([[2.133e-05]]), 'source': 'model_function'}
+store_func_eval
+problem.constants
+None
+.....................Task:  5000000
+.....................point {'p0': '256', 'p1': '200', 'p2': ' ', 'p3': ' ', 'p4': '256', 'p5': '2', 'p6': 'cores', 'p7': 'compact', 't': 5000000}
+.....................model ret:  {'y': [[200.37986957048997]], 'y_var': array([[7.02e-05]]), 'source': 'model_function'}
+store_func_eval
+problem.constants
+None
+MLA iteration:  1
+reconstraining parameters gp.mixed_noise.Gaussian_noise_0.variance
+reconstraining parameters gp.mixed_noise.Gaussian_noise_1.variance
+reconstraining parameters gp.mixed_noise.Gaussian_noise_2.variance
+reconstraining parameters gp.mixed_noise.Gaussian_noise_3.variance
+SEARCH!
+self.IOrig:  [500000]
+self.POrig:  [['8', '128', ' ', ' ', '16', '2', 'cores', 'balanced'], ['256', '64', '#pragma clang loop unrolling full', ' ', '128', '128', 'threads', 'disabled'], ['32', '20', ' ', '#pragma omp parallel for', '8', '64', 'sockets', 'compact'], ['256', '200', ' ', ' ', '16', '8', 'cores', 'compact']]
+prob:  <search.SurrogateProblem object at 0x14d580a31c10>
+bestX [array([[0.5748, 0.6674, 0.2508, 0.6592, 0.752 , 0.2261, 0.275 , 0.7183]])]
+SEARCH!
+self.IOrig:  [100000]
+self.POrig:  [['256', '100', '#pragma clang loop unrolling full', ' ', '64', '256', 'cores', 'compact'], ['64', '160', ' ', '#pragma omp parallel for', '128', '64', 'threads', 'disabled'], ['8', '10', ' ', ' ', '8', '4', 'sockets', 'none'], ['96', '160', ' ', ' ', '2', '64', 'threads', 'compact']]
+prob:  <search.SurrogateProblem object at 0x14d580588730>
+bestX [array([[0.1244, 0.9095, 0.1401, 0.539 , 0.9877, 0.4536, 0.1053, 0.9667]])]
+SEARCH!
+self.IOrig:  [1000000]
+self.POrig:  [['64', '40', ' ', ' ', '8', '4', 'cores', 'disabled'], ['96', '200', '#pragma clang loop unrolling full', '#pragma omp parallel for', '256', '96', 'sockets', 'balanced'], ['4', '80', '#pragma clang loop unrolling full', ' ', '16', '32', 'threads', 'scatter'], ['128', '200', ' ', ' ', '4', '16', 'cores', 'compact']]
+prob:  <search.SurrogateProblem object at 0x14d580588730>
+bestX [array([[0.3274, 0.6002, 0.09  , 0.8491, 0.6724, 0.8044, 0.3274, 0.8428]])]
+SEARCH!
+self.IOrig:  [5000000]
+self.POrig:  [['8', '80', '#pragma clang loop unrolling full', '#pragma omp parallel for', '32', '4', 'cores', 'scatter'], ['48', '10', ' ', ' ', '4', '256', 'sockets', 'none'], ['256', '128', ' ', '#pragma omp parallel for', '128', '32', 'threads', 'explicit'], ['256', '200', ' ', ' ', '256', '2', 'cores', 'compact']]
+prob:  <search.SurrogateProblem object at 0x14d580588730>
+bestX [array([[0.5365, 0.8645, 0.0324, 0.5777, 0.4934, 0.8591, 0.1422, 0.9275]])]
+500000 OUTPUT:%f [50.53247277314523, 50.13603120980119, 50.88722076583575] 50.51162598781847
+store_func_eval
+problem.constants
+None
+.....................Task:  100000
+.....................point {'p0': '4', 'p1': '200', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '256', 'p5': '32', 'p6': 'cores', 'p7': 'explicit', 't': 100000}
+.....................model ret:  {'y': [[100.49377638459555]], 'y_var': array([[6.8856e-05]]), 'source': 'model_function'}
+store_func_eval
+problem.constants
+None
+.....................Task:  1000000
+.....................point {'p0': '16', 'p1': '100', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '96', 'p5': '128', 'p6': 'cores', 'p7': 'explicit', 't': 1000000}
+.....................model ret:  {'y': [[150.4955029892153]], 'y_var': array([[6.1345e-06]]), 'source': 'model_function'}
+store_func_eval
+problem.constants
+None
+.....................Task:  5000000
+.....................point {'p0': '48', 'p1': '160', 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': '32', 'p5': '128', 'p6': 'cores', 'p7': 'explicit', 't': 5000000}
+.....................model ret:  {'y': [[200.73378496663645]], 'y_var': array([[4.0818e-05]]), 'source': 'model_function'}
+store_func_eval
+problem.constants
+None
+MLA iteration:  2
+reconstraining parameters gp.mixed_noise.Gaussian_noise_0.variance
+reconstraining parameters gp.mixed_noise.Gaussian_noise_1.variance
+reconstraining parameters gp.mixed_noise.Gaussian_noise_2.variance
+reconstraining parameters gp.mixed_noise.Gaussian_noise_3.variance
+SEARCH!
+self.IOrig:  [500000]
+self.POrig:  [['8', '128', ' ', ' ', '16', '2', 'cores', 'balanced'], ['256', '64', '#pragma clang loop unrolling full', ' ', '128', '128', 'threads', 'disabled'], ['32', '20', ' ', '#pragma omp parallel for', '8', '64', 'sockets', 'compact'], ['256', '200', ' ', ' ', '16', '8', 'cores', 'compact'], ['64', '128', '#pragma clang loop unrolling full', ' ', '96', '8', 'cores', 'disabled']]
+prob:  <search.SurrogateProblem object at 0x14d5812408e0>
+bestX [array([[0.0815, 0.1691, 0.5278, 0.1863, 0.5337, 0.601 , 0.1966, 0.288 ]])]
+SEARCH!
+self.IOrig:  [100000]
+self.POrig:  [['256', '100', '#pragma clang loop unrolling full', ' ', '64', '256', 'cores', 'compact'], ['64', '160', ' ', '#pragma omp parallel for', '128', '64', 'threads', 'disabled'], ['8', '10', ' ', ' ', '8', '4', 'sockets', 'none'], ['96', '160', ' ', ' ', '2', '64', 'threads', 'compact'], ['4', '200', '#pragma clang loop unrolling full', ' ', '256', '32', 'cores', 'explicit']]
+prob:  <search.SurrogateProblem object at 0x14d580f68670>
+bestX [array([[0.9115, 0.0406, 0.8843, 0.16  , 0.5606, 0.6525, 0.0846, 0.2228]])]
+SEARCH!
+self.IOrig:  [1000000]
+self.POrig:  [['64', '40', ' ', ' ', '8', '4', 'cores', 'disabled'], ['96', '200', '#pragma clang loop unrolling full', '#pragma omp parallel for', '256', '96', 'sockets', 'balanced'], ['4', '80', '#pragma clang loop unrolling full', ' ', '16', '32', 'threads', 'scatter'], ['128', '200', ' ', ' ', '4', '16', 'cores', 'compact'], ['16', '100', '#pragma clang loop unrolling full', ' ', '96', '128', 'cores', 'explicit']]
+prob:  <search.SurrogateProblem object at 0x14d58011afa0>
+bestX [array([[0.8177, 0.2455, 0.579 , 0.0694, 0.61  , 0.6975, 0.2726, 0.1247]])]
+SEARCH!
+self.IOrig:  [5000000]
+self.POrig:  [['8', '80', '#pragma clang loop unrolling full', '#pragma omp parallel for', '32', '4', 'cores', 'scatter'], ['48', '10', ' ', ' ', '4', '256', 'sockets', 'none'], ['256', '128', ' ', '#pragma omp parallel for', '128', '32', 'threads', 'explicit'], ['256', '200', ' ', ' ', '256', '2', 'cores', 'compact'], ['48', '160', '#pragma clang loop unrolling full', ' ', '32', '128', 'cores', 'explicit']]
+prob:  <search.SurrogateProblem object at 0x14d58002a430>
+bestX [array([[0.9389, 0.3506, 0.7927, 0.2986, 0.5883, 0.758 , 0.2314, 0.0419]])]
+500000 OUTPUT:%f [50.12954448749333, 50.0132432582398, 50.99063768116544] 50.50194046970262
+store_func_eval
+problem.constants
+None
+.....................Task:  100000
+.....................point {'p0': '256', 'p1': '10', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '64', 'p5': '64', 'p6': 'cores', 'p7': 'scatter', 't': 100000}
+.....................model ret:  {'y': [[100.7374013447261]], 'y_var': array([[4.6224e-05]]), 'source': 'model_function'}
+store_func_eval
+problem.constants
+None
+.....................Task:  1000000
+.....................point {'p0': '128', 'p1': '40', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '64', 'p5': '96', 'p6': 'cores', 'p7': 'compact', 't': 1000000}
+.....................model ret:  {'y': [[150.3122518073651]], 'y_var': array([[3.854e-06]]), 'source': 'model_function'}
+store_func_eval
+problem.constants
+None
+.....................Task:  5000000
+.....................point {'p0': '256', 'p1': '64', 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': '64', 'p5': '96', 'p6': 'cores', 'p7': 'compact', 't': 5000000}
+.....................model ret:  {'y': [[200.30523993447423]], 'y_var': array([[9.7637e-05]]), 'source': 'model_function'}
+store_func_eval
+problem.constants
+None
+stats:  {'time_total': 70.648038231, 'time_sample_init': 0.022813352, 'time_fun': 0.193256795, 'time_search': 60.940819895999994, 'time_model': 9.489227716, 'func_eval_time': [0.107977911], 'search_time': [19.926794588, 20.456867161, 20.557158147], 'modeling_time': [1.837957, 4.211243821, 3.440026895], 'modeling_iteration': [0, 0, 0]}
+tid: 0
+    t:500000.000000 
+    Ps  [['8', '128', ' ', ' ', '16', '2', 'cores', 'balanced'], ['256', '64', '#pragma clang loop unrolling full', ' ', '128', '128', 'threads', 'disabled'], ['32', '20', ' ', '#pragma omp parallel for', '8', '64', 'sockets', 'compact'], ['256', '200', ' ', ' ', '16', '8', 'cores', 'compact'], ['64', '128', '#pragma clang loop unrolling full', ' ', '96', '8', 'cores', 'disabled'], ['2', '20', ' ', '#pragma omp parallel for', '32', '64', 'cores', 'scatter']]
+    Os  [[50.28752738763647], [50.71776951903472], [50.4956085795612], [50.943379846504314], [50.51162598781847], [50.50194046970262]]
+    Popt  ['8', '128', ' ', ' ', '16', '2', 'cores', 'balanced'] Oopt  50.28752738763647 nth  0
+tid: 1
+    t:100000.000000 
+    Ps  [['256', '100', '#pragma clang loop unrolling full', ' ', '64', '256', 'cores', 'compact'], ['64', '160', ' ', '#pragma omp parallel for', '128', '64', 'threads', 'disabled'], ['8', '10', ' ', ' ', '8', '4', 'sockets', 'none'], ['96', '160', ' ', ' ', '2', '64', 'threads', 'compact'], ['4', '200', '#pragma clang loop unrolling full', ' ', '256', '32', 'cores', 'explicit'], ['256', '10', ' ', '#pragma omp parallel for', '64', '64', 'cores', 'scatter']]
+    Os  [[100.24818258546293], [100.60555436636787], [100.95544447097927], [100.65337685294799], [100.49377638459555], [100.7374013447261]]
+    Popt  ['256', '100', '#pragma clang loop unrolling full', ' ', '64', '256', 'cores', 'compact'] Oopt  100.24818258546293 nth  0
+tid: 2
+    t:1000000.000000 
+    Ps  [['64', '40', ' ', ' ', '8', '4', 'cores', 'disabled'], ['96', '200', '#pragma clang loop unrolling full', '#pragma omp parallel for', '256', '96', 'sockets', 'balanced'], ['4', '80', '#pragma clang loop unrolling full', ' ', '16', '32', 'threads', 'scatter'], ['128', '200', ' ', ' ', '4', '16', 'cores', 'compact'], ['16', '100', '#pragma clang loop unrolling full', ' ', '96', '128', 'cores', 'explicit'], ['128', '40', ' ', '#pragma omp parallel for', '64', '96', 'cores', 'compact']]
+    Os  [[150.18477405339945], [150.73696405015653], [150.53777510934742], [150.1917848973535], [150.4955029892153], [150.3122518073651]]
+    Popt  ['64', '40', ' ', ' ', '8', '4', 'cores', 'disabled'] Oopt  150.18477405339945 nth  0
+tid: 3
+    t:5000000.000000 
+    Ps  [['8', '80', '#pragma clang loop unrolling full', '#pragma omp parallel for', '32', '4', 'cores', 'scatter'], ['48', '10', ' ', ' ', '4', '256', 'sockets', 'none'], ['256', '128', ' ', '#pragma omp parallel for', '128', '32', 'threads', 'explicit'], ['256', '200', ' ', ' ', '256', '2', 'cores', 'compact'], ['48', '160', '#pragma clang loop unrolling full', ' ', '32', '128', 'cores', 'explicit'], ['256', '64', ' ', '#pragma omp parallel for', '64', '96', 'cores', 'compact']]
+    Os  [[200.37843392975628], [200.72528852662072], [200.87152300169691], [200.37986957048997], [200.73378496663645], [200.30523993447423]]
+    Popt  ['256', '64', ' ', '#pragma omp parallel for', '64', '96', 'cores', 'compact'] Oopt  200.30523993447423 nth  5

@@ -1,0 +1,645 @@
+/home/jkoo/anaconda3/envs/ytune/lib/python3.7/site-packages/ray/_private/services.py:238: UserWarning: Not all Ray Dashboard dependencies were found. To use the dashboard please install Ray using `pip install ray[default]`. To disable this message, set RAY_DISABLE_IMPORT_WARNING env var to '1'.
+  warnings.warn(warning_message)
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=107645)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=107645)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+/home/jkoo/anaconda3/envs/ytune/lib/python3.7/site-packages/ray/_private/services.py:238: UserWarning: Not all Ray Dashboard dependencies were found. To use the dashboard please install Ray using `pip install ray[default]`. To disable this message, set RAY_DISABLE_IMPORT_WARNING env var to '1'.
+  warnings.warn(warning_message)
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #62: KMP_AFFINITY: proclist not specified with explicit affinity type, using "none".
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+[2m[36m(pid=42278)[0m OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.

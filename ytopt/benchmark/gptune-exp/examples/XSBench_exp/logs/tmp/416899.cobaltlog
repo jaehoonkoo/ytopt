@@ -1,0 +1,7 @@
+Jobid: 416899
+qsub -t 360 -n 1 -q skylake_8180 run_autotune_s.sh
+Tue Feb 08 18:01:56 2022 +0000 (UTC) submitted with cwd set to: /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/logs
+jobid 416899 submitted from terminal /dev/pts/74
+Tue Feb 08 18:02:15 2022 +0000 (UTC) Info: user delete requested with signal SIGTERM by user jkoo now pending
+Tue Feb 08 18:02:32 2022 +0000 (UTC) Info: pending user delete; releasing resources
+Tue Feb 08 18:02:33 2022 +0000 (UTC) Info: resources released; starting job epilogue scripts

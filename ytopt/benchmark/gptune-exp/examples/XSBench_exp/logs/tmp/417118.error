@@ -1,0 +1,63 @@
+/home/jkoo/.bashrc: line 146: module: command not found
+loading depenency llvm module
+loading depenency cuda module
+
+Loading openmpi/4.1.1-llvm
+  Loading requirement: cuda/11.0.2 llvm/release-13.0.1
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+Killed by signal 15.

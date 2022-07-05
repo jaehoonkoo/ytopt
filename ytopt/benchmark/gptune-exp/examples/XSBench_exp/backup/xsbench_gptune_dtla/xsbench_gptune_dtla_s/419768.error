@@ -1,0 +1,57 @@
+/home/jkoo/.bashrc: line 146: module: command not found
+loading depenency llvm module
+loading depenency cuda module
+
+Loading openmpi/4.1.1-llvm
+  Loading requirement: cuda/11.0.2 llvm/release-13.0.1
+ /home/jkoo/spack/opt/spack/linux-opensuse_leap15-zen2/gcc-11.1.0/py-numpy-1.21.5-ddgjitktqsg667onth2m2atjxu3za3g7/lib/python3.8/site-packages/numpy/lib/npyio.py:528: VisibleDeprecationWarning:Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+ /home/jkoo/spack/opt/spack/linux-opensuse_leap15-zen2/gcc-11.1.0/py-numpy-1.21.5-ddgjitktqsg667onth2m2atjxu3za3g7/lib/python3.8/site-packages/numpy/lib/npyio.py:528: VisibleDeprecationWarning:Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+ /home/jkoo/spack/opt/spack/linux-opensuse_leap15-zen2/gcc-11.1.0/py-numpy-1.21.5-ddgjitktqsg667onth2m2atjxu3za3g7/lib/python3.8/site-packages/numpy/lib/npyio.py:528: VisibleDeprecationWarning:Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+ /home/jkoo/spack/opt/spack/linux-opensuse_leap15-zen2/gcc-11.1.0/py-numpy-1.21.5-ddgjitktqsg667onth2m2atjxu3za3g7/lib/python3.8/site-packages/numpy/lib/npyio.py:528: VisibleDeprecationWarning:Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+ /home/jkoo/spack/opt/spack/linux-opensuse_leap15-zen2/gcc-11.1.0/py-numpy-1.21.5-ddgjitktqsg667onth2m2atjxu3za3g7/lib/python3.8/site-packages/numpy/lib/npyio.py:528: VisibleDeprecationWarning:Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+ /home/jkoo/spack/opt/spack/linux-opensuse_leap15-zen2/gcc-11.1.0/py-numpy-1.21.5-ddgjitktqsg667onth2m2atjxu3za3g7/lib/python3.8/site-packages/numpy/lib/npyio.py:528: VisibleDeprecationWarning:Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+ /home/jkoo/spack/opt/spack/linux-opensuse_leap15-zen2/gcc-11.1.0/py-numpy-1.21.5-ddgjitktqsg667onth2m2atjxu3za3g7/lib/python3.8/site-packages/numpy/lib/npyio.py:528: VisibleDeprecationWarning:Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+ /home/jkoo/spack/opt/spack/linux-opensuse_leap15-zen2/gcc-11.1.0/py-numpy-1.21.5-ddgjitktqsg667onth2m2atjxu3za3g7/lib/python3.8/site-packages/numpy/lib/npyio.py:528: VisibleDeprecationWarning:Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+ /home/jkoo/spack/opt/spack/linux-opensuse_leap15-zen2/gcc-11.1.0/py-numpy-1.21.5-ddgjitktqsg667onth2m2atjxu3za3g7/lib/python3.8/site-packages/numpy/lib/npyio.py:528: VisibleDeprecationWarning:Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+ /home/jkoo/spack/opt/spack/linux-opensuse_leap15-zen2/gcc-11.1.0/py-numpy-1.21.5-ddgjitktqsg667onth2m2atjxu3za3g7/lib/python3.8/site-packages/numpy/lib/npyio.py:528: VisibleDeprecationWarning:Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+ /home/jkoo/spack/opt/spack/linux-opensuse_leap15-zen2/gcc-11.1.0/py-numpy-1.21.5-ddgjitktqsg667onth2m2atjxu3za3g7/lib/python3.8/site-packages/numpy/lib/npyio.py:528: VisibleDeprecationWarning:Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+ /home/jkoo/spack/opt/spack/linux-opensuse_leap15-zen2/gcc-11.1.0/py-numpy-1.21.5-ddgjitktqsg667onth2m2atjxu3za3g7/lib/python3.8/site-packages/numpy/lib/npyio.py:528: VisibleDeprecationWarning:Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+python: can't open file 'demo_dlta_test.py': [Errno 2] No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[46577,1],0]
+  Exit code:    2
+--------------------------------------------------------------------------
+mv: cannot stat 'save_results.npy': No such file or directory
+python: can't open file 'demo_dlta_test.py': [Errno 2] No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[46590,1],0]
+  Exit code:    2
+--------------------------------------------------------------------------
+mv: cannot stat 'save_results.npy': No such file or directory
+python: can't open file 'demo_dlta_test.py': [Errno 2] No such file or directory
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[46571,1],0]
+  Exit code:    2
+--------------------------------------------------------------------------
+mv: cannot stat 'save_results.npy': No such file or directory

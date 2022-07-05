@@ -1,0 +1,25 @@
+Jobid: 421147
+qsub -t 360 -n 1 -q skylake_8180 run_autotune_gptune.sh
+Tue Feb 22 01:22:20 2022 +0000 (UTC) submitted with cwd set to: /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla
+jobid 421147 submitted from terminal /dev/pts/43
+Tue Feb 22 01:22:47 2022 +0000 (UTC) 
+Tue Feb 22 01:22:47 2022 +0000 (UTC) Command: '/usr/bin/ssh' 'skylake10' '/usr/libexec/cobalt/cobalt-launcher.py' '--nf' '/var/tmp/cobalt.421147' '--jobid' '421147' '--cwd' '/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla' '--env' 'COBALT_JOBID=421147' '/gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla/run_autotune_gptune.sh'
+Tue Feb 22 01:22:47 2022 +0000 (UTC) 
+Tue Feb 22 01:22:47 2022 +0000 (UTC) Environment:
+Tue Feb 22 01:22:47 2022 +0000 (UTC) SHELL=/bin/bash
+Tue Feb 22 01:22:47 2022 +0000 (UTC) COBALT_NODEFILE=/tmp/tmpKBs7C4
+Tue Feb 22 01:22:47 2022 +0000 (UTC) COBALT_PARTNAME=skylake10
+Tue Feb 22 01:22:47 2022 +0000 (UTC) COBALT_JOBID=421147
+Tue Feb 22 01:22:47 2022 +0000 (UTC) COBALT_STARTTIME=1645492950
+Tue Feb 22 01:22:47 2022 +0000 (UTC) LOGNAME=jkoo
+Tue Feb 22 01:22:47 2022 +0000 (UTC) USER=jkoo
+Tue Feb 22 01:22:47 2022 +0000 (UTC) COBALT_ENDTIME=1645514550
+Tue Feb 22 01:22:47 2022 +0000 (UTC) COBALT_PARTSIZE=1
+Tue Feb 22 01:22:47 2022 +0000 (UTC) HOME=/home/jkoo
+Tue Feb 22 01:22:47 2022 +0000 (UTC) COBALT_JOBSIZE=1
+Tue Feb 22 01:22:47 2022 +0000 (UTC) 
+Tue Feb 22 01:22:47 2022 +0000 (UTC) Info: stdin received from /dev/null
+Tue Feb 22 01:22:47 2022 +0000 (UTC) Info: stdout sent to /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla/421147.output
+Tue Feb 22 01:22:47 2022 +0000 (UTC) Info: stderr sent to /gpfs/jlse-fs0/users/jkoo/code/gptune/examples/RSBench_exp/rsbench_gptune_dtla/421147.error
+Tue Feb 22 01:22:47 2022 +0000 (UTC) 
+Tue Feb 22 07:22:45 2022 +0000 (UTC) Info: maximum execution time exceeded; initiating job termination

@@ -1,0 +1,1406 @@
+/home/jkoo/.bashrc: line 146: module: command not found
+loading depenency llvm module
+loading depenency cuda module
+
+Loading openmpi/4.1.1-llvm
+  Loading requirement: cuda/11.0.2 llvm/release-13.0.1
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/anaconda3/envs/ytune/lib/python3.7/site-packages/copulas/univariate/truncated_gaussian.py:43: RuntimeWarning: divide by zero encountered in double_scalars
+  a = (self.min - loc) / scale
+/home/jkoo/anaconda3/envs/ytune/lib/python3.7/site-packages/copulas/univariate/truncated_gaussian.py:44: RuntimeWarning: invalid value encountered in double_scalars
+  b = (self.max - loc) / scale
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/optimize.py:283: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  "minimize step, clipping to bounds", RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/optimize.py:283: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  "minimize step, clipping to bounds", RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/optimize.py:283: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  "minimize step, clipping to bounds", RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/optimize.py:283: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  "minimize step, clipping to bounds", RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/optimize.py:283: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  "minimize step, clipping to bounds", RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/optimize.py:283: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  "minimize step, clipping to bounds", RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/optimize.py:283: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  "minimize step, clipping to bounds", RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/optimize.py:283: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  "minimize step, clipping to bounds", RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/optimize.py:283: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  "minimize step, clipping to bounds", RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The number of calls to function has reached maxfev = 600.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/optimize.py:283: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  "minimize step, clipping to bounds", RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The number of calls to function has reached maxfev = 600.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/optimize.py:283: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  "minimize step, clipping to bounds", RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The number of calls to function has reached maxfev = 600.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/optimize.py:283: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  "minimize step, clipping to bounds", RuntimeWarning)
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/optimize.py:283: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  "minimize step, clipping to bounds", RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/optimize.py:283: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  "minimize step, clipping to bounds", RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/optimize.py:283: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  "minimize step, clipping to bounds", RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/optimize.py:283: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  "minimize step, clipping to bounds", RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/optimize.py:283: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  "minimize step, clipping to bounds", RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The number of calls to function has reached maxfev = 600.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The number of calls to function has reached maxfev = 600.
+  warnings.warn(msg, RuntimeWarning)
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/optimize.py:283: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  "minimize step, clipping to bounds", RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The number of calls to function has reached maxfev = 600.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/optimize.py:283: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  "minimize step, clipping to bounds", RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/optimize.py:761: RuntimeWarning: invalid value encountered in subtract
+  np.max(np.abs(fsim[0] - fsim[1:])) <= fatol):
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The number of calls to function has reached maxfev = 600.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/optimize.py:283: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  "minimize step, clipping to bounds", RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/optimize.py:283: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
+  "minimize step, clipping to bounds", RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The number of calls to function has reached maxfev = 600.
+  warnings.warn(msg, RuntimeWarning)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5320: RuntimeWarning: divide by zero encountered in true_divide
+  return c**2 / (c**2 - n**2)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py:2606: RuntimeWarning: invalid value encountered in double_scalars
+  Lhat = muhat - Shat*mu
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:5311: RuntimeWarning: divide by zero encountered in power
+  return cd2*x**(c-1)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/stats/_continuous_distns.py:639: RuntimeWarning: invalid value encountered in sqrt
+  sk = 2*(b-a)*np.sqrt(a + b + 1) / (a + b + 2) / np.sqrt(a*b)
+/home/jkoo/.local/lib/python3.7/site-packages/scipy/optimize/minpack.py:175: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  warnings.warn(msg, RuntimeWarning)
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+OMP: Warning #181: OMP_PLACES: ignored because KMP_AFFINITY has been defined
+OMP: Warning #242: KMP_AFFINITY: granularity=core will be used.
+Killed by signal 15.

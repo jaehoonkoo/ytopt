@@ -1,0 +1,30 @@
+Jobid: 583187
+qsub --mode script -n 8 --mode script -t 30 -q debug-cache-quad -A EE-ECP ./run.sh
+Tue Feb 15 22:40:32 2022 +0000 (UTC) submitted with cwd set to: /lus/theta-fs0/projects/EE-ECP/wuxf/work/yt/ecp/swfft
+jobid 583187 submitted from terminal /dev/pts/48
+2022-02-15 22:52:08,870 INFO: Starting Resource_Prologue
+2022-02-15 22:52:08,872 DEBUG: no enabling attribute found
+2022-02-15 22:52:08,873 INFO: Resource_Prologue finished with exit code 0
+Tue Feb 15 22:52:31 2022 +0000 (UTC) 
+Tue Feb 15 22:52:31 2022 +0000 (UTC) Command: '/lus/theta-fs0/projects/EE-ECP/wuxf/work/yt/ecp/swfft/./run.sh'
+Tue Feb 15 22:52:31 2022 +0000 (UTC) 
+Tue Feb 15 22:52:31 2022 +0000 (UTC) Environment:
+Tue Feb 15 22:52:31 2022 +0000 (UTC) COBALT_PARTCORES=64
+Tue Feb 15 22:52:31 2022 +0000 (UTC) SHELL=/bin/bash
+Tue Feb 15 22:52:31 2022 +0000 (UTC) COBALT_PROJECT=EE-ECP
+Tue Feb 15 22:52:31 2022 +0000 (UTC) COBALT_PARTNAME=3830,3832-3836,3838-3839
+Tue Feb 15 22:52:31 2022 +0000 (UTC) COBALT_JOBID=583187
+Tue Feb 15 22:52:31 2022 +0000 (UTC) COBALT_STARTTIME=1644965515
+Tue Feb 15 22:52:31 2022 +0000 (UTC) LOGNAME=wuxf
+Tue Feb 15 22:52:31 2022 +0000 (UTC) USER=wuxf
+Tue Feb 15 22:52:31 2022 +0000 (UTC) COBALT_ENDTIME=1644967315
+Tue Feb 15 22:52:31 2022 +0000 (UTC) COBALT_PARTSIZE=8
+Tue Feb 15 22:52:31 2022 +0000 (UTC) HOME=/home/wuxf
+Tue Feb 15 22:52:31 2022 +0000 (UTC) COBALT_JOBSIZE=8
+Tue Feb 15 22:52:31 2022 +0000 (UTC) COBALT_QUEUE=debug-cache-quad
+Tue Feb 15 22:52:31 2022 +0000 (UTC) 
+Tue Feb 15 22:52:31 2022 +0000 (UTC) Info: stdin received from /dev/null
+Tue Feb 15 22:52:31 2022 +0000 (UTC) Info: stdout sent to /lus/theta-fs0/projects/EE-ECP/wuxf/work/yt/ecp/swfft/583187.output
+Tue Feb 15 22:52:31 2022 +0000 (UTC) Info: stderr sent to /lus/theta-fs0/projects/EE-ECP/wuxf/work/yt/ecp/swfft/583187.error
+Tue Feb 15 22:52:31 2022 +0000 (UTC) 
+Tue Feb 15 22:54:32 2022 +0000 (UTC) Info: task completed normally with an exit code of 0; initiating job cleanup and removal

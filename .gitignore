@@ -116,3 +116,8 @@ venv.bak/
 *-old/
 *.csv
 *.json
+
+# source codes and executable
+tmp_files*/
+tmp_results*/
+

@@ -1,0 +1,25 @@
+Jobid: 402474
+qsub -t 360 -n 1 -q skylake_8180 run_autotune_xl.sh
+Fri Dec 17 19:20:05 2021 +0000 (UTC) submitted with cwd set to: /gpfs/jlse-fs0/users/jkoo/code/kde/Benchmarks/RSBench_exp/logs
+jobid 402474 submitted from terminal /dev/pts/40
+Fri Dec 17 19:20:31 2021 +0000 (UTC) 
+Fri Dec 17 19:20:31 2021 +0000 (UTC) Command: '/usr/bin/ssh' 'skylake02' '/usr/libexec/cobalt/cobalt-launcher.py' '--nf' '/var/tmp/cobalt.402474' '--jobid' '402474' '--cwd' '/gpfs/jlse-fs0/users/jkoo/code/kde/Benchmarks/RSBench_exp/logs' '--env' 'COBALT_JOBID=402474' '/gpfs/jlse-fs0/users/jkoo/code/kde/Benchmarks/RSBench_exp/logs/run_autotune_xl.sh'
+Fri Dec 17 19:20:31 2021 +0000 (UTC) 
+Fri Dec 17 19:20:31 2021 +0000 (UTC) Environment:
+Fri Dec 17 19:20:31 2021 +0000 (UTC) SHELL=/bin/bash
+Fri Dec 17 19:20:31 2021 +0000 (UTC) COBALT_NODEFILE=/tmp/tmpZjfOxV
+Fri Dec 17 19:20:31 2021 +0000 (UTC) COBALT_PARTNAME=skylake02
+Fri Dec 17 19:20:31 2021 +0000 (UTC) COBALT_JOBID=402474
+Fri Dec 17 19:20:31 2021 +0000 (UTC) COBALT_STARTTIME=1639768811
+Fri Dec 17 19:20:31 2021 +0000 (UTC) LOGNAME=jkoo
+Fri Dec 17 19:20:31 2021 +0000 (UTC) USER=jkoo
+Fri Dec 17 19:20:31 2021 +0000 (UTC) COBALT_ENDTIME=1639790411
+Fri Dec 17 19:20:31 2021 +0000 (UTC) COBALT_PARTSIZE=1
+Fri Dec 17 19:20:31 2021 +0000 (UTC) HOME=/home/jkoo
+Fri Dec 17 19:20:31 2021 +0000 (UTC) COBALT_JOBSIZE=1
+Fri Dec 17 19:20:31 2021 +0000 (UTC) 
+Fri Dec 17 19:20:31 2021 +0000 (UTC) Info: stdin received from /dev/null
+Fri Dec 17 19:20:31 2021 +0000 (UTC) Info: stdout sent to /gpfs/jlse-fs0/users/jkoo/code/kde/Benchmarks/RSBench_exp/logs/402474.output
+Fri Dec 17 19:20:31 2021 +0000 (UTC) Info: stderr sent to /gpfs/jlse-fs0/users/jkoo/code/kde/Benchmarks/RSBench_exp/logs/402474.error
+Fri Dec 17 19:20:31 2021 +0000 (UTC) 
+Sat Dec 18 01:20:22 2021 +0000 (UTC) Info: maximum execution time exceeded; initiating job termination

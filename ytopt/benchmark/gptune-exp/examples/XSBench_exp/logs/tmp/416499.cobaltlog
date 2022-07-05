@@ -1,0 +1,25 @@
+Jobid: 416499
+qsub -t 360 -n 1 -q skylake_8180 run_autotune_xl.sh
+Mon Feb 07 20:36:22 2022 +0000 (UTC) submitted with cwd set to: /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/logs
+jobid 416499 submitted from terminal /dev/pts/42
+Mon Feb 07 20:36:53 2022 +0000 (UTC) 
+Mon Feb 07 20:36:53 2022 +0000 (UTC) Command: '/usr/bin/ssh' 'skylake01' '/usr/libexec/cobalt/cobalt-launcher.py' '--nf' '/var/tmp/cobalt.416499' '--jobid' '416499' '--cwd' '/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/logs' '--env' 'COBALT_JOBID=416499' '/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/logs/run_autotune_xl.sh'
+Mon Feb 07 20:36:53 2022 +0000 (UTC) 
+Mon Feb 07 20:36:53 2022 +0000 (UTC) Environment:
+Mon Feb 07 20:36:53 2022 +0000 (UTC) SHELL=/bin/bash
+Mon Feb 07 20:36:53 2022 +0000 (UTC) COBALT_NODEFILE=/tmp/tmp4bHU3F
+Mon Feb 07 20:36:53 2022 +0000 (UTC) COBALT_PARTNAME=skylake01
+Mon Feb 07 20:36:53 2022 +0000 (UTC) COBALT_JOBID=416499
+Mon Feb 07 20:36:53 2022 +0000 (UTC) COBALT_STARTTIME=1644266204
+Mon Feb 07 20:36:53 2022 +0000 (UTC) LOGNAME=jkoo
+Mon Feb 07 20:36:53 2022 +0000 (UTC) USER=jkoo
+Mon Feb 07 20:36:53 2022 +0000 (UTC) COBALT_ENDTIME=1644287804
+Mon Feb 07 20:36:53 2022 +0000 (UTC) COBALT_PARTSIZE=1
+Mon Feb 07 20:36:53 2022 +0000 (UTC) HOME=/home/jkoo
+Mon Feb 07 20:36:53 2022 +0000 (UTC) COBALT_JOBSIZE=1
+Mon Feb 07 20:36:53 2022 +0000 (UTC) 
+Mon Feb 07 20:36:53 2022 +0000 (UTC) Info: stdin received from /dev/null
+Mon Feb 07 20:36:53 2022 +0000 (UTC) Info: stdout sent to /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/logs/416499.output
+Mon Feb 07 20:36:53 2022 +0000 (UTC) Info: stderr sent to /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/logs/416499.error
+Mon Feb 07 20:36:53 2022 +0000 (UTC) 
+Mon Feb 07 22:04:28 2022 +0000 (UTC) Info: task completed normally with an exit code of 0; initiating job cleanup and removal

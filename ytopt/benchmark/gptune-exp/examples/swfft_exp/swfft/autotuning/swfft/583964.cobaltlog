@@ -1,0 +1,30 @@
+Jobid: 583964
+qsub -A EE-ECP -n 8 -t 60 -q debug-flat-quad ./run.cob
+Fri Feb 18 22:45:17 2022 +0000 (UTC) submitted with cwd set to: /lus/theta-fs0/projects/EE-ECP/wuxf/work/yt/ECP/swfft/autotuning/swfft
+jobid 583964 submitted from terminal /dev/pts/65
+2022-02-18 22:46:23,610 INFO: Starting Resource_Prologue
+2022-02-18 22:46:23,612 DEBUG: no enabling attribute found
+2022-02-18 22:46:23,612 INFO: Resource_Prologue finished with exit code 0
+Fri Feb 18 22:46:46 2022 +0000 (UTC) 
+Fri Feb 18 22:46:46 2022 +0000 (UTC) Command: '/lus/theta-fs0/projects/EE-ECP/wuxf/work/yt/ECP/swfft/autotuning/swfft/./run.cob'
+Fri Feb 18 22:46:46 2022 +0000 (UTC) 
+Fri Feb 18 22:46:46 2022 +0000 (UTC) Environment:
+Fri Feb 18 22:46:46 2022 +0000 (UTC) COBALT_PARTCORES=64
+Fri Feb 18 22:46:46 2022 +0000 (UTC) SHELL=/bin/bash
+Fri Feb 18 22:46:46 2022 +0000 (UTC) COBALT_PROJECT=EE-ECP
+Fri Feb 18 22:46:46 2022 +0000 (UTC) COBALT_PARTNAME=5,7-9,20-23
+Fri Feb 18 22:46:46 2022 +0000 (UTC) COBALT_JOBID=583964
+Fri Feb 18 22:46:46 2022 +0000 (UTC) COBALT_STARTTIME=1645224368
+Fri Feb 18 22:46:46 2022 +0000 (UTC) LOGNAME=wuxf
+Fri Feb 18 22:46:46 2022 +0000 (UTC) USER=wuxf
+Fri Feb 18 22:46:46 2022 +0000 (UTC) COBALT_ENDTIME=1645227968
+Fri Feb 18 22:46:46 2022 +0000 (UTC) COBALT_PARTSIZE=8
+Fri Feb 18 22:46:46 2022 +0000 (UTC) HOME=/home/wuxf
+Fri Feb 18 22:46:46 2022 +0000 (UTC) COBALT_JOBSIZE=8
+Fri Feb 18 22:46:46 2022 +0000 (UTC) COBALT_QUEUE=debug-flat-quad
+Fri Feb 18 22:46:46 2022 +0000 (UTC) 
+Fri Feb 18 22:46:46 2022 +0000 (UTC) Info: stdin received from /dev/null
+Fri Feb 18 22:46:46 2022 +0000 (UTC) Info: stdout sent to /lus/theta-fs0/projects/EE-ECP/wuxf/work/yt/ECP/swfft/autotuning/swfft/583964.output
+Fri Feb 18 22:46:46 2022 +0000 (UTC) Info: stderr sent to /lus/theta-fs0/projects/EE-ECP/wuxf/work/yt/ECP/swfft/autotuning/swfft/583964.error
+Fri Feb 18 22:46:46 2022 +0000 (UTC) 
+Fri Feb 18 22:49:27 2022 +0000 (UTC) Info: task completed normally with an exit code of 0; initiating job cleanup and removal

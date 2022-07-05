@@ -1,0 +1,157 @@
+time...now 1644371929.8458927
+xxxxxxxxx----------------------------- used how much data??? 0.9
+s 100000 20 -3.2356787124511577
+m 1000000 20 -0.9338896984771705
+l 5000000 20 0.6775336577212278
+len(np.unique(samples[:,-2])) 1000
+.......update
+0 200
+0 10
+VALUES: 8
+clang /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/7221.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/Materials.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/XSutils.c  -I/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/7221 -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/7221 -s large -m event -l 500000
+........................................ [0.27061, 0.26741, 0.26743]
+OUTPUT:%f [0.27061, 0.26741, 0.26743] 0.26742
+{'p0': 8, 'p1': 160, 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': 2, 'p5': 2, 'p6': 'threads', 'p7': 'balanced'} 0.26742
+VALUES: 8
+clang /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/1915.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/Materials.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/XSutils.c  -I/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/1915 -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/1915 -s large -m event -l 500000
+........................................ [0.34314, 0.28216, 0.28211]
+OUTPUT:%f [0.34314, 0.28216, 0.28211] 0.282135
+{'p0': 8, 'p1': 100, 'p2': ' ', 'p3': ' ', 'p4': 8, 'p5': 8, 'p6': 'cores', 'p7': 'balanced'} 0.282135
+VALUES: 8
+clang /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/123.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/Materials.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/XSutils.c  -I/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/123 -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/123 -s large -m event -l 500000
+........................................ [0.35267, 0.28144, 0.28141]
+OUTPUT:%f [0.35267, 0.28144, 0.28141] 0.28142500000000004
+{'p0': 8, 'p1': 64, 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': 16, 'p5': 96, 'p6': 'sockets', 'p7': 'balanced'} 0.28142500000000004
+VALUES: 8
+clang /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/1486.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/Materials.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/XSutils.c  -I/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/1486 -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/1486 -s large -m event -l 500000
+........................................ [0.35306, 0.28144, 0.28162]
+OUTPUT:%f [0.35306, 0.28144, 0.28162] 0.28153
+{'p0': 8, 'p1': 80, 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': 64, 'p5': 8, 'p6': 'cores', 'p7': 'balanced'} 0.28153
+VALUES: 8
+clang /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/9540.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/Materials.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/XSutils.c  -I/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/9540 -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/9540 -s large -m event -l 500000
+........................................ [0.35257, 0.28176, 0.28201]
+OUTPUT:%f [0.35257, 0.28176, 0.28201] 0.281885
+{'p0': 8, 'p1': 80, 'p2': ' ', 'p3': ' ', 'p4': 8, 'p5': 8, 'p6': 'sockets', 'p7': 'balanced'} 0.281885
+VALUES: 8
+clang /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/573.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/Materials.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/XSutils.c  -I/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/573 -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/573 -s large -m event -l 500000
+........................................ [0.35255, 0.28187, 0.28186]
+OUTPUT:%f [0.35255, 0.28187, 0.28186] 0.28186500000000003
+{'p0': 8, 'p1': 200, 'p2': ' ', 'p3': ' ', 'p4': 4, 'p5': 64, 'p6': 'sockets', 'p7': 'balanced'} 0.28186500000000003
+VALUES: 8
+clang /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/1376.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/Materials.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/XSutils.c  -I/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/1376 -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/1376 -s large -m event -l 500000
+........................................ [0.35312, 0.28148, 0.28149]
+OUTPUT:%f [0.35312, 0.28148, 0.28149] 0.281485
+{'p0': 8, 'p1': 160, 'p2': ' ', 'p3': ' ', 'p4': 256, 'p5': 8, 'p6': 'threads', 'p7': 'balanced'} 0.281485
+VALUES: 8
+clang /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/1613.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/Materials.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/XSutils.c  -I/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/1613 -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/1613 -s large -m event -l 500000
+........................................ [0.34413, 0.2819, 0.28192]
+OUTPUT:%f [0.34413, 0.2819, 0.28192] 0.28191
+{'p0': 8, 'p1': 128, 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': 8, 'p5': 96, 'p6': 'sockets', 'p7': 'balanced'} 0.28191
+VALUES: 8
+clang /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/5811.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/Materials.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/XSutils.c  -I/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/5811 -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/5811 -s large -m event -l 500000
+........................................ [0.27014, 0.26688, 0.26681]
+OUTPUT:%f [0.27014, 0.26688, 0.26681] 0.266845
+{'p0': 8, 'p1': 100, 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': 64, 'p5': 8, 'p6': 'threads', 'p7': 'balanced'} 0.266845
+VALUES: 8
+clang /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/3880.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/Materials.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/XSutils.c  -I/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/3880 -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/3880 -s large -m event -l 500000
+........................................ [0.35488, 0.28335, 0.28337]
+OUTPUT:%f [0.35488, 0.28335, 0.28337] 0.28336
+{'p0': 8, 'p1': 160, 'p2': ' ', 'p3': ' ', 'p4': 16, 'p5': 4, 'p6': 'sockets', 'p7': 'balanced'} 0.28336
+len(np.unique(samples[:,-2])) 1000
+.......update
+10 200
+0 10
+VALUES: 8
+clang /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/286.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/Materials.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/XSutils.c  -I/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/286 -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/286 -s large -m event -l 500000
+........................................ [0.27178, 0.26872, 0.26879]
+OUTPUT:%f [0.27178, 0.26872, 0.26879] 0.26875499999999997
+{'p0': 8, 'p1': 100, 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': 256, 'p5': 96, 'p6': 'threads', 'p7': 'balanced'} 0.26875499999999997
+VALUES: 8
+clang /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/505.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/Materials.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/XSutils.c  -I/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/505 -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/505 -s large -m event -l 500000
+........................................ [0.35349, 0.2835, 0.28357]
+OUTPUT:%f [0.35349, 0.2835, 0.28357] 0.283535
+{'p0': 8, 'p1': 100, 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': 8, 'p5': 32, 'p6': 'sockets', 'p7': 'balanced'} 0.283535
+VALUES: 8
+clang /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/260.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/Materials.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/XSutils.c  -I/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/260 -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/260 -s large -m event -l 500000
+........................................ [0.35379, 0.28333, 0.2833]
+OUTPUT:%f [0.35379, 0.28333, 0.2833] 0.283315
+{'p0': 8, 'p1': 100, 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': 256, 'p5': 96, 'p6': 'threads', 'p7': 'balanced'} 0.283315
+VALUES: 8
+clang /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/5671.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/Materials.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/XSutils.c  -I/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/5671 -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/5671 -s large -m event -l 500000
+........................................ [0.35329, 0.28306, 0.28347]
+OUTPUT:%f [0.35329, 0.28306, 0.28347] 0.283265
+{'p0': 8, 'p1': 128, 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': 16, 'p5': 2, 'p6': 'sockets', 'p7': 'balanced'} 0.283265
+VALUES: 8
+clang /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/7934.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/Materials.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/XSutils.c  -I/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/7934 -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/7934 -s large -m event -l 500000
+........................................ [0.34555, 0.2836, 0.28332]
+OUTPUT:%f [0.34555, 0.2836, 0.28332] 0.28346000000000005
+{'p0': 8, 'p1': 100, 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': 16, 'p5': 64, 'p6': 'sockets', 'p7': 'balanced'} 0.28346000000000005
+VALUES: 8
+clang /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/7595.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/Materials.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/XSutils.c  -I/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/7595 -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/7595 -s large -m event -l 500000
+........................................ [0.27221, 0.26958, 0.26944]
+OUTPUT:%f [0.27221, 0.26958, 0.26944] 0.26951
+{'p0': 8, 'p1': 200, 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': 64, 'p5': 96, 'p6': 'sockets', 'p7': 'balanced'} 0.26951
+VALUES: 8
+clang /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/2434.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/Materials.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/XSutils.c  -I/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/2434 -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/2434 -s large -m event -l 500000
+........................................ [0.35471, 0.28334, 0.28295]
+OUTPUT:%f [0.35471, 0.28334, 0.28295] 0.283145
+{'p0': 8, 'p1': 128, 'p2': ' ', 'p3': ' ', 'p4': 8, 'p5': 2, 'p6': 'threads', 'p7': 'balanced'} 0.283145
+VALUES: 8
+clang /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/1496.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/Materials.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/XSutils.c  -I/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/1496 -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/1496 -s large -m event -l 500000
+........................................ [0.27263, 0.26932, 0.26958]
+OUTPUT:%f [0.27263, 0.26932, 0.26958] 0.26944999999999997
+{'p0': 8, 'p1': 128, 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': 96, 'p5': 4, 'p6': 'sockets', 'p7': 'balanced'} 0.26944999999999997
+VALUES: 8
+clang /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/3000.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/Materials.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/XSutils.c  -I/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/3000 -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/3000 -s large -m event -l 500000
+........................................ [0.35405, 0.28368, 0.2838]
+OUTPUT:%f [0.35405, 0.28368, 0.2838] 0.28374
+{'p0': 8, 'p1': 200, 'p2': '#pragma clang loop unrolling full', 'p3': ' ', 'p4': 64, 'p5': 2, 'p6': 'sockets', 'p7': 'balanced'} 0.28374
+VALUES: 8
+clang /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/1875.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/Materials.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/XSutils.c  -I/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/1875 -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/1875 -s large -m event -l 500000
+........................................ [0.27379, 0.27036, 0.27045]
+OUTPUT:%f [0.27379, 0.27036, 0.27045] 0.270405
+{'p0': 8, 'p1': 200, 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': 2, 'p5': 2, 'p6': 'sockets', 'p7': 'balanced'} 0.270405
+len(np.unique(samples[:,-2])) 1000
+.......update
+20 200
+0 10
+VALUES: 8
+clang /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/240.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/Materials.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/XSutils.c  -I/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/240 -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/240 -s large -m event -l 500000
+........................................ [0.27172, 0.26842, 0.26836]
+OUTPUT:%f [0.27172, 0.26842, 0.26836] 0.26839
+{'p0': 8, 'p1': 128, 'p2': '#pragma clang loop unrolling full', 'p3': '#pragma omp parallel for', 'p4': 8, 'p5': 128, 'p6': 'sockets', 'p7': 'balanced'} 0.26839
+VALUES: 8
+clang /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/8243.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/Materials.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/XSutils.c  -I/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/8243 -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/8243 -s large -m event -l 500000
+........................................ [0.27211, 0.26897, 0.26916]
+OUTPUT:%f [0.27211, 0.26897, 0.26916] 0.269065
+{'p0': 8, 'p1': 64, 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': 4, 'p5': 2, 'p6': 'sockets', 'p7': 'balanced'} 0.269065
+VALUES: 8
+clang /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/7975.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/Materials.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/XSutils.c  -I/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/7975 -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src
+/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/7975 -s large -m event -l 500000
+........................................ [0.27172, 0.26848, 0.26857]
+OUTPUT:%f [0.27172, 0.26848, 0.26857] 0.268525
+{'p0': 8, 'p1': 64, 'p2': ' ', 'p3': '#pragma omp parallel for', 'p4': 96, 'p5': 2, 'p6': 'threads', 'p7': 'balanced'} 0.268525
+VALUES: 8
+clang /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/4094.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/Materials.c /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/XSutils.c  -I/gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv -fopenmp -DOPENMP -fno-unroll-loops -O3 -mllvm -polly -mllvm -polly-process-unprofitable -mllvm -polly-use-llvm-names -ffast-math -march=native -o /gpfs/jlse-fs0/users/jkoo/code/kde/SDV/Benchmarks/XSBench_exp/xsbench_sm_sdv/tmp_files/4094 -I/gpfs/jlse-fs0/users/jkoo/sw/clang13.2/llvm-project/release_pragma-clang-loop/projects/openmp/runtime/src

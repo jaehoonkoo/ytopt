@@ -1,0 +1,360 @@
+time...now 1645069801.9650993
+machine: skylake processor: intel num_nodes: 1 num_cores: 56
+
+
+------Validating the options
+  
+  total core counts provided to GPTune: 56
+   ---> distributed_memory_parallelism: False
+   ---> shared_memory_parallelism: False
+   ---> objective_evaluation_parallelism: False
+  
+  total core counts for modeling: 2
+   ---> model_processes: 1
+   ---> model_threads: 1
+   ---> model_restart_processes: 1
+   ---> model_restart_threads: 1
+  
+  total core counts for search: 1
+   ---> search_processes: 1
+   ---> search_threads: 1
+   ---> search_multitask_processes: 1
+   ---> search_multitask_threads: 1
+  
+  total core counts for objective function evaluation: 2
+   ---> core counts in a single application run: 1
+   ---> objective_multisample_processes: 1
+   ---> objective_multisample_threads: 1
+problem size is s [[100000]]
+[[100000]]
+GPTune History Database Init
+[HistoryDB] use filelock for synchronization
+[HistoryDB] Create a JSON file at ./gptune.db/xsbench.json
+
+
+
+------Starting MLA with HistoryDB with 1 tasks and 5 samples each 
+[HistoryDB] Found a history database file
+no history data has been loaded
+OUTPUT:%f [0.8526755477258039, 0.2691639841075144, 0.2680235962695984] 0.2685937901885564
+store_func_eval
+problem.constants
+None
+OUTPUT:%f [0.14324763276043773, 0.1995746268491515, 0.41691874781937266] 0.3082466873342621
+store_func_eval
+problem.constants
+None
+MLA iteration:  0
+exec /gpfs/jlse-fs0/users/jkoo/code/gptune/GPTune/lcm.py args None nproc 1
+LCM spawn time:  1.884017546
+L-BFGS time:  0.002956958
+fun      :  0.35591793470124866
+message  :  CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL
+nfev     :  11
+nit      :  7
+status   :  0
+success  :  True
+theta: [4.0162e+00 4.9195e-02 2.0558e+00 2.1046e+02 1.4830e+00 1.2181e+00
+ 2.1304e+01 4.1927e-02]
+var: [1.]
+kappa: [0.0768]
+sigma: [9.9993e-06]
+WS: [0.0823]
+0 OK
+bestX [array([[0.4919, 0.1431, 0.9115, 0.3036, 0.1343, 0.0305, 0.0627, 0.8337]])]
+OUTPUT:%f [0.9697350157952782, 0.3945018618203533, 0.5616743416850508] 0.47808810175270205
+store_func_eval
+problem.constants
+None
+MLA iteration:  1
+exec /gpfs/jlse-fs0/users/jkoo/code/gptune/GPTune/lcm.py args None nproc 1
+LCM spawn time:  1.879022703
+L-BFGS time:  0.00276993
+fun      :  1.218350652853234
+message  :  CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL
+nfev     :  9
+nit      :  6
+status   :  0
+success  :  True
+theta: [2.1554e+00 8.0643e-03 2.8934e-01 1.3608e+00 3.9360e+01 1.1127e-01
+ 5.0386e-01 1.8078e+01]
+var: [1.]
+kappa: [0.1318]
+sigma: [1.e-05]
+WS: [0.009]
+0 OK
+bestX [array([[0.6371, 0.2918, 0.2353, 0.5535, 0.4401, 0.7984, 0.294 , 0.4069]])]
+OUTPUT:%f [0.7167213673254021, 0.4250606270929349, 0.4697974996026868] 0.44742906334781085
+store_func_eval
+problem.constants
+None
+MLA iteration:  2
+exec /gpfs/jlse-fs0/users/jkoo/code/gptune/GPTune/lcm.py args None nproc 1
+LCM spawn time:  1.956776759
+L-BFGS time:  0.021469782
+fun      :  -2.3102670061337935
+message  :  CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL
+nfev     :  145
+nit      :  98
+status   :  0
+success  :  True
+theta: [9.9479e+05 2.4707e+04 1.0000e+08 1.0000e+08 9.2972e-01 1.0332e+04
+ 8.6946e-01 1.8072e+03]
+var: [1.]
+kappa: [0.0704]
+sigma: [1.e-10]
+WS: [9.9414e-10]
+0 OK
+bestX [array([[0.762 , 0.9656, 0.3361, 0.0055, 0.9657, 0.079 , 0.9203, 0.8468]])]
+OUTPUT:%f [0.7587560084270182, 0.8219092416737566, 0.021349889339573047] 0.4216295655066648
+store_func_eval
+problem.constants
+None
+stats:  {'time_total': 12.093617322, 'time_sample_init': 0.002141229, 'time_fun': 0.017540382, 'time_search': 6.2586528889999995, 'time_model': 5.814646037, 'func_eval_time': [0.00383587], 'search_time': [2.133388436, 2.060214888, 2.065049565], 'modeling_time': [1.91371562, 1.901934032, 1.998996385], 'modeling_iteration': [11, 9, 145]}
+tid: 0
+    t:100000.000000 
+    Ps  [['5', '100', ' ', ' ', '256', '2', 'threads', 'explicit'], ['7', '10', '#pragma clang loop unrolling full', '#pragma omp parallel for', '8', '128', 'sockets', 'scatter'], ['5', '20', ' ', '#pragma omp parallel for', '4', '2', 'cores', 'explicit'], ['6', '40', '#pragma clang loop unrolling full', ' ', '16', '128', 'cores', 'balanced'], ['7', '200', '#pragma clang loop unrolling full', '#pragma omp parallel for', '256', '2', 'sockets', 'explicit']]
+    Os  [[0.2685937901885564], [0.3082466873342621], [0.47808810175270205], [0.44742906334781085], [0.4216295655066648]]
+    Popt  ['5', '100', ' ', ' ', '256', '2', 'threads', 'explicit'] Oopt  0.2685937901885564 nth  0
+time...now 1645069816.9416664
+machine: skylake processor: intel num_nodes: 1 num_cores: 56
+
+
+------Validating the options
+  
+  total core counts provided to GPTune: 56
+   ---> distributed_memory_parallelism: False
+   ---> shared_memory_parallelism: False
+   ---> objective_evaluation_parallelism: False
+  
+  total core counts for modeling: 2
+   ---> model_processes: 1
+   ---> model_threads: 1
+   ---> model_restart_processes: 1
+   ---> model_restart_threads: 1
+  
+  total core counts for search: 1
+   ---> search_processes: 1
+   ---> search_threads: 1
+   ---> search_multitask_processes: 1
+   ---> search_multitask_threads: 1
+  
+  total core counts for objective function evaluation: 2
+   ---> core counts in a single application run: 1
+   ---> objective_multisample_processes: 1
+   ---> objective_multisample_threads: 1
+problem size is m [[1000000]]
+[[1000000]]
+GPTune History Database Init
+[HistoryDB] use filelock for synchronization
+[HistoryDB] Create a JSON file at ./gptune.db/xsbench.json
+
+
+
+------Starting MLA with HistoryDB with 1 tasks and 5 samples each 
+[HistoryDB] Found a history database file
+no history data has been loaded
+OUTPUT:%f [0.5201727037292199, 0.2073815458839755, 0.524248458735701] 0.36581500230983827
+store_func_eval
+problem.constants
+None
+OUTPUT:%f [0.09090734419579227, 0.24703431355082572, 0.13325996558227915] 0.19014713956655244
+store_func_eval
+problem.constants
+None
+MLA iteration:  0
+exec /gpfs/jlse-fs0/users/jkoo/code/gptune/GPTune/lcm.py args None nproc 1
+LCM spawn time:  1.975014879
+L-BFGS time:  0.002528315
+fun      :  0.3726350967579013
+message  :  CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL
+nfev     :  7
+nit      :  6
+status   :  0
+success  :  True
+theta: [6.7147e-01 1.5817e+00 5.8857e+01 1.0748e-02 5.8861e+00 8.5175e-01
+ 5.4874e-01 3.4956e+00]
+var: [1.]
+kappa: [0.079]
+sigma: [9.9994e-06]
+WS: [0.077]
+0 OK
+bestX [array([[0.9216, 0.6567, 0.5605, 0.836 , 0.3462, 0.5746, 0.3982, 0.0745]])]
+OUTPUT:%f [0.034761653309389184, 0.08703059318780682, 0.6469194522763598] 0.3669750227320833
+store_func_eval
+problem.constants
+None
+MLA iteration:  1
+exec /gpfs/jlse-fs0/users/jkoo/code/gptune/GPTune/lcm.py args None nproc 1
+LCM spawn time:  1.968290668
+L-BFGS time:  0.0259147
+fun      :  -5.0150289091345375
+message  :  CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL
+nfev     :  182
+nit      :  114
+status   :  0
+success  :  True
+theta: [1.0000e+08 6.3503e-01 4.4226e+06 5.1341e+04 1.0000e+08 1.5315e+07
+ 9.9858e+06 5.0866e+07]
+var: [1.]
+kappa: [0.0069]
+sigma: [1.e-10]
+WS: [0.2226]
+0 OK
+bestX [array([[0.8588, 0.0805, 0.7991, 0.9378, 0.6754, 0.0678, 0.2612, 0.9475]])]
+OUTPUT:%f [0.6770802234352125, 0.3857908610626327, 0.7854053947055388] 0.5855981278840858
+store_func_eval
+problem.constants
+None
+MLA iteration:  2
+exec /gpfs/jlse-fs0/users/jkoo/code/gptune/GPTune/lcm.py args None nproc 1
+LCM spawn time:  1.96860083
+L-BFGS time:  0.022807364
+fun      :  -3.0172392013576155
+message  :  CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL
+nfev     :  159
+nit      :  95
+status   :  0
+success  :  True
+theta: [1.0000e+08 8.6251e-01 1.0000e+08 4.4061e+03 1.0000e+08 1.0000e+08
+ 5.0604e-01 1.0000e+08]
+var: [1.]
+kappa: [0.1136]
+sigma: [1.e-10]
+WS: [0.0015]
+0 OK
+bestX [array([[0.0622, 0.9874, 0.1744, 0.2725, 0.2513, 0.0662, 0.2642, 0.8463]])]
+OUTPUT:%f [0.6652740461292429, 0.2793585200144374, 0.0527393913113573] 0.16604895566289735
+store_func_eval
+problem.constants
+None
+stats:  {'time_total': 12.317891338, 'time_sample_init': 0.001880541, 'time_fun': 0.014232975000000002, 'time_search': 6.272516789000001, 'time_model': 6.028605263999999, 'func_eval_time': [0.003087743], 'search_time': [2.129822604, 2.072844186, 2.069849999], 'modeling_time': [2.002068009, 2.014577426, 2.011959829], 'modeling_iteration': [7, 182, 159]}
+tid: 0
+    t:1000000.000000 
+    Ps  [['5', '100', ' ', ' ', '256', '2', 'threads', 'explicit'], ['7', '10', '#pragma clang loop unrolling full', '#pragma omp parallel for', '8', '128', 'sockets', 'scatter'], ['8', '100', ' ', ' ', '16', '64', 'threads', 'compact'], ['8', '10', ' ', ' ', '96', '2', 'cores', 'explicit'], ['2', '200', '#pragma clang loop unrolling full', '#pragma omp parallel for', '8', '2', 'cores', 'explicit']]
+    Os  [[0.36581500230983827], [0.19014713956655244], [0.3669750227320833], [0.5855981278840858], [0.16604895566289735]]
+    Popt  ['2', '200', '#pragma clang loop unrolling full', '#pragma omp parallel for', '8', '2', 'cores', 'explicit'] Oopt  0.16604895566289735 nth  4
+time...now 1645069832.2205942
+machine: skylake processor: intel num_nodes: 1 num_cores: 56
+
+
+------Validating the options
+  
+  total core counts provided to GPTune: 56
+   ---> distributed_memory_parallelism: False
+   ---> shared_memory_parallelism: False
+   ---> objective_evaluation_parallelism: False
+  
+  total core counts for modeling: 2
+   ---> model_processes: 1
+   ---> model_threads: 1
+   ---> model_restart_processes: 1
+   ---> model_restart_threads: 1
+  
+  total core counts for search: 1
+   ---> search_processes: 1
+   ---> search_threads: 1
+   ---> search_multitask_processes: 1
+   ---> search_multitask_threads: 1
+  
+  total core counts for objective function evaluation: 2
+   ---> core counts in a single application run: 1
+   ---> objective_multisample_processes: 1
+   ---> objective_multisample_threads: 1
+problem size is l [[5000000]]
+[[5000000]]
+GPTune History Database Init
+[HistoryDB] use filelock for synchronization
+[HistoryDB] Create a JSON file at ./gptune.db/xsbench.json
+
+
+
+------Starting MLA with HistoryDB with 1 tasks and 5 samples each 
+[HistoryDB] Found a history database file
+no history data has been loaded
+OUTPUT:%f [0.8615537023657063, 0.19648961046959557, 0.7188340912481743] 0.45766185085888494
+store_func_eval
+problem.constants
+None
+OUTPUT:%f [0.7092232462815504, 0.22310706239552336, 0.09106908050000917] 0.15708807144776626
+store_func_eval
+problem.constants
+None
+MLA iteration:  0
+exec /gpfs/jlse-fs0/users/jkoo/code/gptune/GPTune/lcm.py args None nproc 1
+LCM spawn time:  2.022210466
+L-BFGS time:  0.002441895
+fun      :  0.6928555309846751
+message  :  CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL
+nfev     :  7
+nit      :  5
+status   :  0
+success  :  True
+theta: [7.5540e-04 6.7982e-01 1.2681e-01 1.4674e+00 5.6435e-01 9.9016e-03
+ 7.9668e-01 1.9018e-03]
+var: [1.]
+kappa: [0.1099]
+sigma: [9.9996e-06]
+WS: [0.0845]
+0 OK
+bestX [array([[0.7593, 0.1195, 0.7347, 0.014 , 0.2018, 0.4581, 0.786 , 0.2547]])]
+OUTPUT:%f [0.7564367296888419, 0.8995958797413542, 0.7802780481733549] 0.8399369639573546
+store_func_eval
+problem.constants
+None
+MLA iteration:  1
+exec /gpfs/jlse-fs0/users/jkoo/code/gptune/GPTune/lcm.py args None nproc 1
+LCM spawn time:  2.047997101
+L-BFGS time:  0.023236103
+fun      :  1.7033994716524026
+message  :  CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL
+nfev     :  162
+nit      :  91
+status   :  0
+success  :  True
+theta: [1.2038e+02 1.0000e+08 4.8709e-01 1.3319e+00 1.0000e+08 1.9371e+02
+ 2.4145e+03 1.0000e+08]
+var: [1.]
+kappa: [0.2863]
+sigma: [1.e-05]
+WS: [0.0747]
+0 OK
+bestX [array([[0.026 , 0.5715, 0.3281, 0.9707, 0.9952, 0.0585, 0.239 , 0.1412]])]
+OUTPUT:%f [0.44769385880081924, 0.7776143890612267, 0.5442299361363871] 0.6609221625988069
+store_func_eval
+problem.constants
+None
+MLA iteration:  2
+exec /gpfs/jlse-fs0/users/jkoo/code/gptune/GPTune/lcm.py args None nproc 1
+LCM spawn time:  2.01014021
+L-BFGS time:  0.014993588
+fun      :  2.3110540921314024
+message  :  CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL
+nfev     :  97
+nit      :  75
+status   :  0
+success  :  True
+theta: [1.0000e+08 1.0000e+08 1.0000e+08 4.0565e-01 2.8110e+04 1.2672e+04
+ 1.0000e+08 1.0000e+08]
+var: [1.]
+kappa: [0.5425]
+sigma: [1.e-10]
+WS: [0.0151]
+0 OK
+bestX [array([[0.2212, 0.8818, 0.4285, 0.1992, 0.1939, 0.1817, 0.1507, 0.5485]])]
+OUTPUT:%f [0.3905735895988498, 0.7718422319219274, 0.8223887293910118] 0.7971154806564695
+store_func_eval
+problem.constants
+None
+stats:  {'time_total': 12.453550269, 'time_sample_init': 0.001831032, 'time_fun': 0.01633598, 'time_search': 6.245263098, 'time_model': 6.188353137, 'func_eval_time': [0.003692314], 'search_time': [2.122463709, 2.060114776, 2.062684613], 'modeling_time': [2.049835357, 2.091702624, 2.046815156], 'modeling_iteration': [7, 162, 97]}
+tid: 0
+    t:5000000.000000 
+    Ps  [['5', '100', ' ', ' ', '256', '2', 'threads', 'explicit'], ['7', '10', '#pragma clang loop unrolling full', '#pragma omp parallel for', '8', '128', 'sockets', 'scatter'], ['7', '20', ' ', '#pragma omp parallel for', '4', '32', 'sockets', 'scatter'], ['2', '100', '#pragma clang loop unrolling full', ' ', '256', '2', 'cores', 'compact'], ['3', '160', '#pragma clang loop unrolling full', '#pragma omp parallel for', '4', '4', 'cores', 'none']]
+    Os  [[0.45766185085888494], [0.15708807144776626], [0.8399369639573546], [0.6609221625988069], [0.7971154806564695]]
+    Popt  ['7', '10', '#pragma clang loop unrolling full', '#pragma omp parallel for', '8', '128', 'sockets', 'scatter'] Oopt  0.15708807144776626 nth  1
+nargs:  3
+db_files_list:  ['TLA_experiments/SLA-GPTune-s-200/xsbench.json', 'TLA_experiments/SLA-GPTune-m-200/xsbench.json', 'TLA_experiments/SLA-GPTune-l-200/xsbench.json']
+nargs:  3
+db_files_list:  ['TLA_experiments/SLA-GPTune-s-200/xsbench.json', 'TLA_experiments/SLA-GPTune-m-200/xsbench.json', 'TLA_experiments/SLA-GPTune-l-200/xsbench.json']
+nargs:  3
+db_files_list:  ['TLA_experiments/SLA-GPTune-s-200/xsbench.json', 'TLA_experiments/SLA-GPTune-m-200/xsbench.json', 'TLA_experiments/SLA-GPTune-l-200/xsbench.json']
