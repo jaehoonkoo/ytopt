@@ -1,0 +1,4 @@
+max_evals 30 number of refit 30 how much to train 0.3 seed 2022 target task sm [340]
+time...now 1657155252.5842998
+----------------------------- how much data to use?0.3
+  0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions:   0%|          | 0/1000 [00:00<?, ?it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 8259.46it/s]Sampling conditions: 100%|██████████| 1000/1000 [00:00<00:00, 8116.15it/s]
